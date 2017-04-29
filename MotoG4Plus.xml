@@ -1,1 +1,137 @@
-# changelogs
+▼ Resurrection Remix Nougat Ver 5.8.3 Changelog
+
+
+ ▼ 04/29/2017
+
+
+ ▪ project bootable/recovery/
+ ▪ 5d701cc recovery: Complete project pathmap usage
+ ▪ 39ce741 Revert "recovery:updater: Changes to support 32->64 bit upgrades"
+
+ ▪ project build/
+ ▪ 1856c8b Revert "build: releasetools: ota: Add support for 32-64 bit upgrades"
+ ▪ 3796928 build: fix verity generation
+
+ ▪ project device/motorola/athene/
+ ▪ 36164e5 Athene: Update the app KernelAdiutor
+ ▪ 06967e1 Athene: Add codecs google 2/2
+ ▪ e4d02af Athene: Add codecs google 1/2
+ ▪ 618fd8b athene: fix Moto actions from Jleeblanch/rr
+ ▪ 9a23f9d athene: add jpeg.memcap end hprof.vid.bps
+ ▪ 5a8bdf3 athene: add telegram end GoogleCamera for hal1
+ ▪ a72bbe9 Athene: merge into remote  from LineageOS/cm-14.1
+ ▪ 0283183 Athene: Merge into remote  from LineageOS/cm-14.1
+
+ ▪ project frameworks/base/
+ ▪ 42c3f58 am: Handle unchecked activity starts for protected components (2)
+
+ ▪ project packages/apps/Dialer/
+ ▪ 8c8f139 InCallUI: Don't force enable the prox sensor for incoming calls
+
+ ▪ project packages/apps/ResurrectionOTA/
+ ▪ 0d922a4 Update ota_conf
+
+ ▪ project packages/apps/Settings/
+ ▪ 4a73b1b Added Device Maintainer For K3 Note (K50a40) (#771)
+
+ ▪ project system/extras/
+ ▪ f30ae7f Use project pathmap for recovery
+
+ ▼ 04/28/2017
+
+
+ ▪ project device/qcom/common/
+ ▪ 0dc3673 recovery: Use project pathmap for recovery
+
+ ▪ project hardware/libhardware_legacy/
+ ▪ ec33ac3 wifi: add firmware loader support for the non-LKM case
+
+ ▪ project packages/apps/Settings/
+ ▪ 57fbef2 Settings: Add 25ms and 50ms animation duration cause smallest value (100ms) to long for some effects (#770)
+ ▪ 800c80e Fix SB ticker icon and text default color
+
+ ▪ project packages/apps/ThemeInterfacer/
+ ▪ 40e3809 JobService: Expose configuration shim refresh delay
+
+ ▼ 04/27/2017
+
+
+ ▪ project frameworks/base/
+
+ ▪ project packages/apps/Settings/
+
+ ▪ project packages/apps/ThemeInterfacer/
+ ▪ 3f3c33b Add a looper to the locale change handler
+
+ ▼ 04/26/2017
+
+
+ ▪ project frameworks/base/
+
+ ▪ project hardware/qcom/audio-caf/msm8996/
+ ▪ 6bace74 msm8996: audio: Add l/r mic swapping when using stereo mics
+
+ ▪ project packages/apps/Settings/
+ ▪ c50d9a6 added zuk Z2 plus (#768)
+
+ ▪ project packages/apps/ThemeInterfacer/
+ ▪ 9936dc3 README: Recommend Interfacer be put in the services folder
+
+ ▪ project packages/services/OmniJaws/
+
+ ▼ 04/25/2017
+
+
+ ▪ project frameworks/base/
+ ▪ b250de6 Fix animation duration for custom animations
+ ▪ 4863e25 Fix DUI slippery flag logic and IllegalArgumentException [2/2]
+ ▪ 1650a12 Need to resize new created stack to fullscreen after docked stack tasks has moved into it.
+ ▪ cda2cbe Fix race condition when writing UidState of appops.
+ ▪ 000c5b8 Fix PacketKeepalive.stop() crash
+ ▪ deef943 ActivityStack index OOB cause device restart
+ ▪ 07a5433 Remove force weather update bits
+ ▪ 48f1315 Redundant waiting time of keyguard unlocking after reboot
+ ▪ 7911e22 Make sure that the device name is not null before returning it
+ ▪ 8c3fb3b Fix a null pointer exception in FragmentManager
+ ▪ aa5f6e6 Keyguard: Move CAF strings to cm_strings.xml.
+ ▪ 94a3bb6 fingerprint: notify client when cancelling succeeded
+ ▪ 2e7a838 Revert "base: services: add config_fingerprintRemoveClientOnCancel"
+
+ ▪ project frameworks/opt/telephony/
+ ▪ bc43228 Create cdma dummy apns.
+
+ ▪ project packages/apps/DUI/
+ ▪ 8f840c5 Fix DUI slippery flag logic and IllegalArgumentException [1/2]
+
+ ▪ project packages/apps/Dialer/
+
+ ▪ project packages/apps/Gallery2/
+ ▪ 1f0ec6e Revert "Gallery2: hide navigation bar when we turn off lights"
+
+ ▪ project packages/apps/Settings/
+ ▪ 52d6890 Settings: Custom animation duration settings [2/2]
+ ▪ 4382afd Screenshot Delay:Make it faster optionally
+
+ ▪ project packages/services/OmniJaws/
+ ▪ 772c1b8 OmniJaws: remove separation between force and not force update
+ ▪ 7193cd8 OmniJaws: add fetch weather data retry loop
+
+ ▼ 04/24/2017
+
+
+ ▪ project device/motorola/msm8226-common/
+ ▪ c8f0d0c CMActions: Add option to pulse only if device is on a flat surface
+ ▪ 1fb758a overlay: Disable SIM batch operations
+ ▪ 6cc5796 power: Minor code optimization
+
+ ▪ project frameworks/base/
+
+ ▪ project packages/apps/Dialer/
+
+ ▪ project packages/apps/Settings/
+
+ ▪ project packages/apps/ThemeInterfacer/
+ ▪ 97eceaf JobService: Transition to the Binder Interprocess Communication System
+
+ ▪ project packages/services/OmniJaws/
+
