@@ -1,14 +1,89 @@
+▼ Resurrection Remix Nougat Ver 5.8.3 Changelog
 
- ▼ Resurrection Remix Nougat Ver 5.8.3 Changelog
 
+ ▼ 05/14/2017
+
+
+ ▪ project build/
+ ▪ 7335349 update setting
+ ▪ 39d168d update
+ ▪ d8154ba Update
+ ▪ 8e392ac Fix build
+ ▪ e9b9bcd Add Resources
+ ▪ af471c3 Add Resources
+
+ ▪ project device/motorola/athene/
+ ▪ db98bd7 Add files via upload
+ ▪ 6238adf Delete prebuilt
+ ▪ 6096ffd athene: update Kernel Adiutor
+ ▪ 4b7c25d Merge pull request #1 from LineageOS/cm-14.1
+ ▪ bd28679 Update for camera
+ ▪ 25de40c athene : enable framework SCHED_BOOST
+ ▪ 69d1e61 athene : update gov tunables and dalvik vm props
+ ▪ 1535711 Merge pull request #11 from Rediton/cm-14.1
+ ▪ 39d13ba fix build
+ ▪ 8a5ea86 fix
+ ▪ b04a86f update
+ ▪ 38162ae fix confict
+ ▪ 5a8ade0 athene: fix confict
+ ▪ 59967ab Merge pull request #10 from LineageOS/cm-14.1
+ ▪ 4d72c08 athene : fix governor tunable derp
+
+ ▪ project frameworks/base/
+
+ ▪ project hardware/qcom/audio-caf/msm8996/
+ ▪ 6e8e9c5 Merge tag 'LA.UM.5.5.r1-04600-8x96.0' into HEAD
+
+ ▪ project hardware/qcom/display-caf/msm8996/
+ ▪ 332f57a Merge tag 'LA.UM.5.5.r1-04600-8x96.0' into HEAD
+
+ ▪ project hardware/qcom/media-caf/msm8996/
+ ▪ 87965a0 Merge tag 'LA.UM.5.5.r1-04600-8x96.0' into HEAD
+
+ ▪ project packages/apps/DUI/
+
+ ▪ project packages/apps/ResurrectionOTA/
+ ▪ e3dee5a Update for ota
+
+ ▪ project vendor/cm/
+ ▪ a9f6df9 add KernelAdiutor
+ ▪ 773ec95 update files
+ ▪ 7325029 add mc for device moto
+ ▪ ab1c907 Add Resources 2/2
+ ▪ ce23042 Add Resources
+
+ ▼ 05/13/2017
+
+
+ ▪ project device/motorola/athene/
+ ▪ 07ab656 athene: Restore zram settings and re-enable
+ ▪ 5e02e5c athene : update prop values from stock
+ ▪ 3bd3e69 athene: Align LED settings with liblights
+ ▪ 064fd25 athene: Fix LED activation on full battery
+ ▪ 1e8d5a8 athene : update gov-tunables from stock
+ ▪ f2c5a5e sepolicy: remove themeservice_app.te
+ ▪ d467c4a athene: import empty CameraWrapper 3/3
+ ▪ ea2e50d athene: add camera.msm8952
+ ▪ db1778e athene: import empty CameraWrapper 1/3
+ ▪ a1c1431 Merge pull request #9 from Rediton/cm-14.1
+ ▪ e26ddf9 athene: enable SVELTE memory configuration
+ ▪ 36b01b0 athene: definition for camera
+
+ ▪ project external/chromium-webview/
+ ▪ b544e48 Update README
+
+ ▪ project frameworks/base/
+
+ ▪ project hardware/qcom/audio-caf/msm8996/
+ ▪ 23be04d msm8996: ultrasound: Initial open source hal for Elliptic Ultrasound
+
+ ▪ project packages/apps/DUI/
 
  ▼ 05/12/2017
 
 
- ▪ project device/motorola/athene/
- ▪ a1c1431 Merge pull request #9 from Rediton/cm-14.1
- ▪ e26ddf9 athene: enable SVELTE memory configuration
- ▪ 36b01b0 athene: definition for camera
+ ▪ project android/
+ ▪ 6bab65e crowdin: add DUI [1/2]
 
  ▪ project frameworks/base/
  ▪ 59afca8 fix build
@@ -53,9 +128,6 @@
 
  ▪ project packages/apps/ResurrectionStats/
 
- ▪ project packages/apps/Settings/
- ▪ debffd2 Settings:Incall Vibration options [3/3]
-
  ▪ project packages/services/Telecomm/
  ▪ 566782e Use double vibration on hang-up call
  ▪ 14a1774 incall vibration options [2/3] *allow setting vibration when call is connected *allow setting vibration when call is disconnected *allow setting vibration for call waiting *this works with google and aosp dialer :)
@@ -63,61 +135,20 @@
  ▼ 05/11/2017
 
 
- ▪ project android/
- ▪ 6bab65e crowdin: add DUI [1/2]
-
  ▪ project device/motorola/athene/
  ▪ d077820 athene: enable SVELTE memory configuration
 
  ▪ project hardware/qcom/display/
  ▪ 03afd10 hwc2: Only set display_width and display_height when equal to zero
 
- ▪ project kernel/motorola/msm8952/
- ▪ 82aa67c prima : update to CAF LA.BR.1.3.6_rb1.17
- ▪ 5edf71e ANDROID: make PF_KEY SHA256 use RFC-compliant truncation.
- ▪ 100a42c ANDROID: sdcardfs: fix sdcardfs_destroy_inode for the inode RCU approach
- ▪ 86931c9 Revert "BACKPORT: [UPSTREAM] ext2: convert to mbcache2"
- ▪ ea9c6cb Revert "BACKPORT: [UPSTREAM] mbcache2: reimplement mbcache"
- ▪ fa8c273 ANDROID: sdcardfs: Don't iput if we didn't igrab
- ▪ 9e94877 UPSTREAM: tty: n_hdlc: get rid of racy n_hdlc.tbuf
- ▪ 139a776 UPSTREAM: TTY: n_hdlc, fix lockdep false positive
- ▪ 94fd78c ANDROID: Add untag hacks to inet_release function
- ▪ d73eaeb UPSTREAM: timerfd: Protect the might cancel mechanism proper
- ▪ 509be32 UPSTREAM: ext4: fix fencepost in s_first_meta_bg validation
- ▪ c4d1813 BACKPORT: ext4: validate s_first_meta_bg at mount time
- ▪ 1be5e31 ANDROID: sdcardfs: Call lower fs's revalidate
- ▪ fbdec3d ANDROID: sdcardfs: Avoid setting GIDs outside of valid ranges
- ▪ c610d01 Revert "Revert "Android: sdcardfs: Don't do d_add for lower fs""
- ▪ 7dbe2b9 ANDROID: sdcardfs: Use filesystem specific hash
- ▪ 19ac2c4 Revert "Android: sdcardfs: Don't do d_add for lower fs"
- ▪ eee60aa Android: sdcardfs: Don't complain in fixup_lower_ownership
- ▪ de0a1d5 Android: sdcardfs: Don't do d_add for lower fs
- ▪ 7648c1e ANDROID: sdcardfs: ->iget fixes
- ▪ f871fb2 Android: sdcardfs: Change cache GID value
- ▪ 249ac3e BACKPORT: [UPSTREAM] ext2: convert to mbcache2
- ▪ adf9c04 BACKPORT: [UPSTREAM] mbcache2: reimplement mbcache
- ▪ e16156f BACKPORT: [UPSTREAM] udf: Check component length before reading it
- ▪ 41e5494 UPSTREAM: char: lack of bool string made CONFIG_DEVPORT always on
- ▪ 37e6eb5 UPSTREAM: char: Drop bogus dependency of DEVPORT on !M68K
- ▪ 5fcae74 UPSTREAM: net: socket: Make unnecessarily global sockfs_setattr() static
- ▪ 29ec2f0 soc: qcom: pil: Explicitly clear the subsystem loading address
- ▪ 8afb99b slim-msm: Synchronize SSR callbacks
- ▪ c0c2d148 msm: vidc: Protect debug_buffer access in core_info_read with lock.
- ▪ 3fd5dd4 ASoC: msm: qdspv2: add mutex to prevent access same memory simultaneously
- ▪ f34110c ion: blacklist %p kptr_restrict
- ▪ b3388e2 msm: thermal-dev: Protect IOCTL from race condition
- ▪ f371a42 soc: qcom: Do not clear segments if pil boot failed in memory allocation
- ▪ 3035dfd soc: qcom: Skip clearing modem FW region post load failure
- ▪ 14279693 input: touchscreen: synaptics_dsx: Remove fw_update sysfs entries
- ▪ 3a7e352 ASoC: msm: qdsp6v2: set pointer to NULL after free
- ▪ fc3bff0 usb: dwc3: Replace sscanf with kstrtou8_from_user
- ▪ f15decf qseecom: check img_len and mdt_len against ion buf len
-
  ▪ project packages/apps/Dialer/
 
  ▪ project packages/apps/OmniSwitch/
 
  ▪ project packages/services/OmniJaws/
+
+ ▪ project vendor/cm/
+ ▪ 3024cdd v4a: add pt-BR
 
  ▼ 05/10/2017
 
@@ -132,112 +163,5 @@
  ▪ project packages/apps/ResurrectionOTA/
  ▪ 89a6711 Update ota_conf
 
- ▪ project packages/apps/Settings/
- ▪ d37d080 Add Maintainer for Coolpad Note 3 Lite(CP8298_I00) (#788)
- ▪ aeb3245 Settings:Allow to disable qs footer warnings [2/2]
-
  ▪ project vendor/cm/
- ▪ 3024cdd v4a: add pt-BR
  ▪ 4550f63 Add files via upload
-
- ▼ 05/09/2017
-
-
- ▪ project device/motorola/athene/
- ▪ b66b566 Delete path for v4a
- ▪ 4ee3571 athene: add path effects for v4a
- ▪ 6a658e6 athene: add path effects for v4a
-
- ▪ project frameworks/av/
- ▪ 5d49fde Merge pull request #3 from github-cygwin/nougat
- ▪ a930183 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_frameworks_av into nougat
-
- ▪ project frameworks/base/
-
- ▪ project packages/apps/Dialer/
-
- ▪ project packages/apps/Settings/
- ▪ ed3445d Add Maintainer for Coolpad Note 3(CP8676_I02) (#787)
-
- ▪ project packages/services/OmniJaws/
-
- ▼ 05/08/2017
-
-
- ▪ project device/motorola/athene/
- ▪ d214a5d Create prebuilt
-
- ▪ project frameworks/base/
-
- ▪ project packages/apps/Dialer/
-
- ▪ project packages/apps/OmniSwitch/
-
- ▪ project packages/apps/ResurrectionStats/
-
- ▪ project packages/apps/Settings/
-
- ▪ project packages/apps/Snap/
- ▪ 31499ec Snap: Fix crash switching from back to front cam in video mode
-
- ▪ project packages/services/OmniJaws/
-
- ▼ 05/07/2017
-
-
- ▪ project build/
- ▪ 2c4ef41 Add support to Dolby Atmos  to charge build
- ▪ a6128b7 Add support to Dobly atmos to charge build
- ▪ f44db34 Fix v4a
- ▪ 4bbda9e fix v4a build
- ▪ 24d572a test v4a to build
-
- ▪ project device/motorola/athene/
- ▪ cc3fee1 athene: lcd_density to 400
-
- ▪ project frameworks/base/
-
- ▪ project hardware/qcom/audio-caf/msm8937/
- ▪ 99617f9 Configs: remove audio sink buffer size property
- ▪ a9f2c00 hal: fix kw issue in hal
- ▪ 6191804 hal: remove redundant logs from utils.c
- ▪ 905d1d8 audiod: Skip enumerating non-ADSP sound cards
-
- ▪ project hardware/qcom/display-caf/msm8937/
- ▪ b7a3010 display: Add color metadata definition
- ▪ 26cd504 display: Add color metadata definition
- ▪ eb49512 sdm: Use ColorMetadata in SDM
- ▪ 37d5aff display: Add support for Rec.2020
- ▪ b6a2bfb sdm: Use safe mode on External display on low end device
- ▪ 9c64210 HWC: Set skip to layers with Non Integral Source Crop
- ▪ 93afadf sdm: skip null commit on command mode panels
- ▪ 2428bc4 libmemtrack: Fix integer overflow in kgsl function
-
- ▪ project hardware/qcom/media-caf/msm8937/
- ▪ de0c52e media: libOmxSw encoders require prop headers :(
- ▪ fcd1cfd mm-video-v4l2: serialize FTB's for dropped frames
- ▪ 057d1c7 mm-video-v4l2: vidc: venc: Free buffer FDs and handles
- ▪ a5da2d3 mm-video-v4l2: vdec: Support for HEVCMain10HDR10 profile
- ▪ 76dd49f mm-video-v4l2: Update max level for h264 decoder to 5.1
- ▪ 46aa731 mm-video-v4l2: venc: Disable Pframes incase of resolution 5k/6k
- ▪ 5dc8e7e mm-video-v4l2: Reset drv_ctx o/p buffer requirements in loaded state
- ▪ 0a4ad7e mm-video-v4l2: vdec: Convert maximum display luminance in cd/m2
- ▪ 9e702ea mm-video-v4l2: vdec:Metadata for HDR and ColorAspects
- ▪ 6076eb6 mm-video-v4l2: vdec: Support for HDR Info extension
-
- ▪ project packages/apps/Settings/
- ▪ 372d14f Add missing string
-
- ▪ project packages/services/OmniJaws/
-
- ▪ project vendor/cm/
- ▪ 8f7fb73 add Dobly Atmos
- ▪ 6c5ced0 add dolby atmos
- ▪ 47c3405 Add files via upload
- ▪ dfd9fe3 test v4a to build
-
- ▪ project vendor/motorola/
- ▪ 5f8b3e6 addison: Display blobs update
- ▪ 12285bf addison: Drop unneeded blobs
- ▪ 17d357d addison: Switch to OSS GPS
- ▪ 3a43b3d victara: Add libtqi-perfd-client.so
