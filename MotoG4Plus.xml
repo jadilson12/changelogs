@@ -5,9 +5,6 @@
  ▼ 05/21/2017
 
 
- ▪ project android/
- ▪ 26c1bb4 manifest: track own ThemeInterfacer, and move to services
-
  ▪ project build/
  ▪ 4e6cef2 Resolved merge conflict by incorporating both suggestions.
 
@@ -17,9 +14,13 @@
  ▪ e1ba3f7 Merge pull request #2 from LineageOS/cm-14.1
 
  ▪ project etc/
+ ▪ 56fa8ce novidades
  ▪ 8285c24 nova
  ▪ c75cd4e update
  ▪ 2b4b49d Initial commit
+
+ ▪ project etc/novidades/
+ ▪ 022a83c update
 
  ▪ project frameworks/base/
 
@@ -39,6 +40,9 @@
  ▼ 05/20/2017
 
 
+ ▪ project android/
+ ▪ 26c1bb4 manifest: track own ThemeInterfacer, and move to services
+
  ▪ project build/
  ▪ c698ef7 envsetup: fix small derp calling root method chooser script
 
@@ -55,9 +59,6 @@
  ▪ eccc096 Fix the Wi-Fi wrong status when turning Wi-Fi on
  ▪ 759c96e Launch music player on headset connect: add BT compatibility [1/2]
  ▪ 313bf88 Add navigation disabled notification [1/2]
-
- ▪ project kernel/motorola/msm8226/
- ▪ 2057638 qseecom: improve input validatation for qseecom_send_service_cmd
 
  ▪ project packages/apps/DUI/
 
@@ -94,6 +95,7 @@
  ▪ 7630a1f Revert "athene: Add TWRP Support"
 
  ▪ project kernel/motorola/msm8226/
+ ▪ 2057638 qseecom: improve input validatation for qseecom_send_service_cmd
  ▪ 1890c5c qseecom: Change format specifier %p to %pK
  ▪ de017e7 qseecom: Add checks for send_cmd inputs
  ▪ 2c28b5d qseecom: Add boundary checks for offset within message.
@@ -107,9 +109,6 @@
  ▪ b6c214e qseecom: Add support to handle multiple app load & unload
  ▪ 4ddfb0b qseecom: Fix issues with failure to release client handle
  ▪ afbe538 qseecom: Unload the app upon receiving qseecom_release.
- ▪ ce9f768 dccp/tcp: do not inherit mc_list from parent
- ▪ b255a07 ANDROID: ion: Protect kref from userspace manipulation
- ▪ 19b8e16 ion: Fix use after free during ION_IOC_ALLOC
 
  ▪ project packages/apps/Settings/
  ▪ bf8c859 Add J500Y (#795)
@@ -132,6 +131,9 @@
  ▪ project hardware/qcom/fm/
 
  ▪ project kernel/motorola/msm8226/
+ ▪ ce9f768 dccp/tcp: do not inherit mc_list from parent
+ ▪ b255a07 ANDROID: ion: Protect kref from userspace manipulation
+ ▪ 19b8e16 ion: Fix use after free during ION_IOC_ALLOC
  ▪ aad785d input: synaptics_dsx (MMI): Remove some sysfs nodes
  ▪ cbecea4 usb: diag: change %p to %pK in debug messages
  ▪ a27021f msm: camera: restructure data handling to be more robust
