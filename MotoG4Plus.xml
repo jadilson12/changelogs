@@ -6,6 +6,7 @@
 
 
  ▪ project build/
+ ▪ d3e24bd update
  ▪ 4e6cef2 Resolved merge conflict by incorporating both suggestions.
 
  ▪ project device/motorola/athene/
@@ -14,12 +15,14 @@
  ▪ e1ba3f7 Merge pull request #2 from LineageOS/cm-14.1
 
  ▪ project etc/
+ ▪ 7f117b7 update
  ▪ 56fa8ce novidades
  ▪ 8285c24 nova
  ▪ c75cd4e update
  ▪ 2b4b49d Initial commit
 
  ▪ project etc/novidades/
+ ▪ e12ff69 changelogs
  ▪ 022a83c update
 
  ▪ project frameworks/base/
@@ -27,7 +30,11 @@
  ▪ project kernel/motorola/msm8226/
  ▪ 657b0a4 kernel: Fix potential refcount leak in su check
 
+ ▪ project packages/apps/Dialer/
+ ▪ afc79eb Dialer: lock screen appear before incoming call screen
+
  ▪ project packages/apps/Settings/
+ ▪ 1f45da1 Add Nougat maintainer Leeco LePro 3 (x720/x727) (#796)
 
  ▪ project packages/services/OmniJaws/
 
