@@ -2,31 +2,72 @@
  ▼ Resurrection Remix Nougat Ver 5.8.3 Changelog
 
 
- ▼ 05/21/2017
+ ▼ 05/24/2017
+
+
+ ▪ project external/DUtils/
+ ▪ 52668d8 Killapp action: restore home screen before killing the app
+
+ ▪ project frameworks/base/
+
+ ▪ project packages/apps/DUI/
+ ▪ 59a68e6 SmartBar editor: block quick popup when dragging the button
+
+ ▪ project packages/apps/Settings/
+ ▪ 46b451a Configurations:Add Some more Settings to Reset
+ ▪ 841d40b Avoid a NullPointerException in security
+ ▪ ad8e931 Optimized Code: call direct method to get integer extra
+ ▪ fef2b3d RejectedExecutionException  in DataUsageLIst
+ ▪ fb41cfd Optimize code on get UidDetail in AppDataUsage
+ ▪ e774dc4 Settings: Fix wrong wifi drawable in screen zooming preview
+ ▪ fab5b35 Avoid FC when entering Accessibility Settings with a font size of 100%
+ ▪ 4f798e7 DisplaySettings: font size in 5% steps from 80% to 130%
+ ▪ f6fe632 Correct fingerprint position during setup
+ ▪ f83f0cb PowerUsageFeatureProviderImpl: little cleanup
+ ▪ cdbcb1b Fix synchronization of Wi-Fi hotspot switch
+
+ ▪ project system/core/
+ ▪ 8f5e34c Merge branch 'cm-14.1' of https://github.com/LineageOS/android_system_core into nougat
+
+ ▪ project vendor/cmsdk/
+ ▪ af33af3 cmsdk: Add CMSettings option for QS auto brightness
+ ▪ 6bd7762 Protect system profiles related broadcasts
+
+ ▼ 05/23/2017
+
+
+ ▪ project device/motorola/msm8226-common/
+ ▪ d90082a msm8226-common: Kill Gello
+ ▪ 7f70de0 libsensors: peregrine: Report correct gyroscope range and resolution
+
+ ▪ project frameworks/base/
+ ▪ 3e04527c base: update updateUsbStateBroadcastIfNeeded types
+ ▪ fe1cfd9 Check and send usb state broadcast when devices boots
+ ▪ 7373362 Only send usb disconnect intents after boot.
+ ▪ ef0fcc2 fix KeyEvent can't correctly finish when inputmethod time out happened
+ ▪ 779a3e9 Fixed NPE in canAddMoreManagedProfiles
+ ▪ 60a339e Fix permissions for CTS [1/2]
+
+ ▪ project kernel/motorola/msm8226/
+ ▪ 88c6ce0 ASoC: msm: initialize the params array before using it
+ ▪ 14f4684 msm: vidc: use %pK instead of %p which respects kptr_restrict sysctl
+ ▪ 1422cd1 msm: camera: sensor: Fix use after free condition
+
+ ▪ project packages/apps/OmniSwitch/
+
+ ▪ project packages/apps/ResurrectionStats/
+
+ ▪ project packages/apps/Settings/
+
+ ▼ 05/22/2017
 
 
  ▪ project build/
  ▪ 12860ad update
  ▪ d3e24bd update
- ▪ 4e6cef2 Resolved merge conflict by incorporating both suggestions.
 
  ▪ project device/motorola/athene/
- ▪ a3f9bf0 Merge pull request #3 from Redition/cm-14.1
- ▪ d8a29c4 update
- ▪ e1ba3f7 Merge pull request #2 from LineageOS/cm-14.1
-
- ▪ project etc/
- ▪ 9169889 update
- ▪ 7f117b7 update
- ▪ 56fa8ce novidades
- ▪ 8285c24 nova
- ▪ c75cd4e update
- ▪ 2b4b49d Initial commit
-
- ▪ project etc/novidades/
- ▪ 188f5a2 changelogs
- ▪ e12ff69 changelogs
- ▪ 022a83c update
+ ▪ 004e0d9 update
 
  ▪ project frameworks/base/
 
@@ -43,24 +84,28 @@
  ▪ 1f45da1 Add Nougat maintainer Leeco LePro 3 (x720/x727) (#796)
 
  ▪ project packages/services/OmniJaws/
+ ▪ c4e406d OwmniJaws Use own API key
  ▪ 3d1c664 OmniJaws: fix OWM metric wind speed units
  ▪ 299c137 OmniJaws: widget layout madness
  ▪ 896d5fb OmniJaws: dont show OmniJaws error that prominent
 
- ▪ project vendor/cm/
- ▪ adcb8e1 fix
- ▪ acc60fd news updates
- ▪ 4aeaeae Remove  -    persist.sys.root_access
- ▪ f71c608 Fix update Magisk Manager
+ ▪ project packages/services/ThemeInterfacer/
+ ▪ 2a46d48 Add interface to get API version and app authentication status
+ ▪ 8e55d57 Fix permissions for CTS [2/2]
 
- ▼ 05/20/2017
+ ▼ 05/21/2017
 
 
  ▪ project android/
  ▪ 26c1bb4 manifest: track own ThemeInterfacer, and move to services
 
  ▪ project build/
- ▪ c698ef7 envsetup: fix small derp calling root method chooser script
+ ▪ 4e6cef2 Resolved merge conflict by incorporating both suggestions.
+
+ ▪ project device/motorola/athene/
+ ▪ a3f9bf0 Merge pull request #3 from Redition/cm-14.1
+ ▪ d8a29c4 update
+ ▪ e1ba3f7 Merge pull request #2 from LineageOS/cm-14.1
 
  ▪ project frameworks/base/
  ▪ a99c136 Merge remote-tracking branch 'remotes/rr/nougat' into HEAD
@@ -80,116 +125,42 @@
 
  ▪ project packages/apps/Dialer/
 
+ ▪ project packages/apps/Settings/
+ ▪ 4fb4f6d Merge branch 'nougat' of https://github.com/ResurrectionRemix/Resurrection_packages_apps_Settings into nougat
+
+ ▪ project packages/services/OmniJaws/
+
+ ▪ project vendor/cm/
+ ▪ adcb8e1 fix
+ ▪ acc60fd news updates
+ ▪ 4aeaeae Remove  -    persist.sys.root_access
+ ▪ f71c608 Fix update Magisk Manager
+ ▪ 8b85edf cm: Remove root access prop
+
+ ▼ 05/20/2017
+
+
+ ▪ project build/
+ ▪ c698ef7 envsetup: fix small derp calling root method chooser script
+ ▪ 1985266 Merge branch 'optional-root-method' into nougat
+ ▪ 179e18c rr: show buildtype in dumpvar, call root method type chooser script
+
+ ▪ project kernel/motorola/msm8226/
+ ▪ 2057638 qseecom: improve input validatation for qseecom_send_service_cmd
+
  ▪ project packages/apps/PackageInstaller/
  ▪ 8829bce PackageInstaller: Show current & new version Forward ported to Marshmallow By: @dwitherell Forward ported to Nougat By: @BeansTown106
  ▪ 2f4fee0 Fix PackageInstaller FC when tapping on a downloaded apk notification 2
 
  ▪ project packages/apps/Settings/
- ▪ 4fb4f6d Merge branch 'nougat' of https://github.com/ResurrectionRemix/Resurrection_packages_apps_Settings into nougat
  ▪ 397950c Fix expandable desktop
  ▪ 5af5556 Make sure to rebuild on app entries loaded
  ▪ beff6c3 Don't re-populate the app list in rebuild()
  ▪ 1a4cf52 Move Headset Settings out of CMSettings
  ▪ fa02ac3 Option to show Settings header in settings drawer[2/2]
  ▪ 9accf76 Launch music player on headset connect: add BT compatibility [2/2]
-
- ▪ project packages/services/OmniJaws/
-
- ▪ project vendor/cm/
- ▪ 8b85edf cm: Remove root access prop
-
- ▼ 05/19/2017
-
-
- ▪ project build/
- ▪ 1985266 Merge branch 'optional-root-method' into nougat
- ▪ 179e18c rr: show buildtype in dumpvar, call root method type chooser script
- ▪ 3c0ffb4 Revert "Revert "ota: Remove cruft we don't care about""
- ▪ f800e5f apicheck_msg_current: Don't do this in LineageOS
-
- ▪ project device/motorola/athene/
- ▪ 7630a1f Revert "athene: Add TWRP Support"
-
- ▪ project kernel/motorola/msm8226/
- ▪ 2057638 qseecom: improve input validatation for qseecom_send_service_cmd
- ▪ 1890c5c qseecom: Change format specifier %p to %pK
- ▪ de017e7 qseecom: Add checks for send_cmd inputs
- ▪ 2c28b5d qseecom: Add boundary checks for offset within message.
- ▪ e806103 qseecom: fix secure app loading failure by kernel client -- part 2
- ▪ 3b04b27 qseecom: Fix memory leak
- ▪ c479d6b qseecom: fix secure app loading failure by kernel mode qseecom client
- ▪ ec3da8f qseecom: change the number of bytes to compare app names
- ▪ bf20f59 qseecom: fix an issue related to search app when unloading an app
- ▪ 82656b1 qseecom: change return value to 0 if app id exists when loading app
- ▪ 5d495e7 qseecom: Remove the incorrect client handle setting
- ▪ b6c214e qseecom: Add support to handle multiple app load & unload
- ▪ 4ddfb0b qseecom: Fix issues with failure to release client handle
- ▪ afbe538 qseecom: Unload the app upon receiving qseecom_release.
-
- ▪ project packages/apps/Settings/
  ▪ bf8c859 Add J500Y (#795)
-
- ▪ project packages/resources/devicesettings/
 
  ▪ project vendor/cm/
  ▪ 8ead5c5 Merge branch 'optional-root-method' into nougat
- ▪ 0901e93 extract_utils: fix extracting XML files containing binary characters
- ▪ ac48cb6 cm: Remove Gello
- ▪ 782912b rr: add in a script to choose root variant
-
- ▪ project vendor/cmsdk/samples/weatherproviderservice/WundergroundWeatherProvider/
-
- ▪ project vendor/cmsdk/samples/weatherproviderservice/YahooWeatherProvider/
-
- ▼ 05/18/2017
-
-
- ▪ project frameworks/native/
- ▪ c68520a sensorservice: Fix orientation sensor for HAL's missing rotation vector sensor
-
- ▪ project hardware/qcom/fm/
-
- ▪ project kernel/motorola/msm8226/
- ▪ ce9f768 dccp/tcp: do not inherit mc_list from parent
- ▪ b255a07 ANDROID: ion: Protect kref from userspace manipulation
- ▪ 19b8e16 ion: Fix use after free during ION_IOC_ALLOC
- ▪ aad785d input: synaptics_dsx (MMI): Remove some sysfs nodes
- ▪ cbecea4 usb: diag: change %p to %pK in debug messages
- ▪ a27021f msm: camera: restructure data handling to be more robust
-
- ▪ project packages/apps/CMBugReport/
-
- ▪ project packages/apps/Calendar/
-
- ▪ project packages/apps/Camera2/
-
- ▪ project packages/apps/CellBroadcastReceiver/
-
- ▪ project packages/apps/DUI/
-
- ▪ project packages/apps/FMRadio/
-
- ▪ project packages/apps/Gallery2/
-
- ▪ project packages/apps/Settings/
-
- ▪ project packages/apps/SetupWizard/
-
- ▪ project packages/apps/Snap/
-
- ▪ project packages/apps/TvSettings/
-
- ▪ project packages/apps/UnifiedEmail/
-
- ▼ 05/17/2017
-
-
- ▪ project etc/novidades/
- ▪ 4b7bc4b  teste
-
- ▪ project packages/apps/DUI/
-
- ▪ project packages/apps/Settings/
- ▪ a1d362b Mi Mix (Lithium) maintainer change (#794)
- ▪ 3774bb8 add Jiayu S3 maintainer (#793)
 
