@@ -32,6 +32,9 @@
 
  ▪ project packages/apps/DUI/
 
+ ▪ project packages/apps/ResurrectionOTA/
+ ▪ a3a4777 Merge branch 'nougat' of https://github.com/ResurrectionRemix/packages_apps_ResurrectionOTA into nougat
+
  ▪ project packages/apps/Settings/
  ▪ 2ed20ae  Merge pull for ResurrectionRemix:nougat
  ▪ c018f90 QSPulldown: Remove FP gesture if device FP doesnt support it
