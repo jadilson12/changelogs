@@ -9,6 +9,8 @@
  ▪ 20b9839 remove files
 
  ▪ project device/motorola/athene/
+ ▪ 2a6b21c Revert "athene: drop net_raw from per_mgr service"
+ ▪ 3c57948 Revert "athene: update qcom parser value"
  ▪ 33f17ae athene: type build
  ▪ c0476f8 fix chagens
  ▪ 4f07197 athene: definition for camera
@@ -20,11 +22,34 @@
  ▪ 0177346 athene: Add AEP support config file
  ▪ ddce271 athene: Change the GLES version string to 3.2
  ▪ 7436322 athene: Add NET_BIND_SERVICE for cnss-daemon
+
+ ▪ project frameworks/base/
+ ▪ 8ff5e2e Recents:improve task locking code & mechanism
+
+ ▪ project kernel/motorola/msm8952/
+ ▪ bce2db0 TCP_Ascarex: Initial bringup of my modified tcp congestion called ascarex
+
+ ▪ project packages/apps/DUI/
+
+ ▪ project packages/apps/OmniSwitch/
+
+ ▪ project packages/apps/Settings/
+
+ ▪ project vendor/cm/
+ ▪ 4550dce Update profile for v4a on Fri Jun  2 23:29:46 UTC 2017
+ ▪ 99bfa78 ....
+ ▪ 79b2240 Merge Automatic tree Resurrection oficial on Fri Jun  2 22:51:20 UTC 2017
+ ▪ ef40f18 remove file
+ ▪ 5eeaa05 Merge branch 'nougat' of https://github.com/ResurrectionRemix/android_vendor_resurrection into nougat
+
+ ▼ 06/02/2017
+
+
+ ▪ project device/motorola/athene/
  ▪ 1a2c499 athene: drop net_raw from per_mgr service
  ▪ 2476b52 Update device.mk
 
  ▪ project frameworks/base/
- ▪ 8ff5e2e Recents:improve task locking code & mechanism
  ▪ d0bf589 fw: Don't consume home key press when KEY_ACTION_SLEEP is used
  ▪ cc8e5e6 SystemUI: Specify user while changing brightness mode
 
@@ -41,8 +66,6 @@
  ▪ project packages/apps/OmniSwitch/
 
  ▪ project packages/apps/Settings/
- ▪ 2b07a0b Fix setting
- ▪ 56e8985 Merge branch 'nougat' of https://github.com/ResurrectionRemix/Resurrection_packages_apps_Settings into nougat
  ▪ 4012daa Mi Note 2 Maintainer Update (#797)
 
  ▪ project packages/services/Telecomm/
@@ -57,11 +80,6 @@
  ▪ 31468f5 Allow recovery to alter / on userdebug/eng builds
 
  ▪ project vendor/cm/
- ▪ 4550dce Update profile for v4a on Fri Jun  2 23:29:46 UTC 2017
- ▪ 99bfa78 ....
- ▪ 79b2240 Merge Automatic tree Resurrection oficial on Fri Jun  2 22:51:20 UTC 2017
- ▪ ef40f18 remove file
- ▪ 5eeaa05 Merge branch 'nougat' of https://github.com/ResurrectionRemix/android_vendor_resurrection into nougat
  ▪ 3b631c0 sensitive_pn: Add sensitive phone numbers for India
  ▪ 6d364bf sensitive_pn: Add more numbers for Germany
  ▪ bf099c9 sensitive_pn: Add sensitive phone numbers for Norway
@@ -85,26 +103,68 @@
  ▪ 4fb9332 cmsdk: Disable Lockscreen Media Art [3/3]
  ▪ 2f25936 cmsdk: fix twilight state not updating in live display auto mode
 
- ▼ 06/02/2017
+ ▼ 06/01/2017
 
 
  ▪ project frameworks/base/
  ▪ 9916373 Fix nav bar showing always on the left when rotated to 270 degrees. Also, fix the order of the buttons so the back button always shows on the bottom
 
+ ▪ project hardware/qcom/fm/
+
+ ▪ project packages/apps/AudioFX/
+
+ ▪ project packages/apps/Bluetooth/
+
+ ▪ project packages/apps/Calendar/
+
+ ▪ project packages/apps/Camera2/
+
+ ▪ project packages/apps/CellBroadcastReceiver/
+
  ▪ project packages/apps/DUI/
+
+ ▪ project packages/apps/EmergencyInfo/
+
+ ▪ project packages/apps/FMRadio/
+
+ ▪ project packages/apps/Gallery2/
+
+ ▪ project packages/apps/ManagedProvisioning/
 
  ▪ project packages/apps/OmniSwitch/
 
  ▪ project packages/apps/Settings/
  ▪ 3b35f19 Settings: enable fast scroll for all app list views
 
+ ▪ project packages/apps/SetupWizard/
+
+ ▪ project packages/apps/Snap/
+
+ ▪ project packages/apps/Tag/
+
+ ▪ project packages/apps/TvSettings/
+
+ ▪ project packages/inputmethods/LatinIME/
+
+ ▪ project packages/providers/WeatherProvider/
+
+ ▪ project packages/resources/devicesettings/
+
+ ▪ project packages/services/LiveLockScreenService/
+
+ ▪ project vendor/cmsdk/samples/weatherproviderservice/YahooWeatherProvider/
+
  ▪ project vendor/qcom/opensource/cryptfs_hw/
  ▪ da6e595 cryptfs_hw: Fix stack out of bound issue
 
- ▼ 06/01/2017
+ ▼ 05/31/2017
 
 
  ▪ project frameworks/base/
+
+ ▪ project kernel/motorola/msm8226/
+ ▪ 09cff47 ASoC: msm: qdsp6v2: set pointer to NULL after free.
+ ▪ 5eede13 msm: vidc: Protect debug_buffer access in core_info_read with lock.
 
  ▪ project packages/apps/DUI/
 
@@ -125,7 +185,7 @@
 
  ▪ project packages/services/OmniJaws/
 
- ▼ 05/31/2017
+ ▼ 05/30/2017
 
 
  ▪ project external/stagefright-plugins/
@@ -140,9 +200,8 @@
  ▪ project hardware/qcom/display-caf/msm8960/
  ▪ d222af7 hwc: return correct color format string while layer dump
 
- ▪ project kernel/motorola/msm8226/
- ▪ 09cff47 ASoC: msm: qdsp6v2: set pointer to NULL after free.
- ▪ 5eede13 msm: vidc: Protect debug_buffer access in core_info_read with lock.
+ ▪ project kernel/motorola/msm8952/
+ ▪ f203d6a Merge remote-tracking branch 'upstream' into xpe-11.1
 
  ▪ project packages/apps/Settings/
 
@@ -151,28 +210,8 @@
  ▪ c737df5 Revert "Snap: CaptureModule: lock exposure also when precapture trigger is started"
  ▪ 09a7a0b SnapdragonCamera: Camera2 force close after focused
  ▪ 018fdd0 SnapdragonCamera: GPS location can't be turn On in camera settings
+ ▪ 26d9aec Fixed camera crash on exit
 
  ▪ project vendor/cm/
  ▪ 46fc541 typo fixed (#92)
-
- ▼ 05/30/2017
-
-
- ▪ project packages/apps/Email/
- ▪ b76ada5 Fix check for deleted messages.
- ▪ 70ccb25 Close body InputStreams correctly.
-
- ▪ project packages/apps/Settings/
-
- ▪ project packages/apps/Snap/
- ▪ 26d9aec Fixed camera crash on exit
-
- ▪ project packages/apps/Stk/
- ▪ f9f50a5 Do not display toast if alpha text is null.
-
- ▪ project packages/apps/UnifiedEmail/
- ▪ e353ae2 Properly close body InputStreams.
-
- ▪ project vendor/cm/
- ▪ a8b16ae Update pixel launcher
 
