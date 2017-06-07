@@ -9,28 +9,13 @@
  ▪ a68a635 Merge branch 'nougat' of https://github.com/ResurrectionRemix/android_build into nougat
 
  ▪ project device/motorola/athene/
+ ▪ a72f8ac Add/Update Kernel Adiutor (v0.9.7.2)
  ▪ deb188d Merge pull request #2 from LineageOS/cm-14.1
- ▪ 3a10bd4 athene: drop custom dtbTool
- ▪ e81e772 athene: drop net_raw from per_mgr service
- ▪ 0ae3f86 athene: Add NET_BIND_SERVICE for cnss-daemon
- ▪ df42811 athene: Add fs_config support for custom binary
- ▪ 224d038 athene: Change the GLES version string to 3.2
- ▪ 2fdb82c athene: Add AEP support config file
- ▪ 99c971b athene: Set LED trigger only for charger mode
- ▪ ffe17d4 athene: cleanup camera.hal1.packagelist prop
- ▪ febf697 athene: add and build camera wrapper
- ▪ 3e919b8 athene: disable HAL3
- ▪ c845563 athene: update qcom parser value
- ▪ e69937c athene: disable qcom aac encoder
 
  ▪ project external/chromium-webview/
  ▪ 2909904 Update webviews
 
  ▪ project frameworks/base/
-
- ▪ project kernel/motorola/msm8952/
- ▪ 7782008 enable missing ascarex
- ▪ c5dcb60 fixes
 
  ▪ project packages/apps/DUI/
 
@@ -47,6 +32,9 @@
  ▪ project packages/apps/Settings/
  ▪ 87cabde Reduce Volume panel dialog min timout to 350ms
 
+ ▪ project packages/apps/Terminal/
+ ▪ 5856a60 Terminal: Fix keyboard Ctrl- and ALT-key input.
+
  ▪ project vendor/cm/
  ▪ 6f780ac Merge branch 'nougat' of https://github.com/ResurrectionRemix/android_vendor_resurrection into nougat
 
@@ -60,6 +48,20 @@
 
  ▪ project build/
  ▪ cc30c3a Merge tag 'android-7.1.2_r17' into nougat
+
+ ▪ project device/motorola/athene/
+ ▪ 3a10bd4 athene: drop custom dtbTool
+ ▪ e81e772 athene: drop net_raw from per_mgr service
+ ▪ 0ae3f86 athene: Add NET_BIND_SERVICE for cnss-daemon
+ ▪ df42811 athene: Add fs_config support for custom binary
+ ▪ 224d038 athene: Change the GLES version string to 3.2
+ ▪ 2fdb82c athene: Add AEP support config file
+ ▪ 99c971b athene: Set LED trigger only for charger mode
+ ▪ ffe17d4 athene: cleanup camera.hal1.packagelist prop
+ ▪ febf697 athene: add and build camera wrapper
+ ▪ 3e919b8 athene: disable HAL3
+ ▪ c845563 athene: update qcom parser value
+ ▪ e69937c athene: disable qcom aac encoder
 
  ▪ project frameworks/base/
  ▪ b8bb91f Merge tag 'android-7.1.2_r17' into nougat
@@ -133,9 +135,6 @@
  ▪ fc52d47 FW_BASE: Rewrite restart SystemUI method
  ▪ 42fa816 Add support for page theme color to WebView and WebChromeClient.
 
- ▪ project packages/apps/AudioFX/
- ▪ 6850778 AudioFX: Sign with platform key
-
  ▪ project packages/apps/DUI/
 
  ▪ project packages/apps/Dialer/
@@ -160,12 +159,11 @@
  ▼ 06/04/2017
 
 
- ▪ project device/motorola/athene/
- ▪ 2a6b21c Revert "athene: drop net_raw from per_mgr service"
- ▪ 3c57948 Revert "athene: update qcom parser value"
-
  ▪ project hardware/qcom/display-caf/msm8996/
  ▪ 92fa2ea Merge tag 'LA.UM.5.5.r1-04700-8x96.0' into HEAD
+
+ ▪ project packages/apps/AudioFX/
+ ▪ 6850778 AudioFX: Sign with platform key
 
  ▪ project packages/apps/DUI/
 
@@ -186,25 +184,12 @@
  ▪ 20b9839 remove files
 
  ▪ project device/motorola/athene/
+ ▪ 2a6b21c Revert "athene: drop net_raw from per_mgr service"
+ ▪ 3c57948 Revert "athene: update qcom parser value"
  ▪ 33f17ae athene: type build
- ▪ c0476f8 fix chagens
- ▪ 4f07197 athene: definition for camera
- ▪ a6cf37a Enable google move gestures
- ▪ f69f960 This is said to fix call recording using third party apps
- ▪ 242c78d Rename CMActions from gestures to Moto Actions
- ▪ 31feab1 athene: update qcom parser value
- ▪ b8b1bea athene: add and build camera wrapper
- ▪ 0177346 athene: Add AEP support config file
- ▪ ddce271 athene: Change the GLES version string to 3.2
- ▪ 7436322 athene: Add NET_BIND_SERVICE for cnss-daemon
- ▪ 1a2c499 athene: drop net_raw from per_mgr service
- ▪ 2476b52 Update device.mk
 
  ▪ project frameworks/base/
  ▪ 8ff5e2e Recents:improve task locking code & mechanism
-
- ▪ project kernel/motorola/msm8952/
- ▪ bce2db0 TCP_Ascarex: Initial bringup of my modified tcp congestion called ascarex
 
  ▪ project packages/apps/DUI/
 
