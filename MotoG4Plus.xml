@@ -2,6 +2,183 @@
  ▼ Resurrection Remix Nougat Ver 5.8.3 Changelog
 
 
+ ▼ 06/07/2017
+
+
+ ▪ project build/
+ ▪ a68a635 Merge branch 'nougat' of https://github.com/ResurrectionRemix/android_build into nougat
+
+ ▪ project device/motorola/athene/
+ ▪ deb188d Merge pull request #2 from LineageOS/cm-14.1
+ ▪ 3a10bd4 athene: drop custom dtbTool
+ ▪ e81e772 athene: drop net_raw from per_mgr service
+ ▪ 0ae3f86 athene: Add NET_BIND_SERVICE for cnss-daemon
+ ▪ df42811 athene: Add fs_config support for custom binary
+ ▪ 224d038 athene: Change the GLES version string to 3.2
+ ▪ 2fdb82c athene: Add AEP support config file
+ ▪ 99c971b athene: Set LED trigger only for charger mode
+ ▪ ffe17d4 athene: cleanup camera.hal1.packagelist prop
+ ▪ febf697 athene: add and build camera wrapper
+ ▪ 3e919b8 athene: disable HAL3
+ ▪ c845563 athene: update qcom parser value
+ ▪ e69937c athene: disable qcom aac encoder
+
+ ▪ project external/chromium-webview/
+ ▪ 2909904 Update webviews
+
+ ▪ project frameworks/base/
+
+ ▪ project kernel/motorola/msm8952/
+ ▪ 7782008 enable missing ascarex
+ ▪ c5dcb60 fixes
+
+ ▪ project packages/apps/DUI/
+
+ ▪ project packages/apps/Gallery2/
+ ▪ 93bcb4c Gallery2: support GIF animation
+
+ ▪ project packages/apps/OmniSwitch/
+
+ ▪ project packages/apps/PackageInstaller/
+
+ ▪ project packages/apps/ResurrectionOTA/
+ ▪ ef79d1d Merge branch 'nougat' of https://github.com/ResurrectionRemix/packages_apps_ResurrectionOTA into nougat
+
+ ▪ project packages/apps/Settings/
+ ▪ 87cabde Reduce Volume panel dialog min timout to 350ms
+
+ ▪ project vendor/cm/
+ ▪ 6f780ac Merge branch 'nougat' of https://github.com/ResurrectionRemix/android_vendor_resurrection into nougat
+
+ ▼ 06/06/2017
+
+
+ ▪ project android/
+ ▪ a46ed2f Revert "Track own system_media"
+ ▪ d73bf77 Track own system_media
+ ▪ 949aff4 manifest: android-7.1.2_r8 -> android-7.1.2_r17
+
+ ▪ project build/
+ ▪ cc30c3a Merge tag 'android-7.1.2_r17' into nougat
+
+ ▪ project frameworks/base/
+ ▪ b8bb91f Merge tag 'android-7.1.2_r17' into nougat
+
+ ▪ project frameworks/native/
+ ▪ dae45e0 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_frameworks_native into nougat
+ ▪ 1eed077 Merge tag 'android-7.1.2_r17' into cm-14.1
+
+ ▪ project libcore/
+ ▪ b162f5e Merge tag 'android-7.1.2_r17' into cm-14.1
+
+ ▪ project packages/apps/Bluetooth/
+ ▪ 9d274ac BluetoothOppTransferActivity: fix after ad46f6a52d7240ed1e2127c4263a5cbcf454df09
+ ▪ 9efb588 Merge tag 'android-7.1.2_r17' into cm-14.1
+
+ ▪ project packages/apps/DUI/
+
+ ▪ project packages/apps/Gallery2/
+ ▪ 95cb32b Increase the size of the tiles when decoding images
+
+ ▪ project packages/apps/Messaging/
+ ▪ ef18c3d Merge branch 'cm-14.1' of https://github.com/LineageOS/android_packages_apps_messaging into nougat
+
+ ▪ project packages/apps/OmniSwitch/
+
+ ▪ project packages/apps/PackageInstaller/
+
+ ▪ project packages/apps/Settings/
+ ▪ a5dfd15 Update Build ID
+
+ ▪ project packages/apps/TvSettings/
+ ▪ 3ddceec Settings: Implement ADB over network
+ ▪ bf8bc80 Settings: Add intent to launch LineageOS platlogo upon multiple taps
+ ▪ 0165eb8 settings: Add advanced reboot switch
+ ▪ e1c67c5 Settings: Set root access options appropriately
+ ▪ 253b262 settings: Add developer setting for root access
+ ▪ f4e82a3 Use more descriptive strings for add accessory page
+ ▪ 3733c2b About: Add LineageOS Updates
+ ▪ 0fe2e3b Add build date (ro.build.date from build.prop) to About screen.
+ ▪ 18c18a9 One does not simply become a Developer
+ ▪ 34001b8 Add LineageOS version to the About screen
+
+ ▪ project system/bt/
+ ▪ aa31852 Merge tag 'android-7.1.2_r17' into cm-14.1
+
+ ▪ project system/core/
+ ▪ 5504d46 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_system_core into nougat
+ ▪ 5e54c5f libcutils: fix schedboost after 31f78ddf4ea2ab7963d873cb16db98e976346468
+ ▪ 14bdeb8 Merge tag 'android-7.1.2_r17' into cm-14.1
+
+ ▪ project vendor/cm/
+ ▪ 0454ffd Vendor: Build AudioFX again
+
+ ▪ project vendor/motorola/
+ ▪ 29a6b26 shamu: update blobs from N6F27E factory image
+
+ ▼ 06/05/2017
+
+
+ ▪ project android/
+ ▪ bcb3fb7 crowdin: add PackageInstaller
+
+ ▪ project external/stagefright-plugins/
+ ▪ 05bf4e7 ffmpeg-extractor: StageFright supports Opus files
+ ▪ 11bc5a2 Revert "FFmpegExtractor: Don't use our extractor when we agree with StageFright"
+
+ ▪ project frameworks/base/
+ ▪ 0a001c5 Fix SystemUI FC due to Google Assistant
+ ▪ 16a622d Handle Illegal Argument Exception
+ ▪ 50b3778 Reduce MTU Size
+ ▪ fc52d47 FW_BASE: Rewrite restart SystemUI method
+ ▪ 42fa816 Add support for page theme color to WebView and WebChromeClient.
+
+ ▪ project packages/apps/AudioFX/
+ ▪ 6850778 AudioFX: Sign with platform key
+
+ ▪ project packages/apps/DUI/
+
+ ▪ project packages/apps/Dialer/
+
+ ▪ project packages/apps/OmniSwitch/
+
+ ▪ project packages/apps/PackageInstaller/
+
+ ▪ project packages/apps/ResurrectionOTA/
+
+ ▪ project packages/apps/ResurrectionStats/
+
+ ▪ project packages/apps/Settings/
+ ▪ 5910d21 Settings:Rewrite Restart SystemUI
+
+ ▪ project packages/services/OmniJaws/
+
+ ▪ project vendor/cm/
+ ▪ 69d6029 fix check_blacklist function to work on wiped /system partition
+ ▪ d0be161 sensitive_pn: Add sensitive numbers for Serbia
+
+ ▼ 06/04/2017
+
+
+ ▪ project device/motorola/athene/
+ ▪ 2a6b21c Revert "athene: drop net_raw from per_mgr service"
+ ▪ 3c57948 Revert "athene: update qcom parser value"
+
+ ▪ project hardware/qcom/display-caf/msm8996/
+ ▪ 92fa2ea Merge tag 'LA.UM.5.5.r1-04700-8x96.0' into HEAD
+
+ ▪ project packages/apps/DUI/
+
+ ▪ project packages/apps/Dialer/
+
+ ▪ project packages/apps/OmniSwitch/
+
+ ▪ project packages/apps/ResurrectionOTA/
+
+ ▪ project packages/apps/Settings/
+ ▪ 4031811 Correction (#802)
+ ▪ 3cc6e83 Add Galaxy S4 Mini as Official (#799)
+
  ▼ 06/03/2017
 
 
@@ -9,8 +186,6 @@
  ▪ 20b9839 remove files
 
  ▪ project device/motorola/athene/
- ▪ 2a6b21c Revert "athene: drop net_raw from per_mgr service"
- ▪ 3c57948 Revert "athene: update qcom parser value"
  ▪ 33f17ae athene: type build
  ▪ c0476f8 fix chagens
  ▪ 4f07197 athene: definition for camera
@@ -22,6 +197,8 @@
  ▪ 0177346 athene: Add AEP support config file
  ▪ ddce271 athene: Change the GLES version string to 3.2
  ▪ 7436322 athene: Add NET_BIND_SERVICE for cnss-daemon
+ ▪ 1a2c499 athene: drop net_raw from per_mgr service
+ ▪ 2476b52 Update device.mk
 
  ▪ project frameworks/base/
  ▪ 8ff5e2e Recents:improve task locking code & mechanism
@@ -41,177 +218,4 @@
  ▪ 79b2240 Merge Automatic tree Resurrection oficial on Fri Jun  2 22:51:20 UTC 2017
  ▪ ef40f18 remove file
  ▪ 5eeaa05 Merge branch 'nougat' of https://github.com/ResurrectionRemix/android_vendor_resurrection into nougat
-
- ▼ 06/02/2017
-
-
- ▪ project device/motorola/athene/
- ▪ 1a2c499 athene: drop net_raw from per_mgr service
- ▪ 2476b52 Update device.mk
-
- ▪ project frameworks/base/
- ▪ d0bf589 fw: Don't consume home key press when KEY_ACTION_SLEEP is used
- ▪ cc8e5e6 SystemUI: Specify user while changing brightness mode
-
- ▪ project hardware/qcom/audio-caf/msm8916/
- ▪ ef3989b Merge remote-tracking branch 'caf/LA.BR.1.2.9_rb1.18' into cm-14.1-caf-8916
- ▪ 40d378a Revert "audio HAL: fix thread starvation"
-
- ▪ project hardware/qcom/media-caf/msm8916/
- ▪ d781d8f Merge remote-tracking branch 'caf/LA.BR.1.2.9_rb1.18' into cm-14.1-caf-8916
-
- ▪ project packages/apps/Dialer/
- ▪ ae7d2f6 Dialer: update fab color to match aosp primary color
-
- ▪ project packages/apps/OmniSwitch/
-
- ▪ project packages/apps/Settings/
- ▪ 4012daa Mi Note 2 Maintainer Update (#797)
-
- ▪ project packages/services/Telecomm/
- ▪ 4ded59b (1/2) Make sensitive phone numbers not to be shown in call log history.
-
- ▪ project packages/services/Telephony/
- ▪ 8171340 Fix minor inconsistency in the CDMA call settings
- ▪ 6c91d6c telephony: Fix and move CAF strings
-
- ▪ project system/sepolicy/
- ▪ 759e540 Add policy to fix interfacer derp on boot
- ▪ 31468f5 Allow recovery to alter / on userdebug/eng builds
-
- ▪ project vendor/cm/
- ▪ 3b631c0 sensitive_pn: Add sensitive phone numbers for India
- ▪ 6d364bf sensitive_pn: Add more numbers for Germany
- ▪ bf099c9 sensitive_pn: Add sensitive phone numbers for Norway
- ▪ 9f417a1 sensitive_pn: Add additional US numbers
- ▪ 2f24950 sensitive_pn: add sensitive number for Indonesia
- ▪ e0f17b9 sensitive_pn: Add sensitive phone number for Romania
- ▪ cd6c6be sensitive_pn: Added sensitive number for the Netherlands
- ▪ 3575664 sensitive_pn: add sensitive numbers for Turkey
- ▪ 229f62f sensitive_pn: Add sensitive phone number for Bangladesh
- ▪ 5630a4a sensitive_pn: Add US number
- ▪ 269c86c Add sensitive phone numbers for Brazil
- ▪ 3fbdf51 sensitive_pn: reorder by MCC code
- ▪ 56658d2 sensitive_pn: Add Australian sensitive phone number.
- ▪ 34d9d56 sensitive_pn: Add New Zealand sensitive numbers.
- ▪ 7ce9ff5 (2/2) Make sensitive phone numbers not to be shown in call log history.
- ▪ a3f80fd overlay: Enable Wi-Fi by default on first boot
- ▪ b52ed87 Show full alarm info
-
- ▪ project vendor/cmsdk/
- ▪ 5c781da Double tap to sleep anywhere on lock screen [3/3]
- ▪ 4fb9332 cmsdk: Disable Lockscreen Media Art [3/3]
- ▪ 2f25936 cmsdk: fix twilight state not updating in live display auto mode
-
- ▼ 06/01/2017
-
-
- ▪ project frameworks/base/
- ▪ 9916373 Fix nav bar showing always on the left when rotated to 270 degrees. Also, fix the order of the buttons so the back button always shows on the bottom
-
- ▪ project hardware/qcom/fm/
-
- ▪ project packages/apps/AudioFX/
-
- ▪ project packages/apps/Bluetooth/
-
- ▪ project packages/apps/Calendar/
-
- ▪ project packages/apps/Camera2/
-
- ▪ project packages/apps/CellBroadcastReceiver/
-
- ▪ project packages/apps/DUI/
-
- ▪ project packages/apps/EmergencyInfo/
-
- ▪ project packages/apps/FMRadio/
-
- ▪ project packages/apps/Gallery2/
-
- ▪ project packages/apps/ManagedProvisioning/
-
- ▪ project packages/apps/OmniSwitch/
-
- ▪ project packages/apps/Settings/
- ▪ 3b35f19 Settings: enable fast scroll for all app list views
-
- ▪ project packages/apps/SetupWizard/
-
- ▪ project packages/apps/Snap/
-
- ▪ project packages/apps/Tag/
-
- ▪ project packages/apps/TvSettings/
-
- ▪ project packages/inputmethods/LatinIME/
-
- ▪ project packages/providers/WeatherProvider/
-
- ▪ project packages/resources/devicesettings/
-
- ▪ project packages/services/LiveLockScreenService/
-
- ▪ project vendor/cmsdk/samples/weatherproviderservice/YahooWeatherProvider/
-
- ▪ project vendor/qcom/opensource/cryptfs_hw/
- ▪ da6e595 cryptfs_hw: Fix stack out of bound issue
-
- ▼ 05/31/2017
-
-
- ▪ project frameworks/base/
-
- ▪ project kernel/motorola/msm8226/
- ▪ 09cff47 ASoC: msm: qdsp6v2: set pointer to NULL after free.
- ▪ 5eede13 msm: vidc: Protect debug_buffer access in core_info_read with lock.
-
- ▪ project packages/apps/DUI/
-
- ▪ project packages/apps/OmniSwitch/
- ▪ fab5e78 OmniSwitch: cleanup BitmapUtils
- ▪ 0ad4cd0 OmniSwitch: fix crash on special app icon formats
- ▪ e6e21ad OmniSwitch: shadow wars
- ▪ 3de4c24 OmniSwitch: Launcher: refine assist activity check
- ▪ 4ec4e60 OmnSwitch: enable update thumbs during swipe
- ▪ 74acfe7 OmniSwitch: Launcher: check for existing assist activities
-
- ▪ project packages/apps/ResurrectionStats/
-
- ▪ project packages/apps/Settings/
-
- ▪ project packages/resources/devicesettings/
- ▪ 1935d69 Add fingerprint sleep strings
-
- ▪ project packages/services/OmniJaws/
-
- ▼ 05/30/2017
-
-
- ▪ project external/stagefright-plugins/
- ▪ 4089877 FFmpegExtractor: Don't use our extractor when we agree with StageFright
-
- ▪ project frameworks/base/
- ▪ 39b9d5b Recents: Ensure Lock icon animates only when Dismiss icon is visible
- ▪ 8573690 Fix launch music player on headset connect on reboot
- ▪ 7b24b49 Recents:Optional lock to task icon in recents task view header [1/2]
- ▪ 3525359 Base:Add Lock task action to recents
-
- ▪ project hardware/qcom/display-caf/msm8960/
- ▪ d222af7 hwc: return correct color format string while layer dump
-
- ▪ project kernel/motorola/msm8952/
- ▪ f203d6a Merge remote-tracking branch 'upstream' into xpe-11.1
-
- ▪ project packages/apps/Settings/
-
- ▪ project packages/apps/Snap/
- ▪ f68cddc SnapdragonCamera: Fix torch mode with continuous shot
- ▪ c737df5 Revert "Snap: CaptureModule: lock exposure also when precapture trigger is started"
- ▪ 09a7a0b SnapdragonCamera: Camera2 force close after focused
- ▪ 018fdd0 SnapdragonCamera: GPS location can't be turn On in camera settings
- ▪ 26d9aec Fixed camera crash on exit
-
- ▪ project vendor/cm/
- ▪ 46fc541 typo fixed (#92)
 
