@@ -2,221 +2,103 @@
  ▼ Resurrection Remix Nougat Ver 5.8.3 Changelog
 
 
- ▼ 06/09/2017
+ ▼ 06/15/2017
 
 
  ▪ project build/
- ▪ b45d8e3 Merge branch 'nougat' of https://github.com/ResurrectionRemix/android_build into nougat
- ▪ b1f8acf core: minimize dumpvar
-
- ▪ project device/motorola/athene/
- ▪ c4232a7 Revert "athene: drop custom dtbTool"
-
- ▪ project packages/apps/Settings/
-
- ▼ 06/08/2017
-
-
- ▪ project device/motorola/athene/
- ▪ a72f8ac Add/Update Kernel Adiutor (v0.9.7.2)
+ ▪ c3195fd removed file
 
  ▪ project frameworks/base/
- ▪ 2f89ae2 Optimised hwui rounded corners shader
- ▪ b021af9 SystemUI: Reroute Battery QS Tile tint back to original color
- ▪ 4b50c93 Fix a use-of-uninitialized-value warning.
- ▪ 84fba94 Fix a use-of-uninitialized-value warning
- ▪ 10a9f4e Reduce hwui CPU time by using glDrawRangeElements
- ▪ 1590b9a Close recents panel after drag-cards-for-multiwindow action
- ▪ 848f8bc Slim recents: use multiwindow button to drag cards
- ▪ 4253922 Update memory state on emtpyView click
- ▪ 5332827 Optional No sim icon switch [1/2]
- ▪ 2b65ab8 QS: Remove listeners only if added
-
- ▪ project kernel/motorola/msm8226/
- ▪ 3f8c79c sctp: do not inherit ipv6_{mc|ac|fl}_list from parent
- ▪ d6bb4ef ipv6: Check ip6_find_1stfragopt() return value properly.
- ▪ 8f01ac1 ipv6: Prevent overrun when parsing v6 header options
- ▪ f75065c msm: mdss: Fix invalid dma attachment during fb shutdown
- ▪ d4aa677 input: synaptics_dsx: valid bounds of intr_reg_num
- ▪ 9188dae unix: correctly track in-flight fds in sending process user_struct
- ▪ 52ae8b2 unix: properly account for FDs passed over unix sockets
- ▪ 09be64a msm: mdss: Add sanity check for Gamut LUT size
- ▪ a3a72b1 qseecom: add mutex around qseecom_set_client_mem_param
- ▪ 6b09b17 msm: IPA: add the check on intf query
- ▪ 2fed1a0 USB: cypress_m8: add endpoint sanity check
-
- ▪ project packages/apps/Email/
- ▪ ea4eb75 Adjust Email UnitTests to e353ae2ea19c9ea800d10b37e05de7b0ea1aeeb4
-
- ▪ project packages/apps/OmniSwitch/
-
- ▪ project packages/apps/PackageInstaller/
-
- ▪ project packages/apps/Settings/
- ▪ 16cdbad Optional no sim icon switch [2/2]
- ▪ 3681ae5 Fix FC in Configurations - About - Device and Maintainers (#803)
-
- ▪ project vendor/motorola/
- ▪ 0af25d2 athene: rename HAL for camera wrapper
-
- ▼ 06/07/2017
-
-
- ▪ project build/
- ▪ a68a635 Merge branch 'nougat' of https://github.com/ResurrectionRemix/android_build into nougat
-
- ▪ project device/motorola/athene/
- ▪ deb188d Merge pull request #2 from LineageOS/cm-14.1
-
- ▪ project external/chromium-webview/
- ▪ 2909904 Update webviews
-
- ▪ project frameworks/base/
-
- ▪ project kernel/motorola/msm8952/
- ▪ 7782008 enable missing ascarex
- ▪ c5dcb60 fixes
+ ▪ 2cc801f Check for spurious wake ups
+ ▪ f6f0ebf Fix TaskRecord wrong dump element firstActiveTime
 
  ▪ project packages/apps/DUI/
-
- ▪ project packages/apps/Gallery2/
- ▪ 93bcb4c Gallery2: support GIF animation
+ ▪ adf6bee DUI:Uncomment Navbar Left in Landscape [1/2]
 
  ▪ project packages/apps/OmniSwitch/
 
  ▪ project packages/apps/PackageInstaller/
 
- ▪ project packages/apps/ResurrectionOTA/
- ▪ ef79d1d Merge branch 'nougat' of https://github.com/ResurrectionRemix/packages_apps_ResurrectionOTA into nougat
-
  ▪ project packages/apps/Settings/
- ▪ 87cabde Reduce Volume panel dialog min timout to 350ms
-
- ▪ project packages/apps/Terminal/
- ▪ 5856a60 Terminal: Fix keyboard Ctrl- and ALT-key input.
+ ▪ 8dad24f SeekBarPreference: fix progressbar glitch with custom min-max values
+ ▪ 75aad61 do not include saved network in scan list
+ ▪ 08a42d0 Allow sorting applications by size
+ ▪ 6489e06 Volume can not be updated in Sound&notification
+ ▪ a37247e AllowBindAppWidgetActivity: Fix crash when the activity is closing
+ ▪ 91b6f1c Squash commit of SAR and IC Code.
+ ▪ bdaf696 Fix crash when calling remove() with a null variable
 
  ▪ project vendor/cm/
- ▪ 6f780ac Merge branch 'nougat' of https://github.com/ResurrectionRemix/android_vendor_resurrection into nougat
+ ▪ 785cd16 Revert "Delete v4a.zip"
+ ▪ 1b19b58 Delete v4a.zip
+ ▪ b1d248c Merge Automatic tree Resurrection oficial on Thu Jun 15 02:15:40 UTC 2017
 
- ▪ project vendor/cmsdk/samples/weatherproviderservice/OpenWeatherMapProvider/
- ▪ 3fe4133 Add back key to actionbar
- ▪ b9b9cce Add openweathermap copyright
- ▪ d0d73c5 Add icon
- ▪ dccb527 Refactor cyanogenmod -> lineageos
- ▪ 9d01897 Update gradle
+ ▼ 06/14/2017
 
- ▪ project vendor/cmsdk/samples/weatherproviderservice/WundergroundWeatherProvider/
- ▪ 3e9b1c1 Don't fail when a translation is missing
- ▪ 3a8340c Update icon
- ▪ a195bb4 Refactor cyanogenmod -> lineageos
- ▪ a1ff743 Update gradle
-
- ▪ project vendor/cmsdk/samples/weatherproviderservice/YahooWeatherProvider/
- ▪ bf4c5a3 Don't fail when a translation is missing
- ▪ 6110585 Update app name to match other providers
- ▪ a0d2c7c Update icon
- ▪ fd3221f Refactor cyanogemod -> lineageos
- ▪ 5cb7ddf Update gradle
-
- ▼ 06/06/2017
-
-
- ▪ project android/
- ▪ a46ed2f Revert "Track own system_media"
- ▪ d73bf77 Track own system_media
- ▪ 949aff4 manifest: android-7.1.2_r8 -> android-7.1.2_r17
-
- ▪ project build/
- ▪ cc30c3a Merge tag 'android-7.1.2_r17' into nougat
-
- ▪ project device/motorola/athene/
- ▪ 3a10bd4 athene: drop custom dtbTool
- ▪ e81e772 athene: drop net_raw from per_mgr service
- ▪ 0ae3f86 athene: Add NET_BIND_SERVICE for cnss-daemon
- ▪ df42811 athene: Add fs_config support for custom binary
- ▪ 224d038 athene: Change the GLES version string to 3.2
- ▪ 2fdb82c athene: Add AEP support config file
- ▪ 99c971b athene: Set LED trigger only for charger mode
- ▪ ffe17d4 athene: cleanup camera.hal1.packagelist prop
- ▪ febf697 athene: add and build camera wrapper
- ▪ 3e919b8 athene: disable HAL3
- ▪ c845563 athene: update qcom parser value
- ▪ e69937c athene: disable qcom aac encoder
 
  ▪ project frameworks/base/
- ▪ b8bb91f Merge tag 'android-7.1.2_r17' into nougat
-
- ▪ project frameworks/native/
- ▪ dae45e0 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_frameworks_native into nougat
- ▪ 1eed077 Merge tag 'android-7.1.2_r17' into cm-14.1
-
- ▪ project libcore/
- ▪ b162f5e Merge tag 'android-7.1.2_r17' into cm-14.1
-
- ▪ project packages/apps/Bluetooth/
- ▪ 9d274ac BluetoothOppTransferActivity: fix after ad46f6a52d7240ed1e2127c4263a5cbcf454df09
- ▪ 9efb588 Merge tag 'android-7.1.2_r17' into cm-14.1
-
- ▪ project packages/apps/DUI/
-
- ▪ project packages/apps/Gallery2/
- ▪ 95cb32b Increase the size of the tiles when decoding images
-
- ▪ project packages/apps/Messaging/
- ▪ ef18c3d Merge branch 'cm-14.1' of https://github.com/LineageOS/android_packages_apps_messaging into nougat
-
- ▪ project packages/apps/OmniSwitch/
 
  ▪ project packages/apps/PackageInstaller/
 
  ▪ project packages/apps/Settings/
- ▪ a5dfd15 Update Build ID
-
- ▪ project packages/apps/TvSettings/
- ▪ 3ddceec Settings: Implement ADB over network
- ▪ bf8bc80 Settings: Add intent to launch LineageOS platlogo upon multiple taps
- ▪ 0165eb8 settings: Add advanced reboot switch
- ▪ e1c67c5 Settings: Set root access options appropriately
- ▪ 253b262 settings: Add developer setting for root access
- ▪ f4e82a3 Use more descriptive strings for add accessory page
- ▪ 3733c2b About: Add LineageOS Updates
- ▪ 0fe2e3b Add build date (ro.build.date from build.prop) to About screen.
- ▪ 18c18a9 One does not simply become a Developer
- ▪ 34001b8 Add LineageOS version to the About screen
+ ▪ b65b342 Add Samsung Galaxy Alpha as Official (#806)
 
  ▪ project system/bt/
- ▪ aa31852 Merge tag 'android-7.1.2_r17' into cm-14.1
+ ▪ 331fc1e bt: Disable AVRCP 1.6
 
- ▪ project system/core/
- ▪ 5504d46 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_system_core into nougat
- ▪ 5e54c5f libcutils: fix schedboost after 31f78ddf4ea2ab7963d873cb16db98e976346468
- ▪ 14bdeb8 Merge tag 'android-7.1.2_r17' into cm-14.1
+ ▼ 06/13/2017
 
- ▪ project vendor/cm/
- ▪ 0454ffd Vendor: Build AudioFX again
-
- ▪ project vendor/motorola/
- ▪ 29a6b26 shamu: update blobs from N6F27E factory image
-
- ▼ 06/05/2017
-
-
- ▪ project android/
- ▪ bcb3fb7 crowdin: add PackageInstaller
-
- ▪ project external/stagefright-plugins/
- ▪ 05bf4e7 ffmpeg-extractor: StageFright supports Opus files
- ▪ 11bc5a2 Revert "FFmpegExtractor: Don't use our extractor when we agree with StageFright"
 
  ▪ project frameworks/base/
- ▪ 0a001c5 Fix SystemUI FC due to Google Assistant
- ▪ 16a622d Handle Illegal Argument Exception
- ▪ 50b3778 Reduce MTU Size
- ▪ fc52d47 FW_BASE: Rewrite restart SystemUI method
- ▪ 42fa816 Add support for page theme color to WebView and WebChromeClient.
+ ▪ 00e4452 Fix IME switcher not being shown in notifications when enabled
+ ▪ 01df159 SignalClusterView:Tighten up loose ends for no sim subscriptions
+ ▪ 6cdb4e7 Revert "Fix nav bar showing always on the left when rotated to 270 degrees."
+ ▪ d49173c FWB:Smartbar touch sounds:make it optional[1/3]
+ ▪ 2f037a2 BatteryMeterDrawable:Sync with upstream
+ ▪ 17409ca SystemUI:Disable carrier label by default - Increase font size
+ ▪ 07ab6ef RRUtils:Add missing Omniswitch contants
+ ▪ b7b6261 CaptivePortalLoginActivity correctly gets UserAgent
+ ▪ 106869b Prettify the captive portal sign-in activity
+ ▪ 60a5ede [1/2] base: OmniSwitch: add preload task broadcast
+ ▪ 0f9e9d3 SystemUI: animate icon when locking a task
 
- ▪ project packages/apps/AudioFX/
- ▪ 6850778 AudioFX: Sign with platform key
+ ▪ project packages/apps/DUI/
+ ▪ 2562dc1 Fix spammed hindi strings
+ ▪ 0e3dedc Update strings.xml
+ ▪ 9175a54 Fix bad strings
+ ▪ 8ab23f1 Smartbar touch sounds:make it optional [2/3]
+ ▪ 885fa36 Pulse: Navbar left in landscape support
+ ▪ e9daee7 SmartBar: Touch sound support
+ ▪ 6607429 DUI: Fix NPE in MediaMonitor
+
+ ▪ project packages/apps/OmniSwitch/
+ ▪ 6e90ddf [2/2] OmniSwitch: add preload task broadcast
+
+ ▪ project packages/apps/PackageInstaller/
+
+ ▪ project packages/apps/ResurrectionStats/
+
+ ▪ project packages/apps/Settings/
+ ▪ 6e0d35e Settings:Add back Left navigation bar in landscape [2/2]
+ ▪ 05fe606 Settings:Smartbar touch sounds:make it optional [3/3]
+ ▪ 8666f80 Configurations:Disable carrier label by default
+
+ ▪ project packages/apps/Snap/
+ ▪ bd1d6ea Snap: Sign with platform key
+ ▪ d7247ff Add orientation correction for landscape devices
+
+ ▪ project packages/services/OmniJaws/
+
+ ▼ 06/12/2017
+
+
+ ▪ project frameworks/base/
+
+ ▪ project kernel/motorola/msm8226/
+ ▪ 6d7c49e prima: Use heap memory for station_info instead of stack
+ ▪ 8795ace ping: implement proper locking
+ ▪ 9d16270 ext4: fix fencepost in s_first_meta_bg validation
+ ▪ dc00714 ext4: fix condition of validate s_first_meta_bg
 
  ▪ project packages/apps/DUI/
 
@@ -226,16 +108,23 @@
 
  ▪ project packages/apps/PackageInstaller/
 
- ▪ project packages/apps/ResurrectionOTA/
-
  ▪ project packages/apps/ResurrectionStats/
 
  ▪ project packages/apps/Settings/
- ▪ 5910d21 Settings:Rewrite Restart SystemUI
+ ▪ c50618e Add Moto G5 Plus as Official (#805)
 
  ▪ project packages/services/OmniJaws/
 
- ▪ project vendor/cm/
- ▪ 69d6029 fix check_blacklist function to work on wiped /system partition
- ▪ d0be161 sensitive_pn: Add sensitive numbers for Serbia
+ ▼ 06/11/2017
+
+
+ ▪ project frameworks/base/
+ ▪ 62af0145 fingerprint: handle PerformanceStats NULL pointers
+ ▪ aabff84 Slim Recents: allow to disable round corners for cards [1/2]
+ ▪ 457b8d6 New app-pinning icon
+
+ ▪ project packages/apps/OmniSwitch/
+
+ ▪ project packages/apps/Settings/
+ ▪ fb18ec2 Slim Recents: allow to disable round corners for cards [2/2]
 
