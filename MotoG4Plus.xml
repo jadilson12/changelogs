@@ -2,129 +2,108 @@
  ▼ Resurrection Remix Nougat Ver 5.8.3 Changelog
 
 
- ▼ 06/15/2017
+ ▼ 06/22/2017
 
 
  ▪ project build/
- ▪ c3195fd removed file
+ ▪ d5466ba Merge branch 'nougat' of https://github.com/ResurrectionRemix/android_build into nougat
+ ▪ e984480 Clean option: deviceclean
 
  ▪ project frameworks/base/
- ▪ 2cc801f Check for spurious wake ups
- ▪ f6f0ebf Fix TaskRecord wrong dump element firstActiveTime
-
- ▪ project packages/apps/DUI/
- ▪ adf6bee DUI:Uncomment Navbar Left in Landscape [1/2]
+ ▪ 2e64d3a SystemUI: Fix task lock & freeform buttons placement
+ ▪ d7bad2d SymbolComparator operator() is missing const
 
  ▪ project packages/apps/OmniSwitch/
 
- ▪ project packages/apps/PackageInstaller/
-
  ▪ project packages/apps/Settings/
- ▪ 8dad24f SeekBarPreference: fix progressbar glitch with custom min-max values
- ▪ 75aad61 do not include saved network in scan list
- ▪ 08a42d0 Allow sorting applications by size
- ▪ 6489e06 Volume can not be updated in Sound&notification
- ▪ a37247e AllowBindAppWidgetActivity: Fix crash when the activity is closing
- ▪ 91b6f1c Squash commit of SAR and IC Code.
- ▪ bdaf696 Fix crash when calling remove() with a null variable
+ ▪ 7a3bbf2 Add nubia Z9 Max nx512j as official (#811)
+ ▪ 1f92081 Settings: update OnePlus 3/3t maintainer, add flo, deb, dragon maintainer
 
  ▪ project vendor/cm/
- ▪ 785cd16 Revert "Delete v4a.zip"
- ▪ 1b19b58 Delete v4a.zip
- ▪ b1d248c Merge Automatic tree Resurrection oficial on Thu Jun 15 02:15:40 UTC 2017
+ ▪ 52c3ba9 Revert "Vendor: Build AudioFX again"
 
- ▼ 06/14/2017
+ ▼ 06/21/2017
 
 
  ▪ project frameworks/base/
+ ▪ bf079b8 PowerProfile: allow reading from a file instead of resource
+ ▪ 73645e5 When updating a split app, copy compiled files from base.apk only.
+ ▪ a5691f6 QS Tile: increase DEFAULT_MAX_BOUND to 6
+ ▪ 4bf8cbf Fix service cannot start when service removed from restartList
+ ▪ fcfcc0a Binder: Log details of pending exception.
+ ▪ 648c2d4 Binder: Be forceful about a forceful exit.
+ ▪ 11a0aac Only destory ce data when prepare user CE data failed.
+ ▪ 8240c47 When backup schedule version error will be caused system_server crash
+ ▪ 63a5ada fix ArraySet crash
+ ▪ a5ca9a4 Battery icon: Improve theme compatibility
+ ▪ 9fba0b5 Adopt lockscreen shortcut hint from AOSP
+ ▪ 5ed7a43 Fingerprint swipe gesture to answer/silence incoming call [1/2]
+ ▪ 12cadaa Notification panel fingerprint gesture: fix axis on landscape [1/2]
+ ▪ 5399cd9 Revert "edit app_label (#202)"
 
- ▪ project packages/apps/PackageInstaller/
+ ▪ project hardware/qcom/display/
+ ▪ f3072db hwcomposer: Fix regression in hwc_sync
 
- ▪ project packages/apps/Settings/
- ▪ b65b342 Add Samsung Galaxy Alpha as Official (#806)
+ ▪ project hardware/qcom/display-caf/apq8084/
+ ▪ 38e457c hwcomposer: Fix regression in hwc_sync
 
- ▪ project system/bt/
- ▪ 331fc1e bt: Disable AVRCP 1.6
+ ▪ project hardware/qcom/display-caf/msm8916/
+ ▪ 6700612 hwcomposer: Fix regression in hwc_sync
 
- ▼ 06/13/2017
+ ▪ project hardware/qcom/display-caf/msm8974/
+ ▪ 24176c9 hwcomposer: Fix regression in hwc_sync
 
-
- ▪ project frameworks/base/
- ▪ 00e4452 Fix IME switcher not being shown in notifications when enabled
- ▪ 01df159 SignalClusterView:Tighten up loose ends for no sim subscriptions
- ▪ 6cdb4e7 Revert "Fix nav bar showing always on the left when rotated to 270 degrees."
- ▪ d49173c FWB:Smartbar touch sounds:make it optional[1/3]
- ▪ 2f037a2 BatteryMeterDrawable:Sync with upstream
- ▪ 17409ca SystemUI:Disable carrier label by default - Increase font size
- ▪ 07ab6ef RRUtils:Add missing Omniswitch contants
- ▪ b7b6261 CaptivePortalLoginActivity correctly gets UserAgent
- ▪ 106869b Prettify the captive portal sign-in activity
- ▪ 60a5ede [1/2] base: OmniSwitch: add preload task broadcast
- ▪ 0f9e9d3 SystemUI: animate icon when locking a task
-
- ▪ project packages/apps/DUI/
- ▪ 2562dc1 Fix spammed hindi strings
- ▪ 0e3dedc Update strings.xml
- ▪ 9175a54 Fix bad strings
- ▪ 8ab23f1 Smartbar touch sounds:make it optional [2/3]
- ▪ 885fa36 Pulse: Navbar left in landscape support
- ▪ e9daee7 SmartBar: Touch sound support
- ▪ 6607429 DUI: Fix NPE in MediaMonitor
-
- ▪ project packages/apps/OmniSwitch/
- ▪ 6e90ddf [2/2] OmniSwitch: add preload task broadcast
-
- ▪ project packages/apps/PackageInstaller/
-
- ▪ project packages/apps/ResurrectionStats/
-
- ▪ project packages/apps/Settings/
- ▪ 6e0d35e Settings:Add back Left navigation bar in landscape [2/2]
- ▪ 05fe606 Settings:Smartbar touch sounds:make it optional [3/3]
- ▪ 8666f80 Configurations:Disable carrier label by default
-
- ▪ project packages/apps/Snap/
- ▪ bd1d6ea Snap: Sign with platform key
- ▪ d7247ff Add orientation correction for landscape devices
-
- ▪ project packages/services/OmniJaws/
-
- ▼ 06/12/2017
-
-
- ▪ project frameworks/base/
-
- ▪ project kernel/motorola/msm8226/
- ▪ 6d7c49e prima: Use heap memory for station_info instead of stack
- ▪ 8795ace ping: implement proper locking
- ▪ 9d16270 ext4: fix fencepost in s_first_meta_bg validation
- ▪ dc00714 ext4: fix condition of validate s_first_meta_bg
-
- ▪ project packages/apps/DUI/
-
- ▪ project packages/apps/Dialer/
-
- ▪ project packages/apps/OmniSwitch/
-
- ▪ project packages/apps/PackageInstaller/
-
- ▪ project packages/apps/ResurrectionStats/
-
- ▪ project packages/apps/Settings/
- ▪ c50618e Add Moto G5 Plus as Official (#805)
-
- ▪ project packages/services/OmniJaws/
-
- ▼ 06/11/2017
-
-
- ▪ project frameworks/base/
- ▪ 62af0145 fingerprint: handle PerformanceStats NULL pointers
- ▪ aabff84 Slim Recents: allow to disable round corners for cards [1/2]
- ▪ 457b8d6 New app-pinning icon
+ ▪ project hardware/qcom/display-caf/msm8994/
+ ▪ 023758b hwcomposer: Fix regression in hwc_sync
 
  ▪ project packages/apps/OmniSwitch/
 
  ▪ project packages/apps/Settings/
- ▪ fb18ec2 Slim Recents: allow to disable round corners for cards [2/2]
+ ▪ b5c3924 Maintainers: Fix up somethings
+ ▪ d0f0f3d Increase Max Small qs tiles to 9
+ ▪ be420f3 Fingerprint swipe gesture to answer/silence incoming call [2/2]
+
+ ▪ project packages/providers/MediaProvider/
+ ▪ fadf365 MediaProvider: Fix where condition of delete queries
+
+ ▼ 06/20/2017
+
+
+ ▪ project packages/apps/OmniSwitch/
+
+ ▪ project packages/apps/Settings/
+
+ ▼ 06/19/2017
+
+
+ ▪ project frameworks/base/
+ ▪ 4dbe060 BatteryMeterDrawable:Make it more theme friendly
+
+ ▪ project hardware/qcom/bt-caf/
+ ▪ 6473ddb Merge tag 'LA.UM.5.5.r1-04900-8x96.0' into HEAD
+
+ ▪ project kernel/motorola/msm8952/
+ ▪ cb105fc mm: Set aggressive read_ahead size for bootup We will reset the value for all affected block devices from ramdisk once boot is completed.
+
+ ▪ project packages/apps/OmniSwitch/
+
+ ▪ project packages/apps/Settings/
+ ▪ bf3bf5c add Lenovo A7000-a to Official (#810)
+ ▪ 9c44dc1 Add Nextbit Robin as Official (#804)
+
+ ▼ 06/18/2017
+
+
+ ▪ project device/qcom/common/
+ ▪ 5985a61 power: Use the correct opcode for STOR_CLK_SCALE_DIS
+
+ ▪ project frameworks/base/
+ ▪ ebbfef3 edit app_label (#202)
+
+ ▪ project packages/apps/OmniSwitch/
+
+ ▪ project packages/apps/Settings/
+
+ ▪ project packages/apps/SetupWizard/
+ ▪ d82d392 The bluetooth pairing page cannot be exited, disable it for now.
 
