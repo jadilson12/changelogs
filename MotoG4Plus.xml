@@ -2,108 +2,111 @@
  ▼ Resurrection Remix Nougat Ver 5.8.3 Changelog
 
 
- ▼ 06/22/2017
+ ▼ 06/29/2017
 
 
  ▪ project build/
- ▪ d5466ba Merge branch 'nougat' of https://github.com/ResurrectionRemix/android_build into nougat
- ▪ e984480 Clean option: deviceclean
+ ▪ fa83a64 Merge branch 'nougat' of https://github.com/ResurrectionRemix/android_build into nougat
+ ▪ a2f759c Disable recovery resource warning
+ ▪ 29849f1 Revert "Preventing default locale from being overridden because of buildinfo.sh"
+ ▪ 13505f0 Revert "build: skip 'ro.product.device' using  new macro "TARGET_SKIP_PRODUCT_DEVICE""
+ ▪ dbe4d61 Makefile: Add the missing dependency on FUTILITY.
+ ▪ 14e6c9f Build FUTILITY tool from futility-host.
+
+ ▪ project frameworks/av/
+ ▪ 0e7e3ed Merge branch 'cm-14.1' of https://github.com/LineageOS/android_frameworks_av into nougat
 
  ▪ project frameworks/base/
- ▪ 2e64d3a SystemUI: Fix task lock & freeform buttons placement
- ▪ d7bad2d SymbolComparator operator() is missing const
+ ▪ 2924709 ActivityStarter: Fix protected app intents
+ ▪ 7d5b280 SystemUI: Make play queue toggle more visible
+ ▪ c41bff4 Volume Panel: Fix Bluetooth music stream icon when muted
+ ▪ 0679fa4 Add support for the .opus file format
 
- ▪ project packages/apps/OmniSwitch/
+ ▪ project packages/apps/DUI/
+ ▪ 08efc6c Fix button size not refreshing after a dpi change
+ ▪ f758ef8 Media arrows: hide them on keyguard bouncer
 
  ▪ project packages/apps/Settings/
- ▪ 7a3bbf2 Add nubia Z9 Max nx512j as official (#811)
- ▪ 1f92081 Settings: update OnePlus 3/3t maintainer, add flo, deb, dragon maintainer
+ ▪ dffe3ae Settings: Hide disabled lockscreen blur from search index
+ ▪ d033a65 Settings: handle decrypting larger pattern sizes for sw600dp
+ ▪ cc69056 Revert "Settings: Fix internal storage summary for non-emulated storage"
+ ▪ afac342 Settings: Fix automatic hotspot turn off summary
+ ▪ 962926d Settings: Make string untranslatable
 
  ▪ project vendor/cm/
- ▪ 52c3ba9 Revert "Vendor: Build AudioFX again"
+ ▪ b0cb178 Merge branch 'nougat' of https://github.com/ResurrectionRemix/android_vendor_resurrection into nougat
+ ▪ 94925ac apns-conf: Add Japan Umobile APNs
+ ▪ 65227e7 sensitive_pn: Add sensitive numbers for Greece
+ ▪ 980082e sensitive_pn: fix Czech Republic MCC
+ ▪ 93c4774 sensitive_pn: Add Taiwanese sensitive numbers
+ ▪ 0d0b4a0 Add sensitive numbers for Ukraine.
+ ▪ 25aa89e Add Virgin Media Ireland to APN's
+ ▪ 0d7863e sensitive_pn: Add additional FR number
+ ▪ ea6ec70 sensitive_pn: Add additional GB numbers
+ ▪ 5cdcee9 sensitive_pn: Add additional PT numbers
+ ▪ 5873f8b sensitive_pn: add missing phone number for Brazil
+ ▪ 1498b34 roomservice: Search for repos in lineage snippet too
+ ▪ e0f8cfc roomservice: Remove support for devices in main manifest
+ ▪ eb80e6f Add sensitive numbers for Israel.
+ ▪ a632682 sensitive_pn: Add sensitive phone numbers for Czech Republic
+ ▪ a0723e8 sensitive_pn: Add Canadian sensitive numbers
+ ▪ 3483b70 sensitive_pn: Add more numbers from the Netherlands
 
- ▼ 06/21/2017
+ ▼ 06/28/2017
 
 
  ▪ project frameworks/base/
- ▪ bf079b8 PowerProfile: allow reading from a file instead of resource
- ▪ 73645e5 When updating a split app, copy compiled files from base.apk only.
- ▪ a5691f6 QS Tile: increase DEFAULT_MAX_BOUND to 6
- ▪ 4bf8cbf Fix service cannot start when service removed from restartList
- ▪ fcfcc0a Binder: Log details of pending exception.
- ▪ 648c2d4 Binder: Be forceful about a forceful exit.
- ▪ 11a0aac Only destory ce data when prepare user CE data failed.
- ▪ 8240c47 When backup schedule version error will be caused system_server crash
- ▪ 63a5ada fix ArraySet crash
- ▪ a5ca9a4 Battery icon: Improve theme compatibility
- ▪ 9fba0b5 Adopt lockscreen shortcut hint from AOSP
- ▪ 5ed7a43 Fingerprint swipe gesture to answer/silence incoming call [1/2]
- ▪ 12cadaa Notification panel fingerprint gesture: fix axis on landscape [1/2]
- ▪ 5399cd9 Revert "edit app_label (#202)"
 
- ▪ project hardware/qcom/display/
- ▪ f3072db hwcomposer: Fix regression in hwc_sync
-
- ▪ project hardware/qcom/display-caf/apq8084/
- ▪ 38e457c hwcomposer: Fix regression in hwc_sync
-
- ▪ project hardware/qcom/display-caf/msm8916/
- ▪ 6700612 hwcomposer: Fix regression in hwc_sync
-
- ▪ project hardware/qcom/display-caf/msm8974/
- ▪ 24176c9 hwcomposer: Fix regression in hwc_sync
-
- ▪ project hardware/qcom/display-caf/msm8994/
- ▪ 023758b hwcomposer: Fix regression in hwc_sync
+ ▪ project packages/apps/DUI/
 
  ▪ project packages/apps/OmniSwitch/
 
  ▪ project packages/apps/Settings/
- ▪ b5c3924 Maintainers: Fix up somethings
- ▪ d0f0f3d Increase Max Small qs tiles to 9
- ▪ be420f3 Fingerprint swipe gesture to answer/silence incoming call [2/2]
+
+ ▼ 06/27/2017
+
+
+ ▪ project packages/apps/Settings/
+ ▪ 7470d86 Add device Samsung Galaxy S4 VE GT-I9515 jfvelte (#813)
+
+ ▼ 06/26/2017
+
+
+ ▪ project frameworks/av/
+ ▪ eb9cc20 CameraService: Fix cameraId type of onDeviceStatusChanged
+
+ ▪ project packages/apps/Gallery2/
+ ▪ e988d6a Gallery2: Fix views overlap
+
+ ▪ project packages/apps/Settings/
 
  ▪ project packages/providers/MediaProvider/
- ▪ fadf365 MediaProvider: Fix where condition of delete queries
+ ▪ 0f47b6e MediaProvider: Fix failure in android.provider.cts.MediaStore_FilesTest
+ ▪ 815436d Gallery2: Fix thumbnails of new edit photos display wrongly in Documents.
+ ▪ f3bd6a0 Music: Fix force closed when plug out the SD card while music is playing.
+ ▪ eb0378b MediaProvider: Fix SQLiteDiskIOException.
+ ▪ b619475 Revert "Fix check for existence of parent"
 
- ▼ 06/20/2017
-
-
- ▪ project packages/apps/OmniSwitch/
-
- ▪ project packages/apps/Settings/
-
- ▼ 06/19/2017
+ ▼ 06/25/2017
 
 
- ▪ project frameworks/base/
- ▪ 4dbe060 BatteryMeterDrawable:Make it more theme friendly
+ ▪ project kernel/motorola/msm8226/
+ ▪ 8847127 ALSA: seq: Fix race at timer setup and close
+ ▪ 964fde8 ALSA: compress: fix an integer overflow check
 
- ▪ project hardware/qcom/bt-caf/
- ▪ 6473ddb Merge tag 'LA.UM.5.5.r1-04900-8x96.0' into HEAD
+ ▪ project packages/apps/DUI/
 
- ▪ project kernel/motorola/msm8952/
- ▪ cb105fc mm: Set aggressive read_ahead size for bootup We will reset the value for all affected block devices from ramdisk once boot is completed.
+ ▪ project packages/apps/Dialer/
 
  ▪ project packages/apps/OmniSwitch/
 
- ▪ project packages/apps/Settings/
- ▪ bf3bf5c add Lenovo A7000-a to Official (#810)
- ▪ 9c44dc1 Add Nextbit Robin as Official (#804)
-
- ▼ 06/18/2017
-
-
- ▪ project device/qcom/common/
- ▪ 5985a61 power: Use the correct opcode for STOR_CLK_SCALE_DIS
-
- ▪ project frameworks/base/
- ▪ ebbfef3 edit app_label (#202)
-
- ▪ project packages/apps/OmniSwitch/
+ ▪ project packages/apps/PackageInstaller/
 
  ▪ project packages/apps/Settings/
+ ▪ 5d3664d Add Xiaomi MI6(sagit) maintainer (#812)
 
- ▪ project packages/apps/SetupWizard/
- ▪ d82d392 The bluetooth pairing page cannot be exited, disable it for now.
+ ▪ project packages/providers/MediaProvider/
+ ▪ 21ce3cd Revert "MediaProvider: Fix where condition of delete queries"
+
+ ▪ project packages/services/OmniJaws/
 
