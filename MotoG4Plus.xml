@@ -2,29 +2,98 @@
  ▼ Resurrection Remix Nougat Ver 5.8.3 Changelog
 
 
- ▼ 06/29/2017
+ ▼ 07/02/2017
+
+
+ ▪ project frameworks/base/
+
+ ▪ project packages/apps/DUI/
+
+ ▪ project packages/apps/OmniSwitch/
+
+ ▪ project packages/apps/PackageInstaller/
+
+ ▪ project packages/apps/Settings/
+
+ ▪ project packages/services/OmniJaws/
+
+ ▼ 07/01/2017
+
+
+ ▪ project hardware/qcom/fm/
+
+ ▪ project hardware/ti/omap4/
+ ▪ 030bec5 BUGBASH-733 Memory leak in system_server caused by suspend / color fade
+
+ ▪ project kernel/motorola/msm8226/
+ ▪ 1541f5e Revert "tmpfs: clear S_ISGID when setting posix ACLs"
+
+ ▪ project packages/apps/AudioFX/
+
+ ▪ project packages/apps/Camera2/
+
+ ▪ project packages/apps/CellBroadcastReceiver/
+
+ ▪ project packages/apps/Gallery2/
+
+ ▪ project packages/apps/SetupWizard/
+
+ ▪ project packages/apps/Snap/
+
+ ▪ project packages/apps/Terminal/
+
+ ▪ project packages/providers/DataUsageProvider/
+
+ ▪ project packages/providers/WeatherProvider/
+
+ ▪ project packages/resources/devicesettings/
+
+ ▪ project vendor/cmsdk/samples/weatherproviderservice/WundergroundWeatherProvider/
+
+ ▪ project vendor/cmsdk/samples/weatherproviderservice/YahooWeatherProvider/
+
+ ▪ project vendor/motorola/
+ ▪ 43757cb addison: Add proprietary GPS stack
+ ▪ 9a5e9c8 addison: Update proprietary blobs (NPN26.107)
+
+ ▼ 06/30/2017
 
 
  ▪ project build/
  ▪ fa83a64 Merge branch 'nougat' of https://github.com/ResurrectionRemix/android_build into nougat
+
+ ▪ project frameworks/av/
+ ▪ 0e7e3ed Merge branch 'cm-14.1' of https://github.com/LineageOS/android_frameworks_av into nougat
+
+ ▪ project frameworks/base/
+ ▪ 9265366 Fix potential KeyguardMonitor FC on unlock
+ ▪ b2edd93 Revert "BluetoothTile: Fix in the off state while entering the detail view"
+
+ ▪ project packages/apps/DUI/
+ ▪ 08efc6c Fix button size not refreshing after a dpi change
+ ▪ f758ef8 Media arrows: hide them on keyguard bouncer
+
+ ▪ project packages/apps/Settings/
+ ▪ 3e1184d Enable some more power menu actions
+
+ ▪ project vendor/cm/
+ ▪ b0cb178 Merge branch 'nougat' of https://github.com/ResurrectionRemix/android_vendor_resurrection into nougat
+
+ ▼ 06/29/2017
+
+
+ ▪ project build/
  ▪ a2f759c Disable recovery resource warning
  ▪ 29849f1 Revert "Preventing default locale from being overridden because of buildinfo.sh"
  ▪ 13505f0 Revert "build: skip 'ro.product.device' using  new macro "TARGET_SKIP_PRODUCT_DEVICE""
  ▪ dbe4d61 Makefile: Add the missing dependency on FUTILITY.
  ▪ 14e6c9f Build FUTILITY tool from futility-host.
 
- ▪ project frameworks/av/
- ▪ 0e7e3ed Merge branch 'cm-14.1' of https://github.com/LineageOS/android_frameworks_av into nougat
-
  ▪ project frameworks/base/
  ▪ 2924709 ActivityStarter: Fix protected app intents
  ▪ 7d5b280 SystemUI: Make play queue toggle more visible
  ▪ c41bff4 Volume Panel: Fix Bluetooth music stream icon when muted
  ▪ 0679fa4 Add support for the .opus file format
-
- ▪ project packages/apps/DUI/
- ▪ 08efc6c Fix button size not refreshing after a dpi change
- ▪ f758ef8 Media arrows: hide them on keyguard bouncer
 
  ▪ project packages/apps/Settings/
  ▪ dffe3ae Settings: Hide disabled lockscreen blur from search index
@@ -34,7 +103,6 @@
  ▪ 962926d Settings: Make string untranslatable
 
  ▪ project vendor/cm/
- ▪ b0cb178 Merge branch 'nougat' of https://github.com/ResurrectionRemix/android_vendor_resurrection into nougat
  ▪ 94925ac apns-conf: Add Japan Umobile APNs
  ▪ 65227e7 sensitive_pn: Add sensitive numbers for Greece
  ▪ 980082e sensitive_pn: fix Czech Republic MCC
@@ -62,51 +130,4 @@
  ▪ project packages/apps/OmniSwitch/
 
  ▪ project packages/apps/Settings/
-
- ▼ 06/27/2017
-
-
- ▪ project packages/apps/Settings/
- ▪ 7470d86 Add device Samsung Galaxy S4 VE GT-I9515 jfvelte (#813)
-
- ▼ 06/26/2017
-
-
- ▪ project frameworks/av/
- ▪ eb9cc20 CameraService: Fix cameraId type of onDeviceStatusChanged
-
- ▪ project packages/apps/Gallery2/
- ▪ e988d6a Gallery2: Fix views overlap
-
- ▪ project packages/apps/Settings/
-
- ▪ project packages/providers/MediaProvider/
- ▪ 0f47b6e MediaProvider: Fix failure in android.provider.cts.MediaStore_FilesTest
- ▪ 815436d Gallery2: Fix thumbnails of new edit photos display wrongly in Documents.
- ▪ f3bd6a0 Music: Fix force closed when plug out the SD card while music is playing.
- ▪ eb0378b MediaProvider: Fix SQLiteDiskIOException.
- ▪ b619475 Revert "Fix check for existence of parent"
-
- ▼ 06/25/2017
-
-
- ▪ project kernel/motorola/msm8226/
- ▪ 8847127 ALSA: seq: Fix race at timer setup and close
- ▪ 964fde8 ALSA: compress: fix an integer overflow check
-
- ▪ project packages/apps/DUI/
-
- ▪ project packages/apps/Dialer/
-
- ▪ project packages/apps/OmniSwitch/
-
- ▪ project packages/apps/PackageInstaller/
-
- ▪ project packages/apps/Settings/
- ▪ 5d3664d Add Xiaomi MI6(sagit) maintainer (#812)
-
- ▪ project packages/providers/MediaProvider/
- ▪ 21ce3cd Revert "MediaProvider: Fix where condition of delete queries"
-
- ▪ project packages/services/OmniJaws/
 
