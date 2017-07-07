@@ -2,43 +2,121 @@
  ▼ Resurrection Remix Nougat Ver 5.8.3 Changelog
 
 
- ▼ 07/02/2017
+ ▼ 07/07/2017
 
+
+ ▪ project android/
+ ▪ 095f157 manifest: android-7.1.2_r17 -> android-7.1.2_r24
+
+ ▪ project build/
+ ▪ 28d6ee0 Merge branch 'nougat' of https://github.com/ResurrectionRemix/android_build into nougat
+ ▪ 01f92d6 Merge tag 'android-7.1.2_r24' into nougat
+
+ ▪ project device/motorola/athene/
+ ▪ cf04cd9 prebuilts: Update Kernel Adiutor (v0.9.71 beta)
+ ▪ 91f2ebd athene: Allow vendor init to override props
+ ▪ 0986316 athene: Abandon TARGET_UNIFIED_DEVICE flag
+
+ ▪ project external/skia/
+ ▪ d41b284 Merge tag 'android-7.1.2_r24' into nougat
+
+ ▪ project frameworks/av/
+ ▪ 4d87ec3 Merge tag 'android-7.1.2_r24' into nougat
 
  ▪ project frameworks/base/
+ ▪ 7359783 SmartBar: make button longpress delay configurable [2/3]
+ ▪ 0f18cce fingerprint: Speed up wake-and-unlock scenario
+ ▪ 10484a5 [1/2] Add support for pulsing battery icon when charging
+ ▪ 7cc34a0 Merge tag 'android-7.1.2_r24' into nougat
+
+ ▪ project frameworks/native/
+ ▪ cfac6d5 Merge tag 'android-7.1.2_r24' into nougat
 
  ▪ project packages/apps/DUI/
-
- ▪ project packages/apps/OmniSwitch/
-
- ▪ project packages/apps/PackageInstaller/
+ ▪ 0e7263f SmartBar: make button longpress delay configurable [1/3]
 
  ▪ project packages/apps/Settings/
+ ▪ 1f19428 SmartBar: make button longpress delay configurable [3/3]
+ ▪ a9a780d Edit a string
+ ▪ a9bba60 [2/2] Add support for pulsing battery icon regardless of style
+ ▪ 15be728 DeviceInfoSettings: don't hardcode tag/build id
+ ▪ 658c831 Merge tag 'android-7.1.2_r24' into nougat
+ ▪ 77bc9ec Change Oneplus2 maintainer (#816)
 
- ▪ project packages/services/OmniJaws/
+ ▪ project system/sepolicy/
+ ▪ ca57649 Add policy to fix interfacer derp on boot
+ ▪ f0546f1 sepolicy: Allow system_server to set theme_prop
+ ▪ 188e2fb sepolicy: add file and domain trans to interfacer
+ ▪ bb79e15 Rename Masquerade to ThemeInterfacer [2/2]
+ ▪ e9e8cf5 sepolicy: Redo masquerade rules
+ ▪ 3ce5f05  sepolicy: Attempt to fix bootanim
+ ▪ 61f8622 sepolicy: allow masquerade to read and write theme assets
+ ▪ e394d92 sepolicy: rename masquerade domain and allow JobService in system_server
+ ▪ 36c882b initial policy edits for masquerade to operate rootless
+ ▪ 4eb146b Revert "Revert "sepolicy: fix themed sounds""
+ ▪ d7a63a4 Revert "Revert "sepolicy: fix themed boot animation""
+ ▪ ba0e461 Revert "Revert "Introduce sepolicy exceptions for theme assets""
+ ▪ 8384671 Revert "Revert "Allow apps in /system/priv-app to call and execute su commands""
+ ▪ 48fd011 Revert "Allow apps in /system/priv-app to call and execute su commands"
+ ▪ 3d9b49b Revert "Introduce sepolicy exceptions for theme assets"
+ ▪ c156db4 Revert "sepolicy: fix themed boot animation"
+ ▪ fdad3fd Revert "sepolicy: fix themed sounds"
+ ▪ b6bc55f sepolicy: fix themed sounds
+ ▪ 2b33b12 sepolicy: fix themed boot animation
+ ▪ bb40596 Introduce sepolicy exceptions for theme assets
+ ▪ 06635a9 Allow apps in /system/priv-app to call and execute su commands
+ ▪ 36164c6 Add policy to SELinux to allow ViPER4Android in enforcing mode
+ ▪ 3b528f0 OMS7-N: Add service 'overlay' to service_contexts
+ ▪ 5663ce2 RR: 7.1 fix
+ ▪ 53bc460 sepolicy: Allow platform_app to run su_exec() (1/2)
+ ▪ c7c2125 sepolicy: Allow system_server to run su_exec() (1/2)
+ ▪ 2f058da sepolicy: Allow system_app to run su_exec()
+ ▪ cf4570d sepolicy: Allow remount /system
 
- ▼ 07/01/2017
+ ▪ project vendor/cm/
+ ▪ ede7083 Merge branch 'nougat' of https://github.com/ResurrectionRemix/android_vendor_resurrection into nougat
+ ▪ 44d782b vendor: add a prop to get the AOSP tag from manifest
+
+ ▪ project vendor/motorola/
+ ▪ a6a84d3 shamu: update blobs from N6F27H factory image
+
+ ▼ 07/06/2017
+
+
+ ▪ project external/boringssl/
+ ▪ c9d9e0b Merge tag 'android-7.1.2_r24' into cm-14.1
+
+ ▪ project libcore/
+ ▪ 30ff118 Merge tag 'android-7.1.2_r24' into cm-14.1
+
+ ▪ project packages/providers/DownloadProvider/
+ ▪ d20a3a2 Merge tag 'android-7.1.2_r24' into cm-14.1
+
+ ▪ project packages/providers/MediaProvider/
+ ▪ 03abed5 Merge tag 'android-7.1.2_r24' into cm-14.1
+
+ ▪ project system/sepolicy/
+ ▪ e6105f1 Merge tag 'android-7.1.2_r24' into cm-14.1
+
+ ▼ 07/05/2017
+
+
+ ▪ project system/core/
+ ▪ 01a7186 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_system_core into nougat
+
+ ▪ project vendor/cm/
+ ▪ 3739625 Add LTE support for China Telecom Macau.
+ ▪ 3f2013a qcom_utils: Cleanup supported QCOM_BOARD_PLATFORMS
+ ▪ 3177211 build: qcom_target: Define MASTER_SIDE_CP_TARGET_LIST
+
+ ▼ 07/04/2017
 
 
  ▪ project hardware/qcom/fm/
 
- ▪ project hardware/ti/omap4/
- ▪ 030bec5 BUGBASH-733 Memory leak in system_server caused by suspend / color fade
-
- ▪ project kernel/motorola/msm8226/
- ▪ 1541f5e Revert "tmpfs: clear S_ISGID when setting posix ACLs"
-
- ▪ project packages/apps/AudioFX/
-
- ▪ project packages/apps/Camera2/
-
- ▪ project packages/apps/CellBroadcastReceiver/
-
  ▪ project packages/apps/Gallery2/
 
- ▪ project packages/apps/SetupWizard/
-
- ▪ project packages/apps/Snap/
+ ▪ project packages/apps/Profiles/
 
  ▪ project packages/apps/Terminal/
 
@@ -48,86 +126,34 @@
 
  ▪ project packages/resources/devicesettings/
 
- ▪ project vendor/cmsdk/samples/weatherproviderservice/WundergroundWeatherProvider/
-
  ▪ project vendor/cmsdk/samples/weatherproviderservice/YahooWeatherProvider/
 
- ▪ project vendor/motorola/
- ▪ 43757cb addison: Add proprietary GPS stack
- ▪ 9a5e9c8 addison: Update proprietary blobs (NPN26.107)
+ ▼ 07/03/2017
 
- ▼ 06/30/2017
-
-
- ▪ project build/
- ▪ fa83a64 Merge branch 'nougat' of https://github.com/ResurrectionRemix/android_build into nougat
-
- ▪ project frameworks/av/
- ▪ 0e7e3ed Merge branch 'cm-14.1' of https://github.com/LineageOS/android_frameworks_av into nougat
 
  ▪ project frameworks/base/
- ▪ 9265366 Fix potential KeyguardMonitor FC on unlock
- ▪ b2edd93 Revert "BluetoothTile: Fix in the off state while entering the detail view"
+
+ ▪ project hardware/qcom/audio-caf/msm8916/
+ ▪ 5578c76 Merge remote-tracking branch 'caf/LA.BR.1.2.9_rb1.22' into cm-14.1-caf-8916
+
+ ▪ project hardware/qcom/audio-caf/msm8994/
+ ▪ 9cddbb8 Merge remote-tracking branch 'caf/LA.BF64.1.2.3_rb1.14' into cm-14.1-caf-8994
+
+ ▪ project hardware/qcom/fm/
+ ▪ 7a29d93 FM: Fix helium hal build
+ ▪ 0df98d3 Change rename_dialog background color to default
+ ▪ f62c66a FMStats: fix GetFMStatsForFreq error for non-cherokee
 
  ▪ project packages/apps/DUI/
- ▪ 08efc6c Fix button size not refreshing after a dpi change
- ▪ f758ef8 Media arrows: hide them on keyguard bouncer
 
- ▪ project packages/apps/Settings/
- ▪ 3e1184d Enable some more power menu actions
-
- ▪ project vendor/cm/
- ▪ b0cb178 Merge branch 'nougat' of https://github.com/ResurrectionRemix/android_vendor_resurrection into nougat
-
- ▼ 06/29/2017
-
-
- ▪ project build/
- ▪ a2f759c Disable recovery resource warning
- ▪ 29849f1 Revert "Preventing default locale from being overridden because of buildinfo.sh"
- ▪ 13505f0 Revert "build: skip 'ro.product.device' using  new macro "TARGET_SKIP_PRODUCT_DEVICE""
- ▪ dbe4d61 Makefile: Add the missing dependency on FUTILITY.
- ▪ 14e6c9f Build FUTILITY tool from futility-host.
-
- ▪ project frameworks/base/
- ▪ 2924709 ActivityStarter: Fix protected app intents
- ▪ 7d5b280 SystemUI: Make play queue toggle more visible
- ▪ c41bff4 Volume Panel: Fix Bluetooth music stream icon when muted
- ▪ 0679fa4 Add support for the .opus file format
-
- ▪ project packages/apps/Settings/
- ▪ dffe3ae Settings: Hide disabled lockscreen blur from search index
- ▪ d033a65 Settings: handle decrypting larger pattern sizes for sw600dp
- ▪ cc69056 Revert "Settings: Fix internal storage summary for non-emulated storage"
- ▪ afac342 Settings: Fix automatic hotspot turn off summary
- ▪ 962926d Settings: Make string untranslatable
-
- ▪ project vendor/cm/
- ▪ 94925ac apns-conf: Add Japan Umobile APNs
- ▪ 65227e7 sensitive_pn: Add sensitive numbers for Greece
- ▪ 980082e sensitive_pn: fix Czech Republic MCC
- ▪ 93c4774 sensitive_pn: Add Taiwanese sensitive numbers
- ▪ 0d0b4a0 Add sensitive numbers for Ukraine.
- ▪ 25aa89e Add Virgin Media Ireland to APN's
- ▪ 0d7863e sensitive_pn: Add additional FR number
- ▪ ea6ec70 sensitive_pn: Add additional GB numbers
- ▪ 5cdcee9 sensitive_pn: Add additional PT numbers
- ▪ 5873f8b sensitive_pn: add missing phone number for Brazil
- ▪ 1498b34 roomservice: Search for repos in lineage snippet too
- ▪ e0f8cfc roomservice: Remove support for devices in main manifest
- ▪ eb80e6f Add sensitive numbers for Israel.
- ▪ a632682 sensitive_pn: Add sensitive phone numbers for Czech Republic
- ▪ a0723e8 sensitive_pn: Add Canadian sensitive numbers
- ▪ 3483b70 sensitive_pn: Add more numbers from the Netherlands
-
- ▼ 06/28/2017
-
-
- ▪ project frameworks/base/
-
- ▪ project packages/apps/DUI/
+ ▪ project packages/apps/Gallery2/
+ ▪ c45b89b Gallery2: Fix crash after returning from albums in wallpaper picker
 
  ▪ project packages/apps/OmniSwitch/
 
+ ▪ project packages/apps/PackageInstaller/
+
  ▪ project packages/apps/Settings/
+
+ ▪ project packages/services/OmniJaws/
 
