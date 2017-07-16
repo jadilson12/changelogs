@@ -2,133 +2,81 @@
  ▼ Resurrection Remix Nougat Ver 5.8.3 Changelog
 
 
- ▼ 07/11/2017
+ ▼ 07/16/2017
 
 
  ▪ project device/motorola/athene/
- ▪ b35f1eb prebuilts: Update Kernel Adiutor
- ▪ 0f8976e athene: drop net_raw from per_mgr service
- ▪ a637380 overlay : enable lockscreen UI blur
-
- ▪ project vendor/cm/
- ▪ 362a42e Merge branch 'nougat' of https://github.com/ResurrectionRemix/android_vendor_resurrection into nougat
- ▪ 3fa356a Magisk,Manager: update to v13.1 stable
-
- ▼ 07/10/2017
-
-
- ▪ project bionic/
- ▪ d207f78 Merge tag 'android-7.1.2_r24' into cm-14.1
-
- ▪ project build/
- ▪ bf71835 Merge branch 'nougat' of https://github.com/ResurrectionRemix/android_build into nougat
+ ▪ c840e3a athene: set proper dtbTool custom args
 
  ▪ project frameworks/base/
- ▪ f1c724e Base: make button backlight light up user configurable [1/2]
- ▪ 2a7f84f Fix a crashed when clicking list item and button meanwhile
- ▪ c2d809b Camera2: Fix Error Callback if buffer lost.
- ▪ fb62603 [ams]set the resultTo to null started by a finishing activity
- ▪ 5b8f52d remove the lock-use for prunePrintService in case blocking main thread
- ▪ 0246757 Move screen on message to new thread
- ▪ 6d688cd FlashlightTile: Retry opening camera later on if it failed before
- ▪ 6bcd55e hwui: Remove deprecated compiler flag
- ▪ 6d2489c SystemUI: move time tick to bg handler
 
- ▪ project packages/apps/DUI/
- ▪ 5198175 DUI:Smartbar longpress delay:make it more configurable [1/2]
+ ▪ project packages/apps/Dialer/
 
- ▪ project packages/apps/Settings/
- ▪ fbdd17e Settings: make hw keys light up user configurable [2/2]
- ▪ 8ffe089 Smartbar longpress delay:make it more configurable [2/2]
-
- ▪ project vendor/cm/
- ▪ b05a00f Merge branch 'nougat' of https://github.com/ResurrectionRemix/android_vendor_resurrection into nougat
-
- ▼ 07/09/2017
-
-
- ▪ project frameworks/base/
+ ▪ project packages/apps/Gallery2/
+ ▪ d9f1451 Gallery: Fix potential crash
+ ▪ 8af515d Gallery2: Switch to navigationbar from support libs
 
  ▪ project packages/apps/OmniSwitch/
 
+ ▪ project packages/apps/PackageInstaller/
+
+ ▪ project packages/apps/ResurrectionOTA/
+ ▪ 9cbb75b Merge branch 'nougat' of https://github.com/ResurrectionRemix/packages_apps_ResurrectionOTA into nougat
+
  ▪ project packages/apps/Settings/
+ ▪ 3dec931 Bring back some physical keyboard settings
+ ▪ 582837b Add maintainer for samsung galaxy s5(k3gxx) (#823)
+ ▪ 9d7e6ca Add maintainer Yu Yreka Black(garlic) (#820)
 
  ▪ project packages/services/OmniJaws/
 
- ▪ project vendor/motorola/
- ▪ 186f369 victara: Update adreno blobs to LA.BF.1.1.3_rb1.12
+ ▪ project vendor/cm/
+ ▪ cb5a31a Merge Automatic tree Resurrection oficial on Sun Jul 16 20:38:07 UTC 2017
+ ▪ fb83d97 Fix magisk 13.2 Location
 
- ▼ 07/08/2017
+ ▼ 07/15/2017
 
 
- ▪ project android/
- ▪ 61a497f manifest: don't track themeengine related repos
- ▪ dafbf6a rr: don't track MusicFX
+ ▪ project hardware/qcom/audio-caf/msm8996/
+ ▪ f8fcd59 Merge tag 'LA.UM.5.5.r1-05300-8x96.0' into HEAD
 
- ▪ project build/
- ▪ 75e05d5 core: Makefile: Correct package signature disable
- ▪ 72cd3b1 core: assume non-release recoveries to skip signature check
- ▪ b101356 core: use 0 compression when creating the target_files package
- ▪ 912e52a releasetools: silence binary info printed by blockimgdiff
- ▪ 189d8fd Create 0 compression ratio jar files
+ ▪ project hardware/qcom/display-caf/msm8996/
+ ▪ 3005091 Merge tag 'LA.UM.5.5.r1-05300-8x96.0' into HEAD
 
- ▪ project frameworks/base/
- ▪ 79e9a27 aapt: enforce 0 compression
- ▪ 2ca4ef8 aapt: allow opting out of uncompressed aapt
- ▪ f6ef9b2 aapt: default to 0 compression
- ▪ 6c9941d PowerManagerService: add a config to light up buttons only when pressed
+ ▪ project hardware/qcom/media-caf/msm8996/
+ ▪ 0273a64 Merge tag 'LA.UM.5.5.r1-05300-8x96.0' into HEAD
 
  ▪ project kernel/motorola/msm8952/
- ▪ 6f67d49 Merge remote-tracking branch 'caf/LA.BR.1.3.6_rb1.20' into cm-14.1
- ▪ 957110a Update prima to LA.BR.1.3.6_rb1.20
-
- ▪ project packages/apps/AudioFX/
-
- ▪ project packages/apps/Gallery2/
-
- ▪ project packages/apps/SetupWizard/
-
- ▪ project packages/apps/Terminal/
-
- ▪ project packages/providers/WeatherProvider/
+ ▪ 509b0dc arm64: topology: fix cpu power calculation
+ ▪ 8e9ce19 trace: add CONFIG_DISABLE_TRACE_PRINTK option
+ ▪ 13dfecb sched: Remove one division operation in find_busiest_queue()
+ ▪ fdaa00d alarmtimer: Rate limit periodic intervals
+ ▪ 3ddc0d7 alarmtimer: Return relative times in timer_gettime
+ ▪ c811efa block_dev: implement readpages() to optimize sequential read
+ ▪ 2cdde03 sched: Allow migrating kthreads into online but inactive CPUs
+ ▪ 15f4ab2 signal: Only reschedule timers on signals timers have sent
+ ▪ 82786d8 ALSA: timer: Fix missing queue indices reset at SNDRV_TIMER_IOCTL_SELECT
+ ▪ 4dc4ec8 KEYS: fix dereferencing NULL payload with nonzero length
 
  ▪ project vendor/cm/
- ▪ fbb261c sensitive_pn: Enter full list of Indian MCC codes
- ▪ a736075 sensitive_pn: Enter full list of GB MCC codes
- ▪ 8388b24 sensitive_pn: Enter full list of US MCC codes
+ ▪ ac623bd Update Magisk Binary to v13.2 and Magisk Manager to v5.0.6 (#93)
 
- ▪ project vendor/cmsdk/samples/weatherproviderservice/YahooWeatherProvider/
+ ▼ 07/14/2017
 
- ▼ 07/07/2017
-
-
- ▪ project build/
- ▪ 28d6ee0 Merge branch 'nougat' of https://github.com/ResurrectionRemix/android_build into nougat
- ▪ 5bd5c1f Don't build MusicFX
-
- ▪ project device/motorola/athene/
- ▪ cf04cd9 prebuilts: Update Kernel Adiutor (v0.9.71 beta)
- ▪ 91f2ebd athene: Allow vendor init to override props
- ▪ 0986316 athene: Abandon TARGET_UNIFIED_DEVICE flag
-
- ▪ project frameworks/base/
- ▪ 7359783 SmartBar: make button longpress delay configurable [2/3]
- ▪ 0f18cce fingerprint: Speed up wake-and-unlock scenario
- ▪ 10484a5 [1/2] Add support for pulsing battery icon when charging
-
- ▪ project kernel/motorola/msm8952/
- ▪ 02a30b7 set hz 1000 for more fluid ui and potential power savings
- ▪ c647c35 PM / devfreq: Reduce wake boost duration to 5000 ms
- ▪ 48495c5 bye bye bcl
-
- ▪ project packages/apps/DUI/
- ▪ 0e7263f SmartBar: make button longpress delay configurable [1/3]
 
  ▪ project packages/apps/Settings/
- ▪ 1f19428 SmartBar: make button longpress delay configurable [3/3]
- ▪ a9a780d Edit a string
- ▪ a9bba60 [2/2] Add support for pulsing battery icon regardless of style
+ ▪ 089a928 Official support for Moto E3 Power(taido_row) (#818)
+ ▪ 93a2c68 Official support for Moto E3 Power(taido_row) (#819)
 
- ▪ project vendor/cm/
- ▪ ede7083 Merge branch 'nougat' of https://github.com/ResurrectionRemix/android_vendor_resurrection into nougat
+ ▪ project packages/apps/Snap/
+ ▪ 5c51d47 Revert some permissions related changes
+
+ ▼ 07/13/2017
+
+
+ ▪ project packages/apps/Settings/
+ ▪ 809857c Add maintainer for Xiaomi RedMi 3 (#817)
+
+ ▪ project packages/apps/Snap/
+ ▪ 0dbf891 Add overlay for restarting camera preview for additional cameras
 
