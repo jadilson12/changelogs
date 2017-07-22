@@ -2,81 +2,94 @@
  ▼ Resurrection Remix Nougat Ver 5.8.3 Changelog
 
 
- ▼ 07/16/2017
+ ▼ 07/22/2017
 
-
- ▪ project device/motorola/athene/
- ▪ c840e3a athene: set proper dtbTool custom args
 
  ▪ project frameworks/base/
+ ▪ 963b2ad Fix custom button icon making touch and animation area smaller [2/3]
+ ▪ 6f90390 Merge pull request #204 from AndropaX/patch-4
 
- ▪ project packages/apps/Dialer/
-
- ▪ project packages/apps/Gallery2/
- ▪ d9f1451 Gallery: Fix potential crash
- ▪ 8af515d Gallery2: Switch to navigationbar from support libs
-
- ▪ project packages/apps/OmniSwitch/
-
- ▪ project packages/apps/PackageInstaller/
-
- ▪ project packages/apps/ResurrectionOTA/
- ▪ 9cbb75b Merge branch 'nougat' of https://github.com/ResurrectionRemix/packages_apps_ResurrectionOTA into nougat
+ ▪ project packages/apps/DUI/
+ ▪ 6515568 Fix custom button icon making touch and animation area smaller [1/3]
 
  ▪ project packages/apps/Settings/
- ▪ 3dec931 Bring back some physical keyboard settings
- ▪ 582837b Add maintainer for samsung galaxy s5(k3gxx) (#823)
- ▪ 9d7e6ca Add maintainer Yu Yreka Black(garlic) (#820)
-
- ▪ project packages/services/OmniJaws/
+ ▪ 2353503 Fix custom button icon making touch and animation area smaller [3/3]
+ ▪ 4f8d736 Merge pull request #825 from AndropaX/patch-2
 
  ▪ project vendor/cm/
- ▪ cb5a31a Merge Automatic tree Resurrection oficial on Sun Jul 16 20:38:07 UTC 2017
- ▪ fb83d97 Fix magisk 13.2 Location
+ ▪ d260b06 Merge branch 'remote' into nougat
 
- ▼ 07/15/2017
+ ▼ 07/21/2017
 
 
- ▪ project hardware/qcom/audio-caf/msm8996/
- ▪ f8fcd59 Merge tag 'LA.UM.5.5.r1-05300-8x96.0' into HEAD
+ ▪ project frameworks/base/
+ ▪ 51cc188 DeviceInfoUtils: decentralize processor Regex
 
- ▪ project hardware/qcom/display-caf/msm8996/
- ▪ 3005091 Merge tag 'LA.UM.5.5.r1-05300-8x96.0' into HEAD
+ ▪ project packages/apps/Settings/
+ ▪ 5cd394f Add processor model in device info screen (2/2)
+ ▪ 88342d3 Add maintainer for lenovo k6/power (#824)
 
- ▪ project hardware/qcom/media-caf/msm8996/
- ▪ 0273a64 Merge tag 'LA.UM.5.5.r1-05300-8x96.0' into HEAD
+ ▼ 07/20/2017
 
- ▪ project kernel/motorola/msm8952/
- ▪ 509b0dc arm64: topology: fix cpu power calculation
- ▪ 8e9ce19 trace: add CONFIG_DISABLE_TRACE_PRINTK option
- ▪ 13dfecb sched: Remove one division operation in find_busiest_queue()
- ▪ fdaa00d alarmtimer: Rate limit periodic intervals
- ▪ 3ddc0d7 alarmtimer: Return relative times in timer_gettime
- ▪ c811efa block_dev: implement readpages() to optimize sequential read
- ▪ 2cdde03 sched: Allow migrating kthreads into online but inactive CPUs
- ▪ 15f4ab2 signal: Only reschedule timers on signals timers have sent
- ▪ 82786d8 ALSA: timer: Fix missing queue indices reset at SNDRV_TIMER_IOCTL_SELECT
- ▪ 4dc4ec8 KEYS: fix dereferencing NULL payload with nonzero length
+
+ ▪ project android/
+ ▪ eedb930 Remove ahbottomnavigation
+
+ ▪ project frameworks/base/
+ ▪ 021e65a DeviceInfoUtils: Expand Processor string #3
+ ▪ a700be4 Fix new Processor regex in Nexus 4
+ ▪ 3aa1c51 BootReceiver: check console-ramoops-0
+ ▪ f27f73e Merge remote-tracking branch 'remotes/rr/nougat' into HEAD
+ ▪ 7e09920 PowerProfile: allow overriding default power profile
+ ▪ e5e8dad Revert "PowerProfile: allow reading from a file instead of resource"
+ ▪ 3008b48 Add processor info in device info screen (1/2)
+
+ ▪ project system/sepolicy/
+ ▪ 34cc176 interfacer: Allow interfacer to find content_service
+ ▪ 72d06e9 Add policy to fix interfacer derp on boot
+ ▪ 458839a sepolicy: Allow system_server to set theme_prop
+ ▪ 86e3f9d sepolicy: add file and domain trans to interfacer
+ ▪ caa8674 Welcome to Theme Interfacer! [2/2]
+ ▪ 3890c0e sepolicy: Redo masquerade rules
+ ▪ 1f43bf4 sepolicy: Fix application of bootanimation
+ ▪ d9cc632 sepolicy: allow masquerade to read and write theme assets
+ ▪ 0a3d0fc sepolicy: rename masquerade domain and allow JobService in system_server
+ ▪ 5ac375f initial policy edits for masquerade to operate rootless
+ ▪ 2965e98 sepolicy: fix themed sounds
+ ▪ 8edd6b3 sepolicy: fix themed boot animation
+ ▪ a03a002 Introduce sepolicy exceptions for theme assets
+ ▪ 13c7a73 OMS7-N: Add service 'overlay' to service_contexts
+ ▪ 39875f9 Add policy to SELinux to allow ViPER4Android in enforcing mode
+ ▪ 1820ef3 RR: 7.1 fix
+ ▪ 40ebd92 sepolicy: Allow platform_app to run su_exec() (1/2)
+ ▪ 6606f8c sepolicy: Allow system_server to run su_exec() (1/2)
+ ▪ 1f5ad77 sepolicy: Allow system_app to run su_exec()
+ ▪ f73b438 sepolicy: Allow remount /system
 
  ▪ project vendor/cm/
- ▪ ac623bd Update Magisk Binary to v13.2 and Magisk Manager to v5.0.6 (#93)
+ ▪ 715986b Merge remote-tracking branch 'remotes/rr/nougat' into HEAD
+ ▪ bc96cad repopick: Add 'reset' option
+ ▪ 5a5e439 kernel: Add savedefconfig target
+ ▪ 4438599 qcom: Enable TARGET_USES_QCOM_MM_AUDIO
+ ▪ 5b71695 repopick: don't bail on drafts
+ ▪ 82a5e5a prebuilt: update Magisk Manager 5.1.1 (#96)
 
- ▼ 07/14/2017
+ ▪ project vendor/motorola/
+ ▪ 80a8a5d athene: Remove 'Device is HD Capable' notification when VoLTE is enabled
 
-
- ▪ project packages/apps/Settings/
- ▪ 089a928 Official support for Moto E3 Power(taido_row) (#818)
- ▪ 93a2c68 Official support for Moto E3 Power(taido_row) (#819)
-
- ▪ project packages/apps/Snap/
- ▪ 5c51d47 Revert some permissions related changes
-
- ▼ 07/13/2017
+ ▼ 07/19/2017
 
 
- ▪ project packages/apps/Settings/
- ▪ 809857c Add maintainer for Xiaomi RedMi 3 (#817)
+ ▪ project hardware/qcom/fm/
+ ▪ 165ef42 FM: Use some sane colors
 
- ▪ project packages/apps/Snap/
- ▪ 0dbf891 Add overlay for restarting camera preview for additional cameras
+ ▪ project vendor/cm/
+ ▪ ac577f3 Update prebuilts to latest versions (#95)
+
+ ▼ 07/18/2017
+
+
+ ▪ project frameworks/base/
+ ▪ 8320284 SEEMP: Adding auth framework for outgoing SMS messages.
+ ▪ 7490b95 SEEMP: Adding auth framework for outgoing SMS messages.
 
