@@ -2,11 +2,140 @@
  ▼ Resurrection Remix Nougat Ver 5.8.3 Changelog
 
 
+ ▼ 08/05/2017
+
+
+ ▪ project vendor/motorola/
+ ▪ 68a2007 msm8916-common: move gps.conf to device
+
+ ▼ 08/04/2017
+
+
+ ▪ project hardware/qcom/fm/
+
+ ▪ project hardware/qcom/media-caf/msm8916/
+ ▪ ec78924 Merge remote-tracking branch 'caf/LA.BR.1.2.9_rb1.23' into cm-14.1-caf-8916
+
+ ▪ project hardware/qcom/media-caf/msm8994/
+ ▪ 1afe59f Merge remote-tracking branch 'caf/LA.BF64.1.2.3_rb1.15' into cm-14.1-caf-8994
+
+ ▪ project packages/apps/AudioFX/
+
+ ▪ project packages/apps/Bluetooth/
+
+ ▪ project packages/apps/Calendar/
+
+ ▪ project packages/apps/Camera2/
+
+ ▪ project packages/apps/CellBroadcastReceiver/
+
+ ▪ project packages/apps/Email/
+
+ ▪ project packages/apps/EmergencyInfo/
+
+ ▪ project packages/apps/Gallery2/
+
+ ▪ project packages/apps/HTMLViewer/
+
+ ▪ project packages/apps/ManagedProvisioning/
+
+ ▪ project packages/apps/Settings/
+ ▪ 6c960c2 Merge branch 'nougat' of https://github.com/ResurrectionRemix/Resurrection_packages_apps_Settings into nougat
+ ▪ 40bdde5 Fix settings FC and freezes after reboot on enforcing mode
+ ▪ 1bed82a Add Maintainer For Android One 1st gen. (sprout) (#832)
+
+ ▪ project packages/apps/SetupWizard/
+
+ ▪ project packages/apps/Snap/
+
+ ▪ project packages/apps/Tag/
+
+ ▪ project packages/apps/TvSettings/
+
+ ▪ project packages/apps/UnifiedEmail/
+
+ ▪ project packages/inputmethods/LatinIME/
+
+ ▪ project packages/providers/CalendarProvider/
+
+ ▪ project packages/providers/DownloadProvider/
+
+ ▪ project packages/resources/devicesettings/
+
+ ▼ 08/03/2017
+
+
+ ▪ project frameworks/opt/telephony/
+ ▪ b1a8579 Telephony: Keep preferred SMS Sim
+
+ ▼ 08/02/2017
+
+
+ ▪ project packages/apps/OmniSwitch/
+ ▪ 31d0a4a Fixing a NullPointerException (#8)
+
+ ▼ 08/01/2017
+
+
+ ▪ project packages/apps/Gallery2/
+ ▪ c88c572 Gallery2: Fix various issues and glitches
+
+ ▪ project packages/apps/Snap/
+ ▪ a206d75 Snap: fix low resolution front camera switch icon
+
+ ▼ 07/31/2017
+
+
+ ▪ project packages/apps/Gallery2/
+ ▪ d74ca5a Gallery2: Fix potential crash
+ ▪ 7e1b2d2 Gallery2: Switch to navigationbar from support libs
+ ▪ 82b6848 Gallery2: Fix can't parse documents uri
+ ▪ eceb1ed Gallery2: Fix views overlap
+ ▪ 8c7fe64 Gallery2: Support GIF animation
+ ▪ b923c25 Gallery2: Increase the size of the tiles when decoding images
+ ▪ ccaf2e4 Gallery2: Support the newly added media file types in MTP mode
+ ▪ ebce130 Gallery2: Fix use of uninitialized stack variables
+ ▪ 1fbe342 Gallery2: Remove unused renderscript class
+ ▪ 40fe6d2 Gallery2: Fix spelling error
+ ▪ 5a0501d Gallery2: Properly declare the own permissions
+ ▪ 9c69a82 Gallery2: Remove more possible NPEs
+ ▪ 4288cf9 Gallery2: Enable frames in the editor
+ ▪ 09a950e Gallery2: Remove slideshow option if there are only videos
+ ▪ 75e883a Gallery2: Remove 3D overscroll effect
+ ▪ 4cbaf64 Gallery2: Disable dummy starting window
+ ▪ 7aeaefc Gallery2: Fix up audio effects dialog
+ ▪ cc80b1b Gallery2: Everyone or no one
+ ▪ a0dc1b8 Gallery2: Replace hamburger menu with bottom bar
+ ▪ ae2d5c1 Gallery2: Change all share intents to chooser style
+ ▪ 1b893a4 Gallery2: Update menu
+ ▪ b091264 Gallery2: Update theme
+ ▪ 7eb847c Gallery2: Move & improve CAF strings
+ ▪ 81e24fe Gallery2: Make sure no NPE happens
+ ▪ 9c735ae Gallery2: Remove invalid comment from manifest
+ ▪ 5b0141c Gallery2: Cleanup renderscript flags in Android.mk
+ ▪ 108756a Gallery2: Reduce logspam in video player
+ ▪ e0c0ac0 Gallery2: Store DATE_TAKEN as milliseconds
+ ▪ bb16314 Gallery2: Modify AOSP EL translations
+ ▪ 3861e97 Gallery2: Remove CAF translations
+ ▪ 3bf31b2 Gallery2: Add record time to details view
+ ▪ c1cf324 Gallery2: Fix crash of gallery on showing details
+ ▪ 880d507 Gallery2: Fix crash when Bluetooth service is disabled
+ ▪ 2c75f40 Gallery2: Try to open existing camera
+ ▪ db84f5b Gallery2: New icon
+ ▪ 5f5c892 Gallery2: Bump minsdk and targetsdk version
+ ▪ 6587213 Gallery: FilterShowActivity: Fix loading spinner being show forever
+ ▪ 55bf17f Gallery: TileImageView: fix NPE
+ ▪ be9357b FaceDetect: Catch more linker errors during initialization
+ ▪ 8beb6f9 FaceDetect: Catch linker errors during initialization
+ ▪ ea5a309 Bump API to match dependencies.
+ ▪ 1a3f292 Add missing includes.
+ ▪ 5c74612 Cleanup warnings in jni.
+ ▪ b7d08f9 Fix misc-macro-parentheses warnings in Gallery2.
+ ▪ 9110325 Float.NaN != ... always evaluates to true, use Float.isNaN.
+ ▪ 69f87c4 Rename app back to Gallery
+
  ▼ 07/30/2017
 
-
- ▪ project device/motorola/athene/
- ▪ 96ece30 athene: type build
 
  ▪ project frameworks/base/
  ▪ c4a83cf Allow to disable battery light when in DND mode [1/2]
@@ -22,9 +151,6 @@
 
  ▪ project packages/apps/Dialer/
 
- ▪ project packages/apps/Gallery2/
- ▪ d5da716 Revert "Revert "Gallery2: set module privileged in Android.mk to delete photos on SD card.""
-
  ▪ project packages/apps/OmniSwitch/
 
  ▪ project packages/apps/ResurrectionOTA/
@@ -35,98 +161,4 @@
  ▪ 5a56b01 Allow to disable battery light when in DND mode[2/2]
 
  ▪ project packages/services/OmniJaws/
-
- ▼ 07/29/2017
-
-
- ▪ project device/motorola/athene/
- ▪ 4983c29 athene: Add PRODUCT_MODEL
- ▪ df30104 athene: Enable real time lockscreen charging info
- ▪ 433bbfa This is said to fix call recording using third party apps
- ▪ d2915c2 Rename CMActions from gestures to Moto Actions
- ▪ c441756 Revert "overlay : disable lockscreen UI blur "
- ▪ 7d1dc4b Lockscreen charging info: real time values
- ▪ e15195c Add f2fs support for cache
-
- ▪ project packages/apps/SetupWizard/
- ▪ d261c7a SetupWizard: Don't show ChooseDataSimActivity on single sim devices
-
- ▪ project packages/apps/Snap/
- ▪ db73354 Revert "Revert "SnapdragonCamera: Adding PRIVILEGED true""
-
- ▪ project vendor/cm/
- ▪ 4f79be4 Merge branch 'remote' into nougat
-
- ▼ 07/28/2017
-
-
- ▪ project external/chromium-webview/
- ▪ e205b2a Update webview
-
- ▪ project packages/apps/Calendar/
-
- ▪ project packages/apps/Camera2/
-
- ▪ project packages/apps/CellBroadcastReceiver/
-
- ▪ project packages/apps/Email/
-
- ▪ project packages/apps/Gallery2/
-
- ▪ project packages/apps/SetupWizard/
- ▪ 6971663 SetupWizard: Fix crash when sims are absent
- ▪ b1dd429 SetupWizard: Fix a few possible NPEs
-
- ▪ project packages/apps/TvSettings/
-
- ▪ project vendor/cm/
- ▪ cfcd5e2 Fix build scripts color format
-
- ▼ 07/27/2017
-
-
- ▪ project packages/apps/Gallery2/
- ▪ f60b01e Revert "Gallery2: set module privileged in Android.mk to delete photos on SD card."
-
- ▪ project packages/apps/Snap/
- ▪ bbb6ee1 Revert "SnapdragonCamera: Adding PRIVILEGED true"
-
- ▪ project system/bt/
- ▪ b30e393 Merge tag 'LA.UM.5.5.r1-05300-8x96.0' into cm-14.1
-
- ▼ 07/26/2017
-
-
- ▪ project frameworks/native/
- ▪ a3768a9 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_frameworks_native into nougat
-
- ▪ project hardware/qcom/fm/
-
- ▪ project packages/apps/Email/
-
- ▪ project packages/apps/Gallery2/
- ▪ 41241c1 Gallery2: Fix various issues and glitches
- ▪ 906a508 Gallery2: Fix potential crash
-
- ▪ project packages/apps/Messaging/
- ▪ cf5278b Merge branch 'cm-14.1' of https://github.com/LineageOS/android_packages_apps_Messaging into nougat
-
- ▪ project packages/apps/ResurrectionOTA/
- ▪ 96d1a82 Merge branch 'remote' into nougat
-
- ▪ project packages/apps/Settings/
- ▪ 48eecf4 Add Maintainer for LG G2 (Sprint) LS980 variant (#830)
- ▪ 213c4d9 Settings: Allow our root options to work with LineageSu as well
-
- ▪ project packages/apps/SetupWizard/
-
- ▪ project packages/apps/Snap/
-
- ▪ project packages/resources/devicesettings/
-
- ▪ project system/netd/
- ▪ b2d5c79 SoftAp: Fix compilation in netd if  LIBWPA_CLIENT_EXISTS undefined.
-
- ▪ project vendor/cm/
- ▪ 8b74e96 Merge branch 'remote' into nougat
 
