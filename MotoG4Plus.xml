@@ -2,62 +2,25 @@
  ▼ Resurrection Remix Nougat Ver 5.8.4 Changelog
 
 
+ ▼ 08/27/2017
+
+
+ ▪ project frameworks/base/
+
+ ▪ project kernel/motorola/msm8226/
+ ▪ 64a83fe Prevent heap overflow in uvc driver
+
+ ▪ project packages/apps/DUI/
+
+ ▪ project packages/apps/OmniSwitch/
+
+ ▪ project packages/apps/Settings/
+
  ▼ 08/26/2017
 
 
- ▪ project build/
- ▪ f9f030a Merge branch 'remote'  into nougat
-
- ▪ project device/motorola/athene/
- ▪ 8f21962 Set inital copyright year and remove references to common tree
-
- ▪ project kernel/motorola/msm8952/
- ▪ 8677b64 Revert "UPSTREAM: scsi: sg: check length passed to SG_NEXT_CMD_LEN"
- ▪ 31ebffa BACKPORT: FROMLIST: pids: make task_tgid_nr_ns() safe
- ▪ 589becd ANDROID: check dir value of xfrm_userpolicy_id
- ▪ fd7c1b5 UPSTREAM: x86/acpi: Prevent out of bound access caused by broken ACPI tables
- ▪ ba3f383 BACKPORT: ANDROID: Use sk_uid to replace uid get from socket file
- ▪ 31a4fac ANDROID: keychord: Fix for a memory leak in keychord.
- ▪ 0f5d276 ANDROID: keychord: Fix races in keychord_write.
- ▪ 8e3caa3 Use %zu to print resid (size_t).
- ▪ fd6dced ANDROID: keychord: Fix a slab out-of-bounds read.
- ▪ a2e302d UPSTREAM: brcmfmac: fix possible buffer overflow in brcmf_cfg80211_mgmt_tx()
- ▪ ccc7f1f uid_sys_stats: fix overflow when io usage delta is negative
- ▪ bda8034 ANDROID: sdcardfs: override credential for ioctl to lower fs
- ▪ 09a732f perf/core: Fix concurrent sys_perf_event_open() vs. 'move_group' race
- ▪ ad38712 UPSTREAM: af_key: Fix sadb_x_ipsecrequest parsing
- ▪ 00a6cec UPSTREAM: scsi: sg: check length passed to SG_NEXT_CMD_LEN
- ▪ c165c6a Revert "proc: smaps: Allow smaps access for CAP_SYS_RESOURCE"
- ▪ dd7b3c7 ANDROID: sdcardfs: Remove unnecessary lock
- ▪ c67ef3e0 prima: update to LA.BR.1.3.6_rb1.21
- ▪ f23a790 coresight: tmc: Fix use after free issue with tmc read
- ▪ bd45f75 msm: ipa: prevent string buffer overflows
- ▪ 389bfdc wcnss: fix the potential buffer flow issue in firmware setup
- ▪ 06f7425 diag: Add proper checks to fix possible out-of-bound issue
- ▪ 7ca4c3a diag: Add protection while processing non-hdlc packets
- ▪ c08c338 usb: phy: msm: Disable runtime PM for root hub upon usb disconnect
- ▪ a021e31 msm: mdss: information leak during buffer copy from userspace
- ▪ 18d10dd msm: sensor: actuator: add conditional check for ioctl
- ▪ 0f708a5 msm: camera: sensor:validating the flash initialization parameters
- ▪ 7f453e5 msm:ipa: Fix to kasan use-after-free issue
- ▪ 693b1f3 qcdev: Check the digest length during the SHA operations
- ▪ 9391b0a soc: qcom: glink_pkt: Use spinlock to protect Rx data packet list
- ▪ f67d458 ASoC: msm: qdsp6v2: add size check to fix out of bounds issue
- ▪ eca47ec mmc: cmdq_hci: Enable legacy interrupts immediately after halt
- ▪ 1e04c16 mmc: cmdq_hci: Increase HAC interrupt wait time in halt path
- ▪ da294fb msm: kgsl: Perform cache operation with kernel address
- ▪ 67fcc02 cnss_pci: fix the race condition in firmware file setup
- ▪ 4d0e5ba input: touchscreen: validate bounds of intr_reg_num
- ▪ f04d9bc input: synaptics_dsx: validate bounds of intr_reg_num
-
- ▪ project packages/apps/Lawnchair/
- ▪ bf9b08c Merge branch 'alpha' into mkn-mr1
- ▪ 8f67bac Fix shortcut longpress crash #2
- ▪ 8d20a15 Fix shortcut longpress crash
- ▪ 9d0ec9e Merge branch 'alpha' into mkn-mr1
- ▪ 990ea4f Improve drawer spacing
- ▪ 9ef8748 Fix selecting default icon
- ▪ d281644 Fix icon editor
+ ▪ project packages/services/Telephony/
+ ▪ 6e6fe97 Allow to ignore presentation indicator of outgoing calls [3/3]
 
  ▼ 08/25/2017
 
@@ -75,187 +38,27 @@
  ▪ project frameworks/native/
  ▪ 9cb6681 Merge remote-tracking branch 'remotes/laos/cm-14.1' into HEAD
 
- ▪ project packages/apps/Eleven/
- ▪ 943d43e Eleven: Fix restoring user settings
-
- ▪ project packages/apps/Lawnchair/
- ▪ 6b64fa7 Merge branch 'alpha' into mkn-mr1
- ▪ ceca0e7 Resize all apps when soft input is open
- ▪ 3c99194 Merge branch 'improve-pulldown-actions' into alpha
- ▪ b690042 Remove pull down stuffs from Workspace
- ▪ c5efcb9 Allow swipe up to close the notifications again
- ▪ e58c0ea Disallow opening all apps when pulling down notifications
- ▪ 030bcf5 Increase velocity required for pulldown by 25% (now 2.5)
- ▪ 1df9385 Add pulldown for notifications when velocity > 2
- ▪ 41ee8ab Fix folder shadow (#605)
- ▪ a991b32 Fix popup bug
- ▪ 812b118 Add symmetrical top and bottom hotseat padding
+ ▪ project kernel/motorola/msm8226/
+ ▪ f8ce934 Revert "tcp: do not lock listener to process SYN packets"
 
  ▪ project packages/apps/UnifiedEmail/
  ▪ 2dd00df Email: Fix led notification settings
 
- ▪ project packages/services/Telephony/
- ▪ 6e6fe97 Allow to ignore presentation indicator of outgoing calls [3/3]
-
  ▼ 08/24/2017
 
+
+ ▪ project device/motorola/msm8226-common/
+ ▪ d29cf80 sensors: falcon-peregrine: Query compass accuracy on init
 
  ▪ project frameworks/opt/telephony/
  ▪ b231815 Allow to ignore presentation indicator of outgoing calls [2/3]
 
- ▪ project packages/apps/Lawnchair/
- ▪ 9d45a68 Merge branch 'alpha' into mkn-mr1
- ▪ 00bd7b6 Rollback to an earlier Kotlin version to fix local dependency resolving
- ▪ 43ae7a3 Disable drawer label color picker when custom color is diabled
- ▪ b54afe6 Update dependencies
- ▪ 39d12ff Fix black and dark theme in settings
- ▪ 035f3a5 Fix seekbar preference defaulting
- ▪ ba85b01 Add a proper color picker / fix drawer label color setting
- ▪ dbf6117 Merge branch 'alpha' into mkn-mr1
- ▪ 6ea6636 Fix notification animations
- ▪ 3da9224 Merge branch 'alpha' into mkn-mr1
- ▪ b64b48b Merge branch 'alpha' into mkn-mr1
- ▪ 76a763b Fix shortcuts dark theme
- ▪ 7cc03b9 Fix build error
- ▪ 3e0a5f7 Fix stupid bug
- ▪ 80fa253 Fix notification crash and update more codes
- ▪ 3ad7375 Fix original icon visible while dragging
- ▪ bda0cf0 Allow adding api key in local project properties
- ▪ 46a578a Merge branch 'alpha' into mkn-mr1
- ▪ b72e530 Fix vertical drawer shortcuts aligning
- ▪ dd85054 Fix #586
- ▪ affaacd Fix editing shortcuts and cleanup some code
-
- ▪ project vendor/private/
- ▪ 7da2bb1 private: update Lawnchair
- ▪ 10c8d5d private: update XposedInstaller and Lawnchair
-
  ▼ 08/23/2017
 
-
- ▪ project packages/apps/Lawnchair/
- ▪ 3cccc44 Update entire PopupContainerWithArrow from official source
- ▪ 8928a6f Fix dark mode on Popups
- ▪ bf78901 Further updates to PopupContainerWithArrow
- ▪ 82118df Update PopupPopulator from official source
- ▪ 4859e57 Update Popup animation code with official sources
- ▪ c6d2669 Update orientAboutIcon with official sources
- ▪ 66e3cc1 Merge branch 'alpha' into mkn-mr1
- ▪ f47338a Fix wrong preference default
- ▪ 1f6212b Try to fix landscape bug
- ▪ bf71834 Fix #550
- ▪ e305cbb Update notification badge sources
 
  ▪ project packages/apps/Settings/
  ▪ 3c8b4d4 Responsible arrangement for the Seed device.  (#851)
 
  ▪ project vendor/motorola/
  ▪ 1adcf9e omap4: regenerate makefiles and remove old unused stuff
-
- ▼ 08/22/2017
-
-
- ▪ project packages/apps/Lawnchair/
- ▪ d18c58f Merge branch 'alpha' into mkn-mr1
- ▪ b196be1 Don't require dev options to change icon shape
-
- ▪ project vendor/private/
- ▪ e39e2c5 update
-
- ▼ 08/21/2017
-
-
- ▪ project hardware/qcom/audio-caf/msm8998/
- ▪ eba183e Merge tag 'LA.UM.5.7.r1-10500-8x98.0' into cm-14.1-caf-8998
-
- ▪ project packages/apps/Jelly/
- ▪ 2a6aa75 Fix NPE.
-
- ▼ 08/20/2017
-
-
- ▪ project frameworks/base/
-
- ▪ project hardware/ril-caf/
- ▪ d8290dd ril: Allow targets to disable Clang
-
- ▪ project packages/apps/AudioFX/
-
- ▪ project packages/apps/Eleven/
-
- ▪ project packages/apps/Jelly/
-
- ▪ project packages/apps/Lawnchair/
- ▪ f81364f Merge branch 'alpha' into mkn-mr1
- ▪ 2cb7d37 Support higher aspect ratio
-
- ▪ project packages/apps/OmniSwitch/
-
- ▪ project packages/apps/Settings/
- ▪ 14513f5 Update s7 edge maintainer
- ▪ 3bb44bb Transfer maintainership of Galaxy S7 series to schwabe93
-
- ▪ project packages/apps/SetupWizard/
-
- ▪ project packages/apps/Snap/
-
- ▪ project packages/apps/Terminal/
-
- ▪ project packages/apps/Trebuchet/
-
- ▪ project packages/apps/UnifiedEmail/
-
- ▪ project packages/resources/devicesettings/
-
- ▼ 08/19/2017
-
-
- ▪ project build/
- ▪ 6a081e1 envsetup: stop jack server once build completed
-
- ▪ project packages/apps/CMParts/
- ▪ f763660 CMParts: Add strings for DCI-P3 color profile
-
- ▪ project packages/apps/Lawnchair/
-
- ▪ project vendor/private/
- ▪ 62ffd40 private: update Substratum to 821
-
- ▼ 08/18/2017
-
-
- ▪ project device/qcom/sepolicy/
- ▪ c631819 Use set_prop() macro for property sets
-
- ▪ project frameworks/native/
- ▪ afbd1c1 InputDispatcher: On keypress, deliver keycode to pokeUserActivity
- ▪ 766d692 PowerManager.h: Define USER_ACTIVITY_FLAG values
-
- ▪ project packages/apps/Settings/
- ▪ 4dccd0d Changing Galaxy s7 edge Maintainer (#846)
-
- ▼ 08/17/2017
-
-
- ▪ project frameworks/native/
- ▪ c1f311b native: Increase ART heap limit to 192MB for 1024MB RAM devices
-
- ▪ project hardware/qcom/wlan-caf/
- ▪ 93c8631 WifiHAL: Free the stats received so far if requestResponse() fails
- ▪ eabd5a6 Wifi-HAL: Move llstats freeing to a common API
-
- ▪ project packages/apps/Lawnchair/
- ▪ 81abbcc Lawnchair: rename strings
- ▪ 899becf Merge branch 'alpha' into mkn-mr1
- ▪ 4f2c68d Make all animations a tiny bit faster
-
- ▪ project packages/apps/Settings/
- ▪ aca49e9 Add Co Maintainer for Jalebi (#845)
-
- ▪ project vendor/motorola/
- ▪ 9b2c996 msm8610-common: regenerate vendor makefiles
-
- ▪ project vendor/private/
- ▪ 9da7508 private: update Lawnchair
- ▪ 3952ac9 private: update Substratum to 819
 
