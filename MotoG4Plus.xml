@@ -1,8 +1,231 @@
 
- ▼ Resurrection Remix Nougat Ver 5.8.5 Changelog
+ ▼ Resurrection Remix Nougat Ver 5.8.4 Changelog
 
+
+ ▼ 10/08/2017
+
+
+ ▪ project build/
+ ▪ a9801d2 Merge branch 'remote' into nougat
+
+ ▪ project packages/apps/ResurrectionOTA/
+ ▪ 97966eb Merge branch 'remote' into nougat
+
+ ▪ project packages/apps/Settings/
+
+ ▼ 10/07/2017
+
+
+ ▪ project hardware/ril/
+ ▪ d8fb8ff Fix multi sim support and warnings
+
+ ▪ project hardware/ril-caf/
+ ▪ ef31609 Fix multi sim support and warnings
+
+ ▪ project packages/apps/Gallery2/
+ ▪ 947a320 Gallery: Kill media effect dialog on movies
+ ▪ 121bd84 Gallery2: Fix crash when muting a video
+ ▪ e171921 Fix gallery crash when trimming video
+
+ ▼ 10/06/2017
+
+
+ ▪ project hardware/qcom/audio-caf/msm8994/
+ ▪ e91a5f0 Merge remote-tracking branch 'caf/LA.BF64.1.2.3_rb1.17' into cm-14.1-caf-8994
+
+ ▪ project system/bt/
+ ▪ b882eee Fix allocating buffers of the right size when BT_HDR is included
+
+ ▼ 10/04/2017
+
+
+ ▪ project android/
+ ▪ 516714f manifest: track our own dnsmasq and libmpeg2
+ ▪ 6afec8e cm: Remove unused projects
+
+ ▪ project build/
+ ▪ cb361ed [DO NOT MERGE] Update platform security string to 2017-10-05 in nyc-dev Bug:64896113 (cherry picked from commit 1517f3d2da27eae798a3ac765096251914f9b119)
+ ▪ 9727f4f [DO NOT MERGE] Update platform security string to 2017-10-01 in nyc-dev Bug:64896113 (cherry picked from commit 73ab80dec9df8966bf660725dc1a942d9c1f324e)
+ ▪ d6b4f42 core: config: Use host bison if requested
+ ▪ 68898f0 Fix warning with AAPT2 and LOCAL_STATIC_ANDROID_LIBRARIES
+
+ ▪ project frameworks/av/
+ ▪ f9bce6f Merge remote-tracking branch 'lineage/cm-14.1' into HEAD
+
+ ▪ project frameworks/base/
+ ▪ 04405fc Fix security hole in GateKeeperResponse.
+ ▪ 7fd68e0 Enforce policy for camera gesture in keyguard
+ ▪ ff5b93c Revert "Camera: ignore torch status update for aux or compsite camera"
+
+ ▪ project packages/apps/PackageInstaller/
+ ▪ 2ca0f5d PackageInstaller: Show current & new version Forward ported to Marshmallow By: @dwitherell Forward ported to Nougat By: @BeansTown106
+ ▪ 3912d1b Fix PackageInstaller FC when tapping on a downloaded apk notification 2
+ ▪ 42868f0 PackageInstaller: Add tint mode to icons
+
+ ▪ project packages/apps/Settings/
+ ▪ 25b490d Disabling the activate button when paused
+ ▪ a2ff665 AppOpsState: Hide undeclared Privacy Guard OPs
+
+ ▼ 10/03/2017
+
+
+ ▪ project external/dnsmasq/
+ ▪ 41e4b42 Add extra (size_t) cast to avoid compiler warning.
+ ▪ 0b7daf3 Make dnsmasq more stable.
+
+ ▪ project external/libhevc/
+ ▪ 42469df Fix slice decrement for skipped slices
+ ▪ 6f57834 Ensure CTB size > 16 for clips with tiles and width/height >= 4096
+
+ ▪ project external/libmpeg2/
+ ▪ c1edfa4 Fixed Memory Overflow Errors
+
+ ▪ project external/tremolo/
+ ▪ 166d5a3 Fix out of bounds access in codebook processing
+
+ ▪ project frameworks/av/
+ ▪ 019e77c Fix 'potential memory leak' compiler warning.
+ ▪ 223131d Check buffer size in useBuffer in software components
+ ▪ 2ca6228 stagefright: avoid buffer overflow in base64 decoder
+ ▪ 49e724e Add EFFECT_CMD_SET_PARAM parameter checking to Downmix and Reverb
+ ▪ 8511171 Fix memory leak in OggExtractor
+ ▪ f1e2df1 Skip track if verification fails
+
+ ▪ project hardware/ril/
+ ▪ 4609708 DO NOT MERGE Fix security vulnerability in pre-O rild code.
+
+ ▪ project hardware/ril-caf/
+ ▪ cc408d7 DO NOT MERGE Fix security vulnerability in pre-O rild code.
+
+ ▪ project libcore/
+ ▪ aa4fd2e Fix failing FileTest#test_canonicalCachesAreOff()
+ ▪ c1a58e9 Disable File.getCanonicalPath caches.
+
+ ▪ project packages/apps/PackageInstaller/
+ ▪ cec631f DO NOT MERGE Disable overlays while installer is resumed
+
+ ▪ project vendor/motorola/
+ ▪ 582f97a shamu: update blobs from N6F27M factory image
+
+ ▼ 10/01/2017
+
+
+ ▪ project android/
+ ▪ 46fafaf manifest: use updated svox tag to fix picotts
+ ▪ 3aef973 Switch deqp, pdfium and speex to our forks
+ ▪ 208f9df cm: Remove libphonenumbergoogle
+
+ ▪ project frameworks/base/
+
+ ▪ project packages/apps/DUI/
+
+ ▪ project packages/apps/Dialer/
+
+ ▪ project packages/apps/OmniSwitch/
+
+ ▪ project packages/apps/ResurrectionOTA/
+
+ ▪ project packages/apps/ResurrectionStats/
+
+ ▪ project packages/apps/Settings/
+ ▪ 4f80840 About: fix Andres email
+
+ ▪ project packages/services/OmniJaws/
+
+ ▼ 09/30/2017
+
+
+ ▪ project hardware/qcom/audio-caf/msm8916/
+ ▪ 512197f Merge remote-tracking branch 'caf/LA.BR.1.2.9_rb1.26' into cm-14.1-caf-8916
+
+ ▪ project hardware/qcom/display-caf/msm8916/
+ ▪ b9fc743 Merge remote-tracking branch 'caf/LA.BR.1.2.9_rb1.26' into cm-14.1-caf-8916
+
+ ▪ project hardware/qcom/fm/
+ ▪ 2d2b4b0 Remove obsolete values-be translations
+
+ ▪ project hardware/qcom/media-caf/msm8916/
+ ▪ 21d80df Merge remote-tracking branch 'caf/LA.BR.1.2.9_rb1.26' into cm-14.1-caf-8916
+
+ ▪ project packages/apps/AudioFX/
+ ▪ 1cc2af6 Remove obsolete values-be translations
+
+ ▪ project packages/apps/Email/
+ ▪ e9bc151 Remove obsolete values-be translations
+
+ ▪ project packages/apps/FMRadio/
+ ▪ 32b0fae Remove obsolete values-be translations
+
+ ▪ project packages/apps/Profiles/
+ ▪ b41416f Remove obsolete values-be translations
+
+ ▪ project packages/apps/SetupWizard/
+ ▪ 712fb3a Remove obsolete values-be translations
+
+ ▪ project packages/apps/Snap/
+ ▪ 50d00c0 Remove obsolete values-be translations
+
+ ▪ project packages/apps/Terminal/
+ ▪ 736edf7 Remove obsolete values-be translations
+
+ ▪ project packages/apps/UnifiedEmail/
+ ▪ b1e649d Remove obsolete values-be translations
+
+ ▪ project packages/inputmethods/LatinIME/
+ ▪ 04b2b3e Remove obsolete values-be translations
+
+ ▪ project packages/providers/DataUsageProvider/
+ ▪ 6e3ea47 Remove obsolete values-be translations
+
+ ▪ project packages/providers/WeatherProvider/
+ ▪ cc51ba5 Remove obsolete values-be translations
+
+ ▪ project packages/resources/devicesettings/
+ ▪ 6c579a5 Remove obsolete values-be translations
+
+ ▪ project vendor/qcom/opensource/bluetooth/
+ ▪ cd69373 Remove obsolete values-be translations
+
+ ▼ 09/29/2017
+
+
+ ▪ project frameworks/base/
+ ▪ 3cc1a5a [1/4] SystemUI: add burnIn protection setting
+
+ ▪ project packages/apps/DUI/
+ ▪ 7180a95 DUI: add burnIn protection setting [4/4]
+
+ ▪ project packages/apps/Settings/
+ ▪ 47d0991 [2/4] Settings: add burnIn protection setting
+
+ ▼ 09/28/2017
+
+
+ ▪ project hardware/qcom/audio-caf/msm8994/
+ ▪ 6657fcf Merge AU_LINUX_ANDROID_LA.BF64.1.2.3_RB1.07.01.02.258.033 on remote branch
+
+ ▼ 09/27/2017
+
+
+ ▪ project vendor/cmsdk/
+ ▪ 8f4f039 [3/3] cmsdk: add burnIn protection setting
+ ▪ 10d64e7 Revert "cmsdk: Don't change ring volume or mode if DND is enabled"
+ ▪ 253a12e cmsdk: Run in core apps only for poweroff alarm boot
+ ▪ f4da7ec Make CMParts a protected component manager
+ ▪ a5a86a8 cmsdk: Don't change ring volume or mode if DND is enabled
+ ▪ 6f9c3e4 cmsdk: Use intent extradata for WiFi triggers
+ ▪ cf42384 cmsdk: Disable unused services
 
  ▼ 09/25/2017
+
+
+ ▪ project external/libnfc-nci/
+ ▪ 257864a pn54x: Don't default to pn551 if BOARD_NFC_CHIPSET isn't set
+
+ ▪ project hardware/qcom/audio-caf/msm8916/
+ ▪ 89274d0 Merge AU_LINUX_ANDROID_LA.BR.1.2.9_RB1.07.01.02.254.036 on remote branch
+
+ ▼ 09/24/2017
 
 
  ▪ project frameworks/base/
@@ -53,297 +276,4 @@
 
  ▪ project system/vold/
  ▪ d8d5e6e Fix bug in cryptfs_verify_passwd with hardware disk encryption
-
- ▪ project vendor/cm/
- ▪ 2e83fe6 Merge branch 'nougat'  into nougat
- ▪ 889b570 Merge remote-tracking branch 'rr/nougat' into HEAD
- ▪ 3b31d8f Final version for N -> 5.8.5 \m/
- ▪ 6d81c3d vendor: sepolicy: Add Color Engine policy
- ▪ 813d067 Revert "Revert "vendor: cm: sepolicy: Allow rw-access to system_app_data_file""
- ▪ c0a7af1 Remove all traces of CMTE policy
-
- ▼ 09/23/2017
-
-
- ▪ project build/
- ▪ b6a83f9 Merge branch 'remote' into nougat
-
- ▪ project packages/apps/ResurrectionStats/
- ▪ 53fe045 Const: 5.8.5
-
- ▪ project vendor/cm/
- ▪ ed3107d RR: v5.8.5
-
- ▼ 09/22/2017
-
-
- ▪ project frameworks/base/
-
- ▪ project packages/apps/Settings/
-
- ▼ 09/21/2017
-
-
- ▪ project hardware/cyanogen/
- ▪ da0e259 livedisplay: Add msm8998 and sdm660 as SDM targets
-
- ▼ 09/20/2017
-
-
- ▪ project frameworks/native/
- ▪ 47d7223 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_frameworks_native into HEAD
-
- ▪ project system/extras/su/
- ▪ 11730a5 correct delivering process return code to caller
-
- ▼ 09/19/2017
-
-
- ▪ project frameworks/av/
- ▪ 74ff75e Merge branch 'cm-14.1' of https://github.com/LineageOS/android_frameworks_av into HEAD
-
- ▪ project hardware/qcom/fm/
-
- ▪ project packages/apps/AudioFX/
-
- ▪ project packages/apps/Bluetooth/
-
- ▪ project packages/apps/Calendar/
-
- ▪ project packages/apps/Camera2/
-
- ▪ project packages/apps/CellBroadcastReceiver/
-
- ▪ project packages/apps/CertInstaller/
-
- ▪ project packages/apps/Email/
-
- ▪ project packages/apps/EmergencyInfo/
-
- ▪ project packages/apps/FMRadio/
-
- ▪ project packages/apps/Gallery2/
-
- ▪ project packages/apps/ManagedProvisioning/
-
- ▪ project packages/apps/Nfc/
-
- ▪ project packages/apps/SetupWizard/
-
- ▪ project packages/apps/Snap/
-
- ▪ project packages/apps/Stk/
-
- ▪ project packages/apps/Tag/
-
- ▪ project packages/apps/Terminal/
-
- ▪ project packages/apps/TvSettings/
-
- ▪ project packages/apps/UnifiedEmail/
-
- ▪ project packages/inputmethods/LatinIME/
-
- ▪ project packages/providers/CalendarProvider/
-
- ▪ project packages/providers/ContactsProvider/
-
- ▪ project packages/providers/DataUsageProvider/
-
- ▪ project packages/providers/DownloadProvider/
-
- ▪ project packages/providers/MediaProvider/
-
- ▪ project packages/providers/TelephonyProvider/
-
- ▪ project packages/resources/devicesettings/
-
- ▪ project packages/screensavers/Basic/
-
- ▪ project packages/screensavers/PhotoTable/
-
- ▪ project packages/wallpapers/LivePicker/
-
- ▪ project vendor/cmsdk/samples/weatherproviderservice/WundergroundWeatherProvider/
-
- ▪ project vendor/cmsdk/samples/weatherproviderservice/YahooWeatherProvider/
-
- ▼ 09/18/2017
-
-
- ▪ project frameworks/av/
- ▪ f80e21a audioflinger: Use offloaded effects in case of PCM offload
-
- ▪ project packages/apps/Settings/
- ▪ efbb78f Add moderator tags to about settings
-
- ▼ 09/17/2017
-
-
- ▪ project android/
- ▪ f0c3b1f manifest: switch to our forks of several repos
-
- ▪ project build/
- ▪ f6958ef Updating Security String to 2017-09-05 Bug:63846344
-
- ▪ project external/skia/
- ▪ 878b9da Defend against ICOs with large BMPs embedded DO NOT MERGE
-
- ▪ project external/sonivox/
- ▪ 188ae17 Fix compiler warnings in sonivox and enable -Werror.
-
- ▪ project frameworks/av/
- ▪ eeff3f6 Merge remote-tracking branch 'lineage/cm-14.1' into HEAD
-
- ▪ project frameworks/base/
- ▪ bb68d19 Back-port fixes for b/62196835
- ▪ cbce7ff Don't disable the GPS prematurely
- ▪ 8503dcf PrivateStorageInfo: Exclude primary physical volume total space
- ▪ fe5307e Keyguard: Change fingerprint listening behavior
-
- ▪ project packages/apps/DUI/
-
- ▪ project packages/apps/Dialer/
-
- ▪ project packages/apps/Messaging/
- ▪ e0708ed Merge remote-tracking branch 'lineage/cm-14.1' into HEAD
-
- ▪ project packages/apps/OmniSwitch/
-
- ▪ project packages/apps/Settings/
- ▪ 6d05ff9 Back-port ag/2491664
- ▪ 2214a57 AppOpsDetails: Generate correct summary when changing list prefs
- ▪ ac086f6 Settings: Allow devices to provide remote gesture preferences
- ▪ 1b1f6ea Settings: Fix internal storage summary for non-emulated storage devices
- ▪ 4776440 Settings: Always show Privacy Guard permissions
- ▪ 02a6349 AppOps: Switch to an HashMap
- ▪ a3bbfda Settings: Add a shortcut icon for carrier selection
- ▪ cb1ab8b AppOps: Redesign
- ▪ 3a0e238 Revert "Settings[Wifi]: fix the input invalid length for WEP encryption."
-
- ▼ 09/16/2017
-
-
- ▪ project external/libavc/
- ▪ 2170933 Decoder: Fixed allocation of pv_map_ref_idx_to_poc_buf.
- ▪ 871e2ff Decoder: Fixed overflow in refernce list creation.
- ▪ 73ff61b Initialize DPB structures to valid values.
- ▪ 1a4a25a Added error check for output buffer size.
-
- ▪ project external/libhevc/
- ▪ 2f28765 Limit boundary PU sizes in case of errors
- ▪ 3008a9a Fix array size for hrd parameters
- ▪ d2b7822 Check number of output buffers and sizes
- ▪ 8e3fe3b Return error for invalid crop parameters
-
- ▪ project external/libvpx/
- ▪ 50bde27 DO NOT MERGE libvpx: Cherry-pick 8b4c315 from upstream
-
- ▪ project external/sonivox/
- ▪ afc7e48 Fix interpolator
-
- ▪ project external/sqlite/
- ▪ f55bb7e DO NOT MERGE - fix FTS3 column pointer handling
-
- ▪ project external/tremolo/
- ▪ 0000b2b Use heap instead of alloca in res012.c
-
- ▪ project frameworks/av/
- ▪ be42248 MPEG4Source: fix fragmented read.
- ▪ ac561ef stagefright: fix crash due to bad timestamp index
- ▪ 47f7228 stagefright: check aac_frame_length to prevent infinite loop
- ▪ 708ca76 MediaPlayerService: fix access of mPlayer in client
- ▪ 20a8bdc audio effects: filter reserved effect commands
- ▪ 1f8cd83 MPEG4Extractor: ensure returned status is checked.
- ▪ 09ebf66 DO NOT MERGE Check frame handle validity before freeing buffer.
- ▪ ae74db2 Change MPEG2 reinit Error Handling
- ▪ 6e05adf Track: Check buffer size of static tracks
- ▪ e0b8295 MPEG4Extractor: check size for yrrc box
- ▪ 7a84ae8 AudioFlinger: Fix memory allocation for client-less tracks
- ▪ b1c91bc Notify Errors Appropriately from SoftMPEG2
- ▪ 6dff427 EffectBundle: Check value size for get preset name
- ▪ 3fcd8ac Fix TOCTOU problem in libstagefright_soft_aacenc
-
- ▪ project frameworks/minikin/
- ▪ 440e10a Reject unsorted cmap entries. DO NOT MERGE
-
- ▪ project hardware/broadcom/wlan/
- ▪ 71b070f net: wireless: bcmdhd: update bcm4354/4356 FW (7.35.101.8)
-
- ▪ project hardware/qcom/audio-caf/msm8916/
- ▪ 7a797d4 Equalizer: Check value size for get preset name
-
- ▪ project hardware/qcom/audio-caf/msm8952/
- ▪ 0bf8b30 Equalizer: Check value size for get preset name
-
- ▪ project hardware/qcom/audio-caf/msm8960/
- ▪ 01e8f3b Equalizer: Check value size for get preset name
-
- ▪ project hardware/qcom/audio-caf/msm8974/
- ▪ f5a8e83 Equalizer: Check value size for get preset name
-
- ▪ project hardware/qcom/audio-caf/msm8994/
- ▪ 7da7e5e Equalizer: Check value size for get preset name
-
- ▪ project hardware/qcom/audio-caf/msm8996/
- ▪ 53c7f74 Equalizer: Check value size for get preset name
-
- ▪ project hardware/qcom/audio-caf/msm8998/
- ▪ c736bfe Equalizer: Check value size for get preset name
-
- ▪ project hardware/qcom/audio/default/
- ▪ 3f7e702 Equalizer: Check value size for get preset name
-
- ▪ project packages/apps/Messaging/
- ▪ 87f81d9 37742976 - Catch bad gifs
-
- ▪ project packages/apps/Nfc/
- ▪ f20aedf Add READ_EXTERNAL_STORAGE for file based Uri while beaming.
-
- ▼ 09/15/2017
-
-
- ▪ project packages/apps/AudioFX/
- ▪ 3f7743b AudioFX: use vector drawables
- ▪ b94e30b AudioFX: set theme accent to white
- ▪ 00d3381 AudioFX: match control switches color with fragment background
- ▪ f5d78ad AudioFX: Add Reverb toggle
- ▪ 9fe5a3a AudioFX: Use default material toggle
- ▪ 9662067 AudioFX: Apply effects independently of the output flags
-
- ▪ project system/bt/
- ▪ 215d434 Add missing extension length check while parsing BNEP control packets
- ▪ a61aaf1 Free p_pending_data from tBNEP_CONN to avoid potential memory leaks
- ▪ 922d50b Add a missing check for PAN buffer size before copying data
- ▪ c6f7f86 Add missing packet length checks while parsing BNEP control packets
- ▪ 7e30b79 Add missing continuation offset check for SDP continuation requests
- ▪ 0700e5b Disable PAN Reverse Tethering when connection originated by the Remote
- ▪ 8825957 Allocate buffers of the right size when BT_HDR is included
-
- ▪ project vendor/motorola/
- ▪ b9ed5ef shamu: update blobs from NGI55D factory image
-
- ▼ 09/12/2017
-
-
- ▪ project hardware/qcom/media-caf/msm8960/
- ▪ b28bc21 BACKPORT: mm-video: venc: Protect buffer from being freed while accessing
- ▪ f65fe19 BACKPORT: mm-video: vdec: Avoid processing ETBs/FTBs in invalid states
-
- ▪ project packages/apps/Snap/
- ▪ 853e8ee WideAnglePanoramaUI: Show switcher on Stop Capture
-
- ▪ project vendor/motorola/
- ▪ 0bd3865 msm8916-common: Remove unused L1 widevine blobs
- ▪ a095412 msm8916-common: Remove debugging tools
- ▪ 7618020 msm8916: Regenerate Makefiles
-
- ▼ 09/11/2017
-
-
- ▪ project hardware/qcom/media-caf/msm8974/
- ▪ 209a13c mm-video-v4l2: venc: Protect buffer from being freed while accessing
-
- ▪ project packages/apps/TvSettings/
- ▪ acace0c Use new updater activity name for update button
 
