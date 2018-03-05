@@ -10,6 +10,33 @@
    * build/make/
 10f2add Merge branch 'oreo'
 
+   * frameworks/base/
+
+   * lineage-sdk/
+
+   * packages/apps/DUI/
+
+   * packages/apps/Lawnchair/
+c4bb3c6 Merge branch 'alpha' into mko-mr1
+
+   * packages/apps/LineageParts/
+
+   * packages/apps/ResurrectionOTA/
+414ff55 get update
+0d4e729 ResurrectionOTA: Don't start the intent if there's no browser installed
+cdb887f ResurrectionOTA: rework automatic updates with JobService
+a27a065 ResurrectionOTA: Use getprop instead reading build.prop
+ea94427 ResurrectionOTA: update notifications
+92cadbf ResurrectionOTA: Disable dexpreopt
+fce2f6f ResurrectionOTA: squash all translations
+6fe3ae1 OTA: Update app for RR
+
+   * packages/apps/Settings/
+ff49cdf Revert "Settings: adaptive icon"
+
+   * packages/overlays/Resurrection/
+c757304 Overlays: Add toast dialog and GA overlay to dark/black mode
+
 ====================
      03-04-2018
 ====================
@@ -34,15 +61,19 @@ e6633a5 Visualizer: Adjust for volume level
 77639fa SystemUI: Don't allow translation on some strings (#216)
 
    * packages/apps/Lawnchair/
+9e80516 Fix missing Telegram token
+6a73701 I'm really retarded to push a derped build.gradle
+12c0a7a Update lawnchairlauncher/drone-telegram plugin
+945bbc9 Fix package name for Drone CI builds
+9f23a96 Revert "Add build type for CI builds"
+7b7e725 Always execute telegram step
+d7ac356 Fix derped non-debug CI builds
 c828d6d Merge branch 'alpha' into mko-mr1
 1bc3791 Add build type for CI builds
 611c061 Update Kotlin gradle plugin
 
    * packages/apps/OmniStyle/
 d9641bc Fix spinner text color
-
-   * packages/apps/ResurrectionOTA/
-c2baf48 Merge branch 'oreo'
 
    * packages/apps/Settings/
 4e865af Tint accent google package verifier and find device drawables
@@ -90,9 +121,6 @@ a190db3 lineage-sdk lights: Let Lineage lights decide if notification led is on/
 
    * packages/apps/DUI/
 57423ca Fling kb cursors: long press left/right to keep moving cursor [1/2]
-
-   * packages/apps/ResurrectionOTA/
-d22dedf Merge branch   oreo
 
    * packages/apps/Settings/
 82f869e Fix some seekbar inconsistencies
@@ -172,34 +200,4 @@ a27062a New translations strings.xml (Romanian)
 30470cd New translations strings.xml (Ukrainian)
 9de9fb8 New translations strings.xml (Korean)
 c5c2a0a Fix invisible all apps search text when in dark theme
-
-====================
-     02-28-2018
-====================
-
-
-   * frameworks/base/
-684a22d PackageManager: Add configuration to specify vendor platform signatures
-e2f2d77 SystemUI: add volume tones back
-54949a7 NightDisplayController: report unvailable if livedisplay feature is present
-04866d0 Show 3G data icon for TD-SCDMA network type
-
-   * lineage-sdk/
-4775a77 lineage-sdk: Add vendor platform signature overlay
-
-   * packages/apps/Lawnchair/
-61d48f3 Remove not working cache and add Telegram notifications
-0f16ce4 That cache plugin is just retarded
-351469a Remove android build-cache
-feeba4a Finally fix cache directory path
-5bd9c05 Let's play hide and seek then
-e57a712 Rename build steps in pipeline
-bae0d10 Fix cache mounting path
-
-   * system/nfc/
-6af832c bcm2079x: fix crash in userial_close_thread()
-951d7f2 bcm2079x: Add checks to prevent NULL pointer deference in gki_init_free_queue()
-e9e8405 bcm2079x: Exit gracefully if there was an error in GKI_wait()
-1e70706 bcm2079x: Replace pthread_exit with return to avoid memory leak
-0e0083c bcm2079x: Log all thread exits
 
