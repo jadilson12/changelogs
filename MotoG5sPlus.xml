@@ -3,14 +3,114 @@
 
 
 ====================
+     03-05-2018
+====================
+
+
+   * build/make/
+10f2add Merge branch 'oreo'
+
+====================
+     03-04-2018
+====================
+
+   * android/
+8bf17b7 Merge branch 'oreo' of ssh://github.com/ResurrectionRemix/platform_manifest into default
+dc2e64e Add back snap
+62c25ef crowdin: Track LineageParts and lineage-sdk (#116)
+
+   * bionic/
+2de89a8 Revert "Add ability to read /etc/passwd and /etc/group"
+
+   * build/make/
+a04a09e Updates (#39)
+94e25b4 fix to build
+
+   * frameworks/base/
+d295ebc Use bool var judge whether the navi-keys enabled
+e6633a5 Visualizer: Adjust for volume level
+228e6f1 SystemUI: Move dimen to right file (#217)
+718fa62 Updates (#215)
+77639fa SystemUI: Don't allow translation on some strings (#216)
+
+   * packages/apps/Lawnchair/
+c828d6d Merge branch 'alpha' into mko-mr1
+1bc3791 Add build type for CI builds
+611c061 Update Kotlin gradle plugin
+
+   * packages/apps/OmniStyle/
+d9641bc Fix spinner text color
+
+   * packages/apps/ResurrectionOTA/
+c2baf48 Merge branch 'oreo'
+
+   * packages/apps/Settings/
+4e865af Tint accent google package verifier and find device drawables
+9a05b84 Merge branch 'oreo' of https://github.com/ResurrectionRemix/Resurrection_packages_apps_Settings into oreo
+aaeb35a Fix changelog theme for dark/black overlays
+7d339c5 Settings: hook up volume tone preference to LineageSettings
+e580cb7 Settings: "Security & location" -> "Security & privacy"
+a16d222 One does not simply become a Developer
+e107396 Settings: Fix the failing strings
+16c7289 Settings: adaptive icon
+
+   * packages/apps/Trebuchet/
+555fdd5 Merge pull request #1 from jhenrique09/oreo
+fd90442 Sync launcher theme with system dark/light theme
+7cbfaa5 Fix accent colors
+
+   * packages/overlays/Resurrection/
+77cf9f8 Overlays:Fix black volume sliders
+f1cc383 Overlays: Dark/Black mode accent and background fixes
+6d18fef Overlays : improve settings theme
+
+   * vendor/rr/
+19118d7 apps: add build Lawnchair
+a60f57f Merge branch  into oreo
+
+====================
+     03-03-2018
+====================
+
+
+   * build/make/
+4182dfe Merge branch  oreo
+
+   * frameworks/base/
+3f949cd Add kill button to notification guts [1/2]
+614016c frameworks/base lights: Let Lineage lights decide if notification led is on/off
+0c0e745 SystemUI: Use Java range for volume tone tone generator
+
+   * hardware/qcom/power/
+a36e212 msm8952: Support power profiles
+0a5232e msm8952: Fix typo
+
+   * lineage-sdk/
+a190db3 lineage-sdk lights: Let Lineage lights decide if notification led is on/off
+
+   * packages/apps/DUI/
+57423ca Fling kb cursors: long press left/right to keep moving cursor [1/2]
+
+   * packages/apps/ResurrectionOTA/
+d22dedf Merge branch   oreo
+
+   * packages/apps/Settings/
+82f869e Fix some seekbar inconsistencies
+4f3ceee Add notification guts kill app button [2/2]
+c3a36f7 Fling kb cursors: long press left/right to keep moving cursor [2/2]
+
+   * vendor/rr/
+f2aef28 Copy changelog to out folder
+9014270 build: Don't create two ota packages
+8d71aab Update Magisk to 16.0
+bb92a08 Merge branch  into oreo
+
+====================
      03-02-2018
 ====================
 
    * android/
 003fcf0 Merge pull request #115 from RainSnowHan/oreo
-
-   * build/make/
-4182dfe Merge branch  oreo
 
    * hardware/qcom/power/
 70b1f44 msm8952: Use is_interactive_governor
@@ -18,15 +118,16 @@
 daff0dd msm8952: Use log/log.h instead of utils/Log.h
 1db0a65 power: Allow devices to override RPM stat nodes
 
-   * packages/apps/ResurrectionOTA/
-d22dedf Merge branch   oreo
+   * packages/apps/Lawnchair/
+497d8ce Merge branch 'alpha' into mko-mr1
+7774995 Skip lint check on alpha builds
+0a3cf26 Exclude v2-alpha from Drone CI
 
    * system/nfc/
 cc331f6 bcm2079x: fix chip id format strings
 
-   * vendor/rr/
-8d71aab Update Magisk to 16.0
-bb92a08 Merge branch  into oreo
+   * vendor/private/
+4b37233 private: update Lawnchair
 
 ====================
      03-01-2018
@@ -38,6 +139,39 @@ e489c53 lineage: Unstage msm8916 HALs
    * bootable/recovery/
 9472909 recovery: Fix format_volume for f2fs
 dfa53ec recovery: Fix back handling
+
+   * packages/apps/Lawnchair/
+807179a Fix Telegram receipent id
+04a1215 Merge pull request #1159 from LawnchairLauncher/storage-permission
+0b8b7b5 Properly handle storage permission on 8.1+
+393cc23 Sir, fix me please ;-;
+3e13e85 Remove group edge from Travis CI
+d86c34c Merge pull request #1158 from LawnchairLauncher/l10n_alpha2
+0a3e53e New translations strings.xml (Vietnamese)
+0c57a42 New translations strings.xml (Chinese Simplified)
+dfb0ed0 New translations strings.xml (Chinese Traditional)
+6fff214 New translations strings.xml (Czech)
+89dd276 New translations strings.xml (Dutch)
+b206b28 New translations strings.xml (French)
+a5f8151 New translations strings.xml (German)
+f0f32a4 New translations strings.xml (Hebrew)
+3b24448 New translations strings.xml (Hindi)
+5b10251 New translations strings.xml (Hungarian)
+95e6099 New translations strings.xml (Italian)
+06f86ce New translations strings.xml (Catalan)
+5c256fa New translations strings.xml (Japanese)
+50512e1 New translations strings.xml (Pirate English)
+2bc86b7 New translations strings.xml (Polish)
+2e85ff0 New translations strings.xml (Portuguese, Brazilian)
+a27062a New translations strings.xml (Romanian)
+633fb6e New translations strings.xml (Russian)
+150ffd5 New translations strings.xml (Serbian (Cyrillic))
+863063f New translations strings.xml (Slovak)
+8c93de3 New translations strings.xml (Spanish)
+1bb3bfc New translations strings.xml (Turkish)
+30470cd New translations strings.xml (Ukrainian)
+9de9fb8 New translations strings.xml (Korean)
+c5c2a0a Fix invisible all apps search text when in dark theme
 
 ====================
      02-28-2018
@@ -53,75 +187,19 @@ e2f2d77 SystemUI: add volume tones back
    * lineage-sdk/
 4775a77 lineage-sdk: Add vendor platform signature overlay
 
+   * packages/apps/Lawnchair/
+61d48f3 Remove not working cache and add Telegram notifications
+0f16ce4 That cache plugin is just retarded
+351469a Remove android build-cache
+feeba4a Finally fix cache directory path
+5bd9c05 Let's play hide and seek then
+e57a712 Rename build steps in pipeline
+bae0d10 Fix cache mounting path
+
    * system/nfc/
 6af832c bcm2079x: fix crash in userial_close_thread()
 951d7f2 bcm2079x: Add checks to prevent NULL pointer deference in gki_init_free_queue()
 e9e8405 bcm2079x: Exit gracefully if there was an error in GKI_wait()
 1e70706 bcm2079x: Replace pthread_exit with return to avoid memory leak
 0e0083c bcm2079x: Log all thread exits
-
-====================
-     02-27-2018
-====================
-
-
-   * bionic/
-7caf61f bionic: Let popen and system fall back to /sbin/sh
-
-   * frameworks/base/
-62b0dba WindowManager:Disable BACK_DELAYED_PRESS {HACK}
-9c11e6d FWB:Remove redundant kill longpress back app [1/2]
-
-   * packages/apps/Camera2/
-ea94710 Add Storage preference (1/2)
-5bce365 Fix crash if Exif-Tag buffer-length and component-count are both 0
-4835383 Camera2: Fix Undo button behaviour
-a9d03d5 Camera2: Remove google help preference
-42618f8 Camera2: Add option to set max screen brightness
-fb78027 Camera: Powerkey shutter (2/2)
-89d723a Camera: Disable Camera Launcher when both Front and Back sensors are not detected
-ab0f6eb Camera2: Stop using GPS when going to background
-01c509c Camera2: Remove settings preferences only once
-18e3960 Camera2: fix video recording for older drivers
-b19f88a Camera2: Only autofocus before a snap if we are actually in "auto" mode.
-5bfd10f Don't attempt to convert degree to orientation enum twice
-
-   * packages/apps/Settings/
-9f36755 d855: That's all to me. (#912)
-b3a42b3 Updated to maintain titan and thea (#923)
-edab715 Settings: Remove Redundant kill longpress back app [2/2]
-
-====================
-     02-26-2018
-====================
-
-
-   * bootable/recovery/
-2f2725e recovery: Respect margins in background and foreground screens
-30553e8 recovery: Add missing menu font files
-
-   * build/kati/
-570abd8 Fix findleaves emulator with symlink loops
-
-   * device/rr/sepolicy/
-95d447c Merge remote-tracking branch 'LineageOS/lineage-15.1' into oreo
-c4c96f6 sepolicy: Isolate qcom sysfs_graphics policy for recovery
-
-   * external/DUtils/
-50ded95 DUI: Turn on Expanded Desktop action
-7346d5d DUI: Add Google Sound Search action [2/2]
-
-   * packages/apps/DUI/
-1b76802 Expose moar DUI parts
-2254811 Fix FC for Fling when unpinning an app
-779ea9d DUI: Add Google Sound Search action [1/2]
-
-   * packages/apps/LineageParts/
-b9f0428 Set default accent to Pixel blue
-
-   * packages/apps/Settings/
-041144a Update D852 Maintainer (#922)
-
-   * system/vold/
-7db856f Add exfat to supported FSs if exfat is enabled
 
