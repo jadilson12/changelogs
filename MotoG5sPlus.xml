@@ -3,6 +3,131 @@
 
 
 ====================
+     03-16-2018
+====================
+
+
+   * build/make/
+ecde617 Merge branch 'oreo' of https://github.com/ResurrectionRemix/android_build into oreo
+
+   * frameworks/base/
+
+   * lineage-sdk/
+
+   * packages/apps/DUI/
+
+   * packages/apps/LineageParts/
+
+   * packages/apps/ResurrectionOTA/
+8d041ff Merge branch 'oreo' of https://github.com/ResurrectionRemix/packages_apps_ResurrectionOTA into oreo
+
+   * packages/apps/Settings/
+
+   * packages/services/OmniJaws/
+
+   * vendor/rr/
+a297326 Merge branch 'oreo' of https://github.com/ResurrectionRemix/android_vendor_resurrection into oreo
+
+====================
+     03-15-2018
+====================
+
+
+   * build/make/
+c37a57b Revert "[TEMP] Disable Script enhancments & fix build"
+
+   * kernel/motorola/msm8953/
+7f06554 Linux 3.18.99
+aa2a8e8 dm io: fix duplicate bio completion due to missing ref count
+b81a0cc fib_semantics: Don't match route with mismatching tclassid
+b7a6992 net: ipv4: don't allow setting net.ipv4.route.min_pmtu below 68
+8fd8f63 sctp: verify size of a new chunk in _sctp_make_chunk()
+a8e716c s390/qeth: fix IPA command submission race
+2e31252 s390/qeth: fix SETIP command handling
+d8f1cb3 sctp: fix dst refcnt leak in sctp_v6_get_dst()
+716696d udplite: fix partial checksum initialization
+7820ab6 ppp: prevent unregistered channels from connecting to PPP units
+4316dc5 netlink: ensure to loop over all netns in genlmsg_multicast_allns()
+b8f31b7 net: fix race on decreasing number of TX queues
+8175956 ipv6 sit: work around bogus gcc-8 -Wrestrict warning
+ab4ee5e hdlc_ppp: carrier detect ok, don't turn off negotiation
+4e1fe4d bridge: check brport attr show in brport_show
+d693402 leds: do not overflow sysfs buffer in led_trigger_show
+418c270 net: fec: introduce fec_ptp_stop and use in probe fail path
+0aa6c2f ARM: mvebu: Fix broken PL310_ERRATA_753970 selects
+ab84ae5 cpufreq: s3c24xx: Fix broken s3c_cpufreq_init()
+0ed949c ALSA: usb-audio: Add a quirck for B&W PX headphones
+9a9cfc5 tpm_i2c_nuvoton: fix potential buffer overruns caused by bit glitches on the bus
+faf2d26 tpm_i2c_infineon: fix potential buffer overruns caused by bit glitches on the bus
+
+   * vendor/rr/
+4abddb0 Add properties for build flash info script
+
+====================
+     03-14-2018
+====================
+
+
+   * vendor/rr/
+a27a09b Merge branch into oreo
+65035af Merge pull request #110 from BlackDeaths/oreo
+
+====================
+     03-13-2018
+====================
+
+
+   * bootable/recovery/
+409a447 Update f2fs format code
+
+   * device/motorola/sanders/
+e605a45 sanders: Fix DTV module path
+
+   * frameworks/base/
+70eaea9 Merge branch 'oreo' of https://github.com/ResurrectionRemix/android_frameworks_base into oreo
+f7779a2 Merge branch 'oreo' of https://github.com/ResurrectionRemix/android_frameworks_base into oreo
+8f36fd2 SystemUI: Update PB statusbar logo
+
+   * packages/apps/LineageParts/
+1bbdf92 LineageParts: update for Style APIs updates
+
+   * packages/apps/Settings/
+f368d93 FuelGuage: Remove redundant battery percentage settings
+
+   * vendor/rr/
+1e63703 update the viper4android
+026cc03 Update DocumentsUI overlay for Oreo
+1bff328 lineage: fix sdk documentation generation
+
+====================
+     03-12-2018
+====================
+
+
+   * bootable/recovery/
+9a45e82 recovery: updater: Fix SymlinkFn args
+
+   * frameworks/base/
+4dc1afb Performance: Memory Optimizations
+0f9d151 Fix random systemui crashes during cts test DO NOT MERGE
+db1f344 base: make settings_dark colors same as material_dark
+a4a2a20 base: update UiManager's night mode according to berry state
+822ceee SystemUI: allow the power menu to be relocated
+bbb00c4 Return of the ticker scroll [1/2]
+d38bbe2 Music ticker: once per track is enough
+
+   * lineage-sdk/
+8d4ce5e sdk: workaround for runtime-permission request dialog with GooglePackageManager
+add4ee5 sdk: fixes for documentation
+927a9c2 sdk: Styles API finalization for API9
+
+   * packages/apps/Settings/
+cb9f5e7 Return of ticker scroll [2/2]
+
+   * packages/apps/Snap/
+e4a946e Snap: fix copy and paste fail
+
+====================
      03-11-2018
 ====================
 
@@ -132,9 +257,6 @@ b649667 recovery: Fix redraws, flickering, and animation
 6f54468 updater: Fix and improve allowing devices to suppress BLKDISCARD
 56063ff updater: Fix allowing devices to suppress BLKDISCARD
 
-   * device/motorola/sanders/
-d11bb60 Revert "sanders: ACDB device ids from Stock"
-
    * hardware/qcom/gps/
 e375f8c msm8974: Return the correct length of nmea sentence
 cd4b7f5 msm8974: Don't rely on transitively included headers
@@ -147,6 +269,9 @@ a1f9895 msm8974: Add missing liblog dependency
 9100f0e Revert "msm8974: remove from top level makefile"
 a00e4ad Revert "msm8974: deprecate msm8974"
 
+   * hardware/ril/
+e73eaff libril: Protect against NULL unsolicited response function
+
    * lineage-sdk/
 0be4760 Revert "lineage-sdk: Update the way OMS records details about overlays"
 
@@ -155,163 +280,4 @@ a00e4ad Revert "msm8974: deprecate msm8974"
 
    * system/core/
 418b50f adb: host: Provide better sideload status
-
-====================
-     03-09-2018
-====================
-
-
-   * build/make/
-4509605 Merge branch  into oreo
-
-   * frameworks/base/
-27e1070 Merge branch 'oreo' of https://github.com/ResurrectionRemix/android_frameworks_base into HEAD
-e01fddc Revert "OMS: Only allow trusted overlays to be registered."
-758dc30 Revert "Visualizer: Adjust for volume level"
-e19c2df Revert "framework: fix screenshot and rotation animation for devices with abnormal hw rotation"
-6f30345 storage: Set all sdcards to visible
-
-   * hardware/qcom/fm/
-
-   * packages/apps/Bluetooth/
-
-   * packages/apps/Camera2/
-
-   * packages/apps/CarrierConfig/
-8f44654 CarrierConfig: HoT and tele.ring (232 07) may roam on T-Mobile (232 03)
-
-   * packages/apps/CellBroadcastReceiver/
-
-   * packages/apps/CertInstaller/
-
-   * packages/apps/Contacts/
-
-   * packages/apps/Dialer/
-
-   * packages/apps/DocumentsUI/
-
-   * packages/apps/Email/
-
-   * packages/apps/ExactCalculator/
-
-   * packages/apps/FMRadio/
-
-   * packages/apps/Gallery2/
-7cd4469 Fix the issue of view don't reload when onPause
-3c2f100 Fix FC of parsing uri is null
-ba099de SDGallery:Fix monkey FC when url from pick activity is null
-6d57bca Don't show Camera Icon when no pictures found in Albums
-15e538a SnapdragonGallery: Fix crash show dialog when activity finished
-385313d Fix custom filter don't work when first click after back to original
-de46c7f SnapdragonGallery: Fix dialog dismiss when home
-25eaa5b SnapdragonGallery: Fix multithread synchronization in screenReceiver
-
-   * packages/apps/Messaging/
-
-   * packages/apps/Nfc/
-
-   * packages/apps/Settings/
-80cb019 Merge branch 'oreo' of https://github.com/ResurrectionRemix/Resurrection_packages_apps_Settings into HEAD
-19a3aea Revert "Update the way OMS records details about overlays"
-7e01a97 Add Mi Max 2 (#929)
-
-   * packages/apps/Snap/
-
-   * packages/apps/StorageManager/
-
-   * packages/apps/Tag/
-
-   * packages/apps/TvSettings/
-
-   * packages/inputmethods/LatinIME/
-
-   * packages/providers/CalendarProvider/
-
-   * packages/providers/DownloadProvider/
-
-   * packages/screensavers/Basic/
-
-   * packages/services/BuiltInPrintService/
-
-   * vendor/rr/
-57b204e Revert "apps: add build Lawnchair"
-ccd1052 Merge branch into oreo
-
-====================
-     03-08-2018
-====================
-
-
-   * build/make/
-f32592e [TEMP] Disable Script enhancments & fix build
-bf27fe0 pathmap: Move RIL path mapping to core/config.mk
-
-   * packages/apps/CarrierConfig/
-dec7923 Disable OTA for U.S. Cellular since there is no need for it
-
-   * vendor/rr/
-9e0c225 Revert "pathmap: remove duplicate include-path-for"
-86f6b37 lineage: Enable wifi wakeup config option
-
-====================
-     03-07-2018
-====================
-
-   * android/
-adcb164 Track own fw native
-4c0f4db manifest: Track awk
-
-   * bootable/recovery/
-a55e565 recovery: Add awk lib and driver
-
-   * build/make/
-7de6b66 Revert "Place TARGET_FS_CONFIG_GEN passwd/group files in /vendor/etc"
-d6fd02f products: make targets used for addonsu inherit from lineage
-1cd24fe config: use AOSP RIL for non-lineage builds
-782d637 build: unconditionally use lineage pathmap
-73df7dc Move ART default properties into system partition
-21e430d Add PRODUCT_SYSTEM_DEFAULT_PROPERTIES
-4abba68 Revert "build: Add new variable to hold generic build properties"
-21679da Allow setting the recovery density separately from the aapt config
-4b0d488 dumpvar: Dump RECOVERY_VARIANT if not empty
-7cfd9e0 Add dumpvar for WITH_SU
-83466b0 core: include getb64key.py in otatools
-
-   * external/one-true-awk/
-cfe7878 awk: Add libawk_main for recovery and fixup symbols
-
-   * frameworks/native/
-c5a051f Revert "InputDispatcher: On keypress, deliver keycode to pokeUserActivity"
-811e2d4 Revert "PowerManager.h: Define USER_ACTIVITY_FLAG values"
-6e58bf0 InputDispatcher: On keypress, deliver keycode to pokeUserActivity
-dcbb80b PowerManager.h: Define USER_ACTIVITY_FLAG values
-
-   * lineage-sdk/
-5c7ec8a LineageSettings: Add a setting for button backlight only when pressed
-210184b lineage-sdk: Update the way OMS records details about overlays
-ddffa32 sdk: introduce Style API
-
-   * packages/apps/LineageParts/
-75d5b99 LineageParts: Update the way OMS records details about overlays
-2a486eb LineageParts: switch to Style API
-b7a900d LineageParts: Update our NFC profile mime type
-
-   * packages/apps/Settings/
-d09729f  Update Galaxy S5 Maintainers (#927)
-88bc581 Update Hammerhead Maintainer (#928)
-71ab59e Add Zuk Z2 PRO Maintainer (#926)
-5c64076 Update cancro maintainer (#925)
-
-   * prebuilts/lineage-sdk/
-767ea95 Add old APIs info
-
-   * vendor/rr/
-3b54468 lineage: Add awk
-b909c28 qcom_target: Move RIL path mapping to core/config.mk
-2476b9f pathmap: remove duplicate include-path-for
-622cf92 vendor: add style api
-a13bd3e backuptool: Take into account new location for system default props
-bb74b1e lineage: Move to Google's method of defining system default props
-173bbdd extract_utils: Fix vendor framework makefile generation
-bb5d6ce extract-utils: Use LOCAL_VENDOR_FILE instead of LOCAL_PROPRIETARY_FILE
 
