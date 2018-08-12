@@ -1,109 +1,138 @@
 
- ▼ Resurrection Remix Oreo Ver 6.0.0 Changelog
+ ▼ Resurrection Remix Oreo Ver 6.1.0 Changelog
 
 
 ====================
-     03-18-2018
+     08-12-2018
 ====================
 
 
-====================
-     03-17-2018
-====================
-
-
-   * hardware/qcom/display/
-1aa43a5 msm8974: libexternal should depend on libmedia
-ef4ddf0 msm8974: libgralloc: Fix adding offset to the mapped base address
-
-   * hardware/qcom/fm/
-6ca6a20 libfm_jni: Ignore unused parameters from APIs
-944fa04 libfm_jni: Resolve FM_DEVICE_PATH R/O open flag
-abc6047 libfm_jni: Resolve fread assignment to condition cast
-76d61cf libfm_jni: Remove unused variables
-
-   * packages/apps/Snap/
-9b0c005 Snap: Configure focus ring preview dimensions
-b2ef15e Snap: Add support for focus distance
-4bdfff2 Drop new focus indicator into Camera2.
-
-   * vendor/motorola/sanders/
-c6833dd sanders: Use O-MR1 based GPS blobs
-6c2b784 sanders: Use O-MR1 based display and media blobs
-d0bb156 sanders: Update to KPTI patched time blobs
-
-====================
-     03-16-2018
-====================
-
-
-   * frameworks/base/
-
-   * hardware/qcom/audio/default/
-6ec0a5e audio: Make CVD version retrieval nonfatal with ACDB v1
-
-   * lineage-sdk/
-
-   * packages/apps/DUI/
-
-   * packages/apps/LineageParts/
-
-   * packages/apps/ResurrectionOTA/
-8d041ff Merge branch 'oreo' of https://github.com/ResurrectionRemix/packages_apps_ResurrectionOTA into oreo
-
-   * packages/apps/Settings/
-
-   * packages/services/OmniJaws/
-
-====================
-     03-15-2018
-====================
-
-
-   * build/make/
-c37a57b Revert "[TEMP] Disable Script enhancments & fix build"
-
-   * hardware/qcom/audio-caf/msm8952/
-5dd29ee Revert "hal: Fix failure in VtsHalAudioV2_0Target test due to spkr protection"
-
-   * hardware/qcom/display/
-86a2c32 msm8974: hwcomposer: Fix regression in hwc_sync
+   * device/motorola/sanders/
+2c44605 enable sdcardfs prop
+5b21f8c enable usb debugging at boot
+5dd946a add the lte network selection by default
+d335ccd fix path for dtv module
+e936f4f Add specific device property set
+5ac3af8 sanders: Fix DTV Modules and Add device specific property sets
+63c1c9a sanders: More DTV fixes * Add to check_features * Add proprietary blobs * Fix sepolicy
+e29e2ba sanders: add lineage chager4
+a4adfeb sanders: Enable dexpreopt for system server
+878eab1 sanders: update audio configs from OPS28.65-14
+274e012 sanders: update wifi configs from OPS28.65-14
+1153eed sanders: remove android.hardware.usb; no usbpd support
+4fc8a66 overlay: imsService and flag IMS dynamic bind
+2d00828 overlay: turbo power charging support
 
    * kernel/motorola/msm8953/
-7f06554 Linux 3.18.99
-aa2a8e8 dm io: fix duplicate bio completion due to missing ref count
-b81a0cc fib_semantics: Don't match route with mismatching tclassid
-b7a6992 net: ipv4: don't allow setting net.ipv4.route.min_pmtu below 68
-8fd8f63 sctp: verify size of a new chunk in _sctp_make_chunk()
-a8e716c s390/qeth: fix IPA command submission race
-2e31252 s390/qeth: fix SETIP command handling
-d8f1cb3 sctp: fix dst refcnt leak in sctp_v6_get_dst()
-716696d udplite: fix partial checksum initialization
-7820ab6 ppp: prevent unregistered channels from connecting to PPP units
-4316dc5 netlink: ensure to loop over all netns in genlmsg_multicast_allns()
-b8f31b7 net: fix race on decreasing number of TX queues
-8175956 ipv6 sit: work around bogus gcc-8 -Wrestrict warning
-ab4ee5e hdlc_ppp: carrier detect ok, don't turn off negotiation
-4e1fe4d bridge: check brport attr show in brport_show
-d693402 leds: do not overflow sysfs buffer in led_trigger_show
-418c270 net: fec: introduce fec_ptp_stop and use in probe fail path
-0aa6c2f ARM: mvebu: Fix broken PL310_ERRATA_753970 selects
-ab84ae5 cpufreq: s3c24xx: Fix broken s3c_cpufreq_init()
-0ed949c ALSA: usb-audio: Add a quirck for B&W PX headphones
-9a9cfc5 tpm_i2c_nuvoton: fix potential buffer overruns caused by bit glitches on the bus
-faf2d26 tpm_i2c_infineon: fix potential buffer overruns caused by bit glitches on the bus
+8b7b122 power: qpnp-fg: queue work on system_power_efficient_wq
+77ae3f0 enabled sdcardfs and disable esd
+17cd36d do some tweaks to save battery
+032c093 deconfig:enable modules for dtv fix
+72bb575 sanders: Enable fc8300 DTV driver
+683bb4f DTV: Add a specific config
+100373f V4L/DVB (6428): Make the naming of the DTV firmware files more consistent
+
+====================
+     08-11-2018
+====================
+
+   * android/
+1a21a25 lineage: Remove no longer used commented repositories
+8baa7f9 manifest: android-8.1.0_r36 -> android-8.1.0_r43
+
+   * build/make/
+f32d99e Merge tag 'android-8.1.0_r43' into HEAD
+
+   * frameworks/base/
+688663e fw/b lights: Allow black notification color
+78c72dd Merge tag 'android-8.1.0_r43' of https://android.googlesource.com/platform/frameworks/base into HEAD
+
+   * hardware/lineage/interfaces/
+9bcc1bd Update makefiles from anywhere.
+
+   * packages/apps/Messaging/
+fc5f2d9 Merge branch 'lineage-15.1' of git://github.com/LineageOS/android_packages_apps_Messaging into HEAD
+
+   * packages/apps/Settings/
+daffc06 Merge tag 'android-8.1.0_r43' into HEAD
+477967d Expose option to change the device hostname.
+
+   * packages/services/Telephony/
+71793c3 Merge remote-tracking branch 'LineageOS/lineage-15.1' into HEAD
+
+   * vendor/motorola/sanders/
+e4825d9 sanders: update sensors.qcom from OPS28.65-14
+20da0c3 sanders: update camera blobs from OPS28.65-14
+7833d5a sanders: update display/adreno and media blobs again
 
    * vendor/rr/
-4abddb0 Add properties for build flash info script
+87bdbc1 backuptool: Resolve incompatible version grep syntax
+67af102 lineage: Set perms on reading_mode sysfs
+b57d9f1 lineage: Allow background broadcast for CAMERA_BUTTON
+06483cd Revert "ota: Validate any installed data's signature against our own"
+1b85634 vendor: Copy org.lineageos.settings permission
 
 ====================
-     03-14-2018
+     08-10-2018
 ====================
 
+
+   * hardware/lineage/lineagehw/
+a027dee lineagehw: Check if files are readable when we read them
+
+====================
+     08-09-2018
+====================
+
+
+   * external/e2fsprogs/
+81fe13e Merge tag 'android-8.1.0_r43' into staging/lineage-15.1_merge-android-8.1.0_r43
+
+   * frameworks/av/
+f1f657b Merge tag 'android-8.1.0_r43' into HEAD
+
+   * frameworks/opt/telephony/
+1e612ae Merge tag 'android-8.1.0_r43' into staging/lineage-15.1_merge-android-8.1.0_r43
+
+   * hardware/lineage/lineagehw/
+82d586c lineagehw: Add support for sysfs ReadingEnhancement
+7f833b8 lineagehw: Update ReadingEnhancement for new API
+
+   * packages/apps/Messaging/
+3686c41 Merge tag 'android-8.1.0_r43' into staging/lineage-15.1_merge-android-8.1.0_r43
+af0e887 Revert "Messaging: Request external storage permission before handling shared files"
+
+   * packages/apps/PackageInstaller/
+e57050a Merge tag 'android-8.1.0_r43' into staging/lineage-15.1_merge-android-8.1.0_r43
+
+   * packages/apps/Settings/
+c28cb4d Update Lenovo P2 maintainer
+
+   * packages/apps/UnifiedEmail/
+d2fc4bd Merge tag 'android-8.1.0_r43' into staging/lineage-15.1_merge-android-8.1.0_r43
+
+   * packages/providers/DownloadProvider/
+5ee3e34 Merge tag 'android-8.1.0_r43' into staging/lineage-15.1_merge-android-8.1.0_r43
+
+   * packages/services/Telephony/
+ce5915c Merge tag 'android-8.1.0_r43' into staging/lineage-15.1_merge-android-8.1.0_r43
+
+   * system/bt/
+37b2ade Merge tag 'android-8.1.0_r43' into staging/lineage-15.1_merge-android-8.1.0_r43
 
    * system/vold/
-20d950c vold: Also wait for dm device when mounting private volume
+2aa8eba Merge tag 'android-8.1.0_r43' into staging/lineage-15.1_merge-android-8.1.0_r43
 
-   * vendor/rr/
-65035af Merge pull request #110 from BlackDeaths/oreo
+====================
+     08-08-2018
+====================
+
+
+====================
+     08-07-2018
+====================
+
+
+   * hardware/qcom/power/
+34c7410 power: Fix several typos in power profiles
 
