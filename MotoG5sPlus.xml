@@ -3,34 +3,47 @@
 
 
 ====================
+     08-14-2018
+====================
+
+
+   * vendor/rr/
+6c8641d update prebuilt
+1220c7e Merge branch 'oreo'
+
+====================
+     08-13-2018
+====================
+
+
+   * packages/apps/ResurrectionOTA/
+fa2d5c2 get update
+
+   * packages/apps/Snap/
+516483b Snap: Allow quickreader to work with secure device
+
+   * vendor/rr/
+cf57f31 backuptool: fix restoring after commit 87bdbc138b6d27b4bd67b964eda24df4d8dbe2c8
+
+====================
      08-12-2018
 ====================
 
 
-   * device/motorola/sanders/
-2c44605 enable sdcardfs prop
-5b21f8c enable usb debugging at boot
-5dd946a add the lte network selection by default
-d335ccd fix path for dtv module
-e936f4f Add specific device property set
-5ac3af8 sanders: Fix DTV Modules and Add device specific property sets
-63c1c9a sanders: More DTV fixes * Add to check_features * Add proprietary blobs * Fix sepolicy
-e29e2ba sanders: add lineage chager4
-a4adfeb sanders: Enable dexpreopt for system server
-878eab1 sanders: update audio configs from OPS28.65-14
-274e012 sanders: update wifi configs from OPS28.65-14
-1153eed sanders: remove android.hardware.usb; no usbpd support
-4fc8a66 overlay: imsService and flag IMS dynamic bind
-2d00828 overlay: turbo power charging support
+   * build/make/
+e21b0ae Merge branch 'oreo' of https://github.com/ResurrectionRemix/android_build into oreo
 
-   * kernel/motorola/msm8953/
-8b7b122 power: qpnp-fg: queue work on system_power_efficient_wq
-77ae3f0 enabled sdcardfs and disable esd
-17cd36d do some tweaks to save battery
-032c093 deconfig:enable modules for dtv fix
-72bb575 sanders: Enable fc8300 DTV driver
-683bb4f DTV: Add a specific config
-100373f V4L/DVB (6428): Make the naming of the DTV firmware files more consistent
+   * lineage-sdk/
+b486978 sdk: Add minimal LineageSettingsService
+3c3ad38 Import preference class for custom hostname feature
+301cccb sdk: Allow controllable brightness for non-RGB segmented battery LEDs
+
+   * packages/apps/LineageParts/
+1abdf44 LineageParts: Remove PrivacySettings
+17fc3ad LineageParts: Allow brightness control for segmented LEDs
+
+   * vendor/rr/
+52d3d90 Merge into oreo
 
 ====================
      08-11-2018
@@ -50,6 +63,12 @@ f32d99e Merge tag 'android-8.1.0_r43' into HEAD
    * hardware/lineage/interfaces/
 9bcc1bd Update makefiles from anywhere.
 
+   * lineage-sdk/
+9e71784 sdk: Rework reading mode API
+
+   * packages/apps/LineageParts/
+7ac9fc8 LineageParts: Update reading mode toggle for new API
+
    * packages/apps/Messaging/
 fc5f2d9 Merge branch 'lineage-15.1' of git://github.com/LineageOS/android_packages_apps_Messaging into HEAD
 
@@ -59,11 +78,6 @@ daffc06 Merge tag 'android-8.1.0_r43' into HEAD
 
    * packages/services/Telephony/
 71793c3 Merge remote-tracking branch 'LineageOS/lineage-15.1' into HEAD
-
-   * vendor/motorola/sanders/
-e4825d9 sanders: update sensors.qcom from OPS28.65-14
-20da0c3 sanders: update camera blobs from OPS28.65-14
-7833d5a sanders: update display/adreno and media blobs again
 
    * vendor/rr/
 87bdbc1 backuptool: Resolve incompatible version grep syntax
@@ -80,6 +94,11 @@ b57d9f1 lineage: Allow background broadcast for CAMERA_BUTTON
    * hardware/lineage/lineagehw/
 a027dee lineagehw: Check if files are readable when we read them
 
+   * vendor/motorola/sanders/
+e4825d9 sanders: update sensors.qcom from OPS28.65-14
+20da0c3 sanders: update camera blobs from OPS28.65-14
+7833d5a sanders: update display/adreno and media blobs again
+
 ====================
      08-09-2018
 ====================
@@ -94,19 +113,12 @@ f1f657b Merge tag 'android-8.1.0_r43' into HEAD
    * frameworks/opt/telephony/
 1e612ae Merge tag 'android-8.1.0_r43' into staging/lineage-15.1_merge-android-8.1.0_r43
 
-   * hardware/lineage/lineagehw/
-82d586c lineagehw: Add support for sysfs ReadingEnhancement
-7f833b8 lineagehw: Update ReadingEnhancement for new API
-
    * packages/apps/Messaging/
 3686c41 Merge tag 'android-8.1.0_r43' into staging/lineage-15.1_merge-android-8.1.0_r43
 af0e887 Revert "Messaging: Request external storage permission before handling shared files"
 
    * packages/apps/PackageInstaller/
 e57050a Merge tag 'android-8.1.0_r43' into staging/lineage-15.1_merge-android-8.1.0_r43
-
-   * packages/apps/Settings/
-c28cb4d Update Lenovo P2 maintainer
 
    * packages/apps/UnifiedEmail/
 d2fc4bd Merge tag 'android-8.1.0_r43' into staging/lineage-15.1_merge-android-8.1.0_r43
@@ -122,17 +134,4 @@ ce5915c Merge tag 'android-8.1.0_r43' into staging/lineage-15.1_merge-android-8.
 
    * system/vold/
 2aa8eba Merge tag 'android-8.1.0_r43' into staging/lineage-15.1_merge-android-8.1.0_r43
-
-====================
-     08-08-2018
-====================
-
-
-====================
-     08-07-2018
-====================
-
-
-   * hardware/qcom/power/
-34c7410 power: Fix several typos in power profiles
 
