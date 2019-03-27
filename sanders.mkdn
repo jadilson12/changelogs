@@ -1,0 +1,312 @@
+
+Resurrection Remix Pie Ver 7.0.1 Changelog
+
+
+====================
+     03-26-2019
+====================
+
+
+   * device/motorola/sanders/
+e4d89c2 sanders: update dependencies
+74d90f2 sanders:fix ims volte
+0dddd7f sanders: Reorder tetherable connection types
+eb95113 sanders: add WFD overlays & properties
+e3fc364 sanders: changed the shutdown trigger down
+5889702 Audio:  Increase incall volume
+2e1e0bb sanders: Enable VoLTE to enable calling over LTE for Airtel India.
+66c6a77 sanders: Enable VoLTE to enable calling over LTE for Vodafone India.
+ce3a176 overlay: Show DocumentsUI internal storage by default
+2b9e3ae sanders: switch to prebuilt qti-telephony-common from daisy
+559521c sanders: small changes to camera
+c00e1f2 remove duplicate parts in manifest
+e5f011d sanders: update ims symlink
+587b94f audio: uprev android.hardware.audio.effects to 4.0
+2b6a552 sanders: Do not create fingerprint directories in init
+bc97de5 sanders: set custom media & call volume steps
+113d704 overlay: use vibration patterns from Pixel devices
+da3ba2a Rename the QC introduced props to have vendor tag added  to use tree
+a81fc45 sanders: Convert  init to  libinit  scripts with base potter
+30c1a14 Revert "sanders: Convert libinit to init scripts"
+d40b7cd sanders: clangto 6.0.2
+569159f sanders:  set support sound trigger hal
+2791c2f sanders:  declare soundtrigger
+f916f60 sanders: add  persist.vendor.radio.jbims prop
+
+====================
+     03-25-2019
+====================
+
+
+   * kernel/motorola/msm8953/
+f5eb31d16215 sound: fix
+af5098212ff6 Merge tag 'v3.18.137' into 9.0-eas
+
+====================
+     03-24-2019
+====================
+
+
+   * device/rr/sepolicy/
+d265256 rr: Add pocket judge selinux policy
+0364ac6 rr: Add selinux policy for pocket bridge
+
+   * frameworks/base/
+c508731dfef Fix build
+46b1d347089 pocket: Fix pocket lock view for display cutouts
+ede06273352 pocket: Adjust sleep timeout for pocket lock view to 10 secs
+4ef25a381a8 pocket: introduce pocket bridge
+c8180ddb64b PocketService: Adjust light sensor rate to 400ms
+f3ebb81a010 pocket: Add hardware acceleration and properly maintain SYSTEM_UI flags
+3c278509ff3 policy: introduce pocket lock
+a2bd8b92872 pocket: introduce pocket judge
+673d9e32f57 Revert "PowerManager: Add proximity check on wake"
+d387eb82df0 Merge branch 'pie' of github.com:ResurrectionRemix/android_frameworks_base into pie
+5ef4809c32a Volume panel: fixed incorrect positioning of the expandable_indicator and ringer
+f54508dfebe Merge pull request #249 from AliHasan7671/pie
+d44815141e5 QS: Add CPUInfo toggle tile
+
+   * packages/apps/Settings/
+207009c5bf Merge branch 'pie' of github.com:ResurrectionRemix/Resurrection_packages_apps_Settings into pie
+80369c34a4 Settings: Add pocket lock toggle
+617cc212db Revert "Settings: Add proximity check on wake preference"
+14dd5ce2f1 Merge pull request #1060 from AliHasan7671/pie
+c4e9f22d71 Ambient display: hide now playing
+dffc7f9e2c Settings: Move QS headers to QS customizations
+
+   * vendor/rr/
+9a58c1a9 Merge pull request #117 from nysadev/pie
+221594ba Add loads more fonts from BootleggersROM
+9146a5c5 rr: Add sysfs permissions for pocket bridge
+
+====================
+     03-23-2019
+====================
+
+   * android/
+45cc137 Track OmniStyle
+
+   * frameworks/base/
+777b83c936a Fix build
+9434c1cebf0 base: bring omni utils back
+1dbf3de2f85 Fix Build
+d5113d70a13 [1/4] base: qs status bar header image
+8cc46644607 Check if notification is valid before it finally vibrates
+4a46c47fbc0 Fix build
+335fa43227f Revert "FWB: Statusbar weather [1/2]"
+7e9cba5efc2 Revert "Statusbar weather font style and size [2/2]"
+6d8ccb8984f partially Revert "Compilaton Fix"
+921f4473d83 Revert "Revert "Add network traffic monitor properly to statusbar icons""
+b95579ae430 Revert "Make StatusBar weather and traffic monitor be happy"
+b0163d6bf62 base: notch-city: Add 3 mode display cutout handler [1/3]
+
+   * kernel/motorola/msm8953/
+24fbbeb15685 Linux 3.18.137
+0f404510f81a tmpfs: fix uninitialized return value in shmem_link
+1f8ef009efe1 drm/radeon/evergreen_cs: fix missing break in switch statement
+920ee78174ad media: uvcvideo: Avoid NULL pointer dereference at the end of streaming
+73929a01c565 md: Fix failed allocation of md_register_thread
+3127b10f2e45 nfsd: fix wrong check in write_v4_end_grace()
+695cf5a1c7f8 nfsd: fix memory corruption caused by readdir
+4d01d0bef261 ARM: s3c24xx: Fix boolean expressions in osiris_dvs_notify
+86e74461bcc5 powerpc/83xx: Also save/restore SPRG4-7 during suspend
+8302f8d9ff19 powerpc/powernv: Make opal log only readable by root
+251b9649c10b powerpc/wii: properly disable use of BATs when requested.
+e89f1814df0a powerpc/32: Clear on-stack exception marker upon exception return
+b30e5af1adf9 jbd2: clear dirty flag when revoking a buffer from an older transaction
+b364a52e5171 parport_pc: fix find_superio io compare code, should use equal test.
+0c6ea710cf58 kernel/sysctl.c: add missing range check in do_proc_dointvec_minmax_conv
+cc3dc9fd8009 mm/vmalloc: fix size check for remap_vmalloc_range_partial()
+c7e2728472da ext2: Fix underflow in ext2_max_size()
+5df54f47cd02 ext4: fix crash during online resizing
+9c069be87377 cpufreq: pxa2xx: remove incorrect __init annotation
+51febb43d09c crypto: pcbc - remove bogus memcpy()s with src == dest
+0ece4f706a10 Btrfs: fix corruption reading shared and compressed extents after hole punching
+6086051bd2eb m68k: Add -ffreestanding to CFLAGS
+c91bf13da255 scsi: target/iscsi: Avoid iscsit_release_commands_from_conn() deadlock
+dc22a28021fb scsi: virtio_scsi: don't send sc payload with tmfs
+f6dc882865ab regulator: s2mpa01: Fix step values for some LDOs
+c9807601d36b regulator: s2mps11: Fix steps for buck7, buck8 and LDO35
+ed6d71db0ea0 CIFS: Fix read after write for files with read caching
+6439ade58583 net: set static variable an initial value in atl2_probe()
+afeeaae3f36c tmpfs: fix link accounting when a tmpfile is linked in
+7e7a77e27dc8 arm64: Relax GIC version check during early boot
+a27a25af72b4 net: mv643xx_eth: disable clk on error path in mv643xx_eth_shared_probe()
+4abfd43cd64a net: systemport: Fix reception of BPDUs
+a55576b3f24e scsi: libiscsi: Fix race between iscsi_xmit_task and iscsi_complete_task
+103d3fba10e6 assoc_array: Fix shortcut creation
+5c00ee71ac0b Input: st-keyscan - fix potential zalloc NULL dereference
+8086ef79de57 i2c: cadence: Fix the hold bit setting
+3c05cf982f0e Input: matrix_keypad - use flush_delayed_work()
+fab8ee03386f s390/dasd: fix using offset into zero size array error
+5331f95d4243 crypto: ahash - fix another early termination in hash walk
+492290b4342e ASoC: fsl_esai: fix register setting issue in RIGHT_J mode
+f314a706df8b 9p/net: fix memory leak in p9_client_create
+010feb981f75 It's wrong to add len to sector_nr in raid10 reshape twice
+a7e24e00f8e9 ALSA: bebob: use more identical mod_alias for Saffire Pro 10 I/O against Liquid Saffire 56
+415d81c3fe31 gro_cells: make sure device is up in gro_cells_receive()
+c9978f642e0e net/hsr: fix possible crash in add_timer()
+54e31274f8c1 vxlan: test dev->flags & IFF_UP before calling gro_cells_receive()
+10a16ff0ef80 missing barriers in some of unix_sock ->addr and ->path accesses
+b929a3603b8d net: Set rtm_table to RT_TABLE_COMPAT for ipv6 for tables > 255
+077a353641d2 mdio_bus: Fix use-after-free on device_register fails
+f14e4744b29a net/x25: fix a race in x25_bind()
+65b511dda573 net/mlx4_core: Fix qp mtt size calculation
+223458ad034b pptp: dst_release sk_dst_cache in pptp_sock_destruct
+0052542ed3bb net/x25: reset state in x25_connect()
+311d9ca2cfd7 net/x25: fix use-after-free in x25_device_event()
+5f23b7a9fff5 net: sit: fix UBSAN Undefined behaviour in check_6rd
+e3d6490ad2b4 net: hsr: fix memory leak in hsr_dev_finalize()
+af12857379c8 l2tp: fix infoleak in l2tp_ip6_recvmsg()
+19d0200ab9fb iscsi_ibft: Fix missing break in switch statement
+a91258c06c37 Input: wacom_serial4 - add support for Wacom ArtPad II tablet
+c8a52bb99462 perf symbols: Filter out hidden symbols from labels
+6acb293d7cf2 s390/qeth: fix use-after-free in error path
+3c26324ee549 dmaengine: dmatest: Abort test in case of mapping error
+66a0097e462b irqchip/mmp: Only touch the PJ4 IRQ & FIQ bits on enable/disable
+c35a43a4aa4f ARM: pxa: ssp: unneeded to free devm_ allocated data
+e098697e51d2 autofs: fix error return in autofs_fill_super()
+b581cd7a149c autofs: drop dentry reference only when it is never used
+a3f3491953c4 mm, memory_hotplug: is_mem_section_removable do not pass the end of a zone
+12c154964e79 x86/kexec: Don't setup EFI info if EFI runtime is not enabled
+4b3cc96fa270 cifs: fix computation for MAX_SMB2_HDR_SIZE
+bdde0a895403 platform/x86: Fix unmet dependency warning for SAMSUNG_Q10
+36fb86505290 scsi: libfc: free skb when receiving invalid flogi resp
+03e8aa634f85 nfs: Fix NULL pointer dereference of dev_name
+ddd02ed6687c net: altera_tse: fix msgdma_tx_completion on non-zero fill_level case
+47bf7dbba48f xtensa: SMP: limit number of possible CPUs by NR_CPUS
+245fa9e4c8b8 xtensa: SMP: mark each possible CPU as present
+d4e922c05e88 xtensa: smp_lx200_defconfig: fix vectors clash
+1c0a5536b07e xtensa: SMP: fix secondary CPU initialization
+83237244df9c iommu/amd: Fix IOMMU page flush when detach device from a domain
+c7b9cfdb7c9a ipvs: Fix signed integer overflow when setsockopt timeout
+aef2907d0f4e perf tools: Handle TOPOLOGY headers with no CPU
+ed5ade9696ec vti4: Fix a ipip packet processing bug in 'IPCOMP' virtual tunnel
+7828fe7452f1 media: uvcvideo: Fix 'type' check leading to overflow
+e37f1f9158e0 hugetlbfs: fix races and page leaks during migration
+28ee96bc28a1 ip6mr: Do not call __IP6_INC_STATS() from preemptible context
+c61d01faa555 netlabel: fix out-of-bounds memory accesses
+ffd0f56df5d0 net: phy: Micrel KSZ8061: link failure after cable connect
+5202d2fb4e15 net: avoid use IPCB in cipso_v4_error
+b5cd9b572169 net: Add __icmp_send helper.
+e89106985667 net: nfc: Fix NULL dereference on nfc_llcp_build_tlv fails
+c152a71bfd2a team: Free BPF filter when unregistering netdev
+39915595c028 sky2: Disable MSI on Dell Inspiron 1545 and Gateway P-79
+a7053bc3aeef net-sysfs: Fix mem leak in netdev_register_kobject
+70628d623780 USB: serial: cp210x: add ID for Ingenico 3070
+f290a73f3e91 mm: enforce min addr even if capable() in expand_downwards()
+c3ccbb431fe1 mmc: spi: Fix card detection during probe
+eea042978351 KVM: nSVM: clear events pending from svm_complete_interrupts() when exiting to L1
+1d26f9b68ba2 cfg80211: extend range deviation for DMG
+a0b1e4d45abb mac80211: don't initiate TDLS connection if station is not associated to AP
+2c91f0b916c9 ibmveth: Do not process frames after calling napi_reschedule
+16618e65b6a0 net: altera_tse: fix connect_local_phy error path
+cf5dda0109a8 scsi: csiostor: fix NULL pointer dereference in csio_vport_set_state()
+e3fa9f464464 serial: fsl_lpuart: fix maximum acceptable baud rate with over-sampling
+c1b8a5c7566f mac80211: fix miscounting of ttl-dropped frames
+e5c6f5b545fa ASoC: imx-audmux: change snprintf to scnprintf for possible overflow
+bbda75dd25ed usb: gadget: Potential NULL dereference on allocation error
+def42cb2eae3 usb: dwc3: gadget: Fix the uninitialized link_state when udc starts
+7af73b5fcbc4 ALSA: compress: prevent potential divide by zero bugs
+d1f9176b550c ASoC: Intel: Haswell/Broadwell: fix setting for .dynamic field
+7b8a6f60ad99 drm/msm: Unblock writer if reader closes file
+505b786aefc0 scsi: libsas: Fix rphy phy_identifier for PHYs with end devices attached
+a4954e0f5d6b libceph: handle an empty authorize reply
+5821948648ca netlink: Trim skb to alloc size to avoid MSG_TRUNC
+9f4487f15f15 sit: check if IPv6 enabled before calling ip6_err_gen_icmpv6_unreach()
+a68a134d81c6 team: avoid complex list operations in team_nl_cmd_options_set()
+c51049494a19 net/packet: fix 4gb buffer limit due to overflow check
+d2b09171e666 batman-adv: fix uninit-value in batadv_interface_tx()
+15ef496907f6 KEYS: always initialize keyring_index_key::desc_len
+0b49d56ed77d KEYS: user: Align the payload buffer
+32cd768c6176 isdn: avm: Fix string plus integer warning from Clang
+33951e5f8885 leds: lp5523: fix a missing check of return value of lp55xx_read
+f11255bf3bc6 atm: he: fix sign-extension overflow on large shift
+627e11b13177 isdn: i4l: isdn_tty: Fix some concurrency double-free bugs
+bcec1dc4ffdf MIPS: jazz: fix 64bit build
+39b0655ec07c scsi: isci: initialize shost fully before calling scsi_add_host()
+c5c4e7508b6a scsi: qla4xxx: check return code of qla4xxx_copy_from_fwddb_param
+9605606af0c3 MIPS: ath79: Enable OF serial ports in the default config
+5bc9daa97d9c mfd: mc13xxx: Fix a missing check of a register-read failure
+984e3c2f901c mfd: wm5110: Add missing ASRC rate register
+886781430b3e mfd: ab8500-core: Return zero in get_register_interruptible()
+6e9dc1bafd83 mfd: db8500-prcmu: Fix some section annotations
+70e6b9be49c0 mfd: twl-core: Fix section annotations on {,un}protect_pm_master
+fd02ebd37172 mfd: ti_am335x_tscadc: Use PLATFORM_DEVID_AUTO while registering mfd cells
+b4043fbb9960 KEYS: allow reaching the keys quotas exactly
+5b9e59cb12b4 numa: change get_mempolicy() to use nr_node_ids instead of MAX_NUMNODES
+f202aae418e5 ceph: avoid repeatedly adding inode to mdsc->snap_flush_list
+
+   * lineage-sdk/
+
+   * packages/apps/PackageInstaller/
+
+   * packages/apps/Settings/
+71512df73a qs status bar header image [2/4]
+082f51d96a Kickout cutout videos
+3324824edd Hide Statusbar Weather
+80450859f9 VideoPreference: Allow fitting video width
+cc87556e2e fries: notch-city: Add 3 mode display cutout handler [3/3]
+b45d24c427 Merge pull request #1059 from resurrectionremix-hero/pie
+cbfef1b5da Update hero(2)lte and surnia maintainer strings.
+
+   * packages/services/OmniJaws/
+
+   * vendor/rr/
+7f85a3dd [4/4] overlay: qs status bar header image
+85f4c2ff Build OmniStyle
+48e5383f vendor: notch-city: Add 3 mode display cutout handler [2/3]
+
+====================
+     03-22-2019
+====================
+
+
+   * build/make/
+324cb2dc3 Quote message in echo-error/echo-warning macros
+
+   * frameworks/base/
+292192ca925 Prevent NFE in SystemUI when parsing invalid int
+9038a5fdbd1 Prevent NFE in SystemUI when parsing invalid int (2)
+
+   * frameworks/native/
+753d247e8 Respect source crop when capturing layers.
+d90e190ae libgui: add docs to geometry states and captureScreen
+ce81870e4 surfaceflinger: fix captureScreen for landscape LCM
+aec518d01 surfaceflinger: improve RenderArea needsFiltering
+5772b40a9 surfaceflinger: respect install orientation in DisplayRenderArea
+b1c29434d surfaceflinger: add install orientation to DisplayDevice
+7dc5685f8 surfaceflinger: make mPrimaryDisplayOrientation static
+7933a271a surfaceflinger: clean up captureScreen
+d6ca6a5cf surfaceflinger: silence some RenderArea errors
+613f0cb78 surfaceflinger: fix race conditions in captureScreen
+fb56afe64 surfaceflinger: remove ISurfaceComposer.h from RenderArea
+c4abd57e5 surfaceflinger: reorder width and height in RenderArea ctor
+72dbb1b1d surfaceflinger: documents RenderArea
+412c50e89 Revert "Revert screenshot changes to exclude black cutout"
+8a420a3c2 Revert "APP may display abnormally in landscape LCM"
+
+====================
+     03-21-2019
+====================
+
+
+   * packages/apps/Snap/
+e313b99c2 Snap: Fix picture size preference
+
+   * packages/apps/Trebuchet/
+3a36aa8a8 Merge branch 'lineage-16.0' of https://github.com/LineageOS/android_packages_apps_Trebuchet into pie
+60f402b8d Lint fix: Invalid vector path in horizontal_ellipsis
+
+   * vendor/motorola/sanders/
+705f0ca sanders: update ims.apk which passes ims status for us
+6c54466 sanders: Add WFD blobs from daisy
+
+====================
+     03-20-2019
+====================
+
+
+   * kernel/motorola/msm8953/
+c3041d64d65c override: fix reassigning to symbol DEFAULT_NOOP
+
